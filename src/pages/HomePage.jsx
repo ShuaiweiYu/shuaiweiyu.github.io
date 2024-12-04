@@ -2,7 +2,7 @@ import React from 'react';
 import {Typography, Box, Container, Paper} from '@mui/material';
 import { useInView } from 'react-intersection-observer'; // 引入 Intersection Observer Hook
 import { motion } from 'framer-motion'; // 引入动画库
-import Grid from '@mui/material/Grid2';
+import Grid from '@mui/material/Grid';
 
 const HomePage = () => {
     // 使用 Intersection Observer 来检测元素是否在视口中
@@ -52,53 +52,36 @@ const HomePage = () => {
             {/* 前景内容 */}
             <Container maxWidth="lg" style={styles.content}>
                 {/* 第一段介绍 */}
-                <Grid container spacing={2} alignItems="center" direction="row">
-                    {/* 左侧图片部分 */}
-                    <Grid item xs={12} sm={4}>
-                        <motion.div
-                            ref={ref1}
-                            initial={{ opacity: 0, y: 50 }}
-                            animate={inView1 ? { opacity: 1, y: 0 } : {}}
-                            transition={{ duration: 0.6 }}
-                        >
-                            <Paper
-                                elevation={3}
-                                style={{
-                                    ...styles.paper,
-                                    padding: 0, // 去除内部边距
-                                    overflow: 'hidden', // 防止图片溢出
-                                    textAlign: 'center', // 居中对齐
-                                }}
-                            >
+                <motion.div
+                    ref={ref1}
+                    initial={{opacity: 0, y: 50}}
+                    animate={inView1 ? {opacity: 1, y: 0} : {}}
+                    transition={{duration: 0.6}}
+                    style={{height: '100%'}} // 添加此行
+                >
+                    <Paper
+                        elevation={3}
+                        style={{
+                            ...styles.paper,
+                            textAlign: 'left', // 左对齐文本
+                            height: '100%', // 添加此行
+                        }}
+                    >
+                        <Grid container spacing={2} alignItems="center" direction="row">
+
+                            <Grid item sm={12} md={4}>
                                 <img
                                     src="assets/Profile.jpeg"
                                     alt="俞帅威"
                                     style={{
                                         width: '100%',
-                                        maxHeight: '100px',
-                                        height: 'auto',
-                                        objectFit: 'cover', // 确保图片适配容器
+                                        height: '300px', // 修改此行
+                                        objectFit: 'cover',
                                     }}
                                 />
-                            </Paper>
-                        </motion.div>
-                    </Grid>
+                            </Grid>
 
-                    {/* 右侧介绍部分 */}
-                    <Grid item xs={12} sm={8}>
-                        <motion.div
-                            ref={ref1}
-                            initial={{ opacity: 0, y: 50 }}
-                            animate={inView1 ? { opacity: 1, y: 0 } : {}}
-                            transition={{ duration: 0.6 }}
-                        >
-                            <Paper
-                                elevation={3}
-                                style={{
-                                    ...styles.paper,
-                                    textAlign: 'left', // 左对齐文本
-                                }}
-                            >
+                            <Grid item sm={12} md={8}>
                                 <Typography variant="h4" gutterBottom>
                                     关于我—俞帅威
                                 </Typography>
@@ -111,11 +94,10 @@ const HomePage = () => {
                                 <Typography variant="body1" paragraph>
                                     现在的我，就像一个在广袤地图上游走的旅者，一边书写自己的篇章，一边寻找更多的未知。
                                 </Typography>
-                            </Paper>
-                        </motion.div>
-                    </Grid>
-                </Grid>
-
+                            </Grid>
+                        </Grid>
+                    </Paper>
+                </motion.div>
 
                 {/* 第二段介绍 */}
                 <motion.div
@@ -154,9 +136,9 @@ const HomePage = () => {
                 {/* 第四段介绍 */}
                 <motion.div
                     ref={ref4}
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={inView4 ? { opacity: 1, y: 0 } : {}}
-                    transition={{ duration: 0.6, delay: 0.6 }}
+                    initial={{opacity: 0, y: 50}}
+                    animate={inView4 ? {opacity: 1, y: 0} : {}}
+                    transition={{duration: 0.6, delay: 0.6}}
                 >
                     <Paper elevation={3} style={styles.paper}>
                         <Typography variant="h4" gutterBottom>
