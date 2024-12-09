@@ -1,22 +1,22 @@
 import React from 'react';
 import {Typography, Box, Container, Paper, Grid, Card, CardContent, Stack, Divider} from '@mui/material';
-import { useInView } from 'react-intersection-observer';
-import { motion } from 'framer-motion';
+import {useInView} from 'react-intersection-observer';
+import {motion} from 'framer-motion';
 
-const IconCard = ({ type, iconSrc, altText, text, description }) => (
-    <Card sx={{ minWidth: 100, maxWidth: 250 }}>
+const IconCard = ({type, iconSrc, altText, text, description}) => (
+    <Card sx={{minWidth: 100, maxWidth: 250}}>
         <CardContent>
             {/* 用于图标和文本的内容容器 */}
             <Stack
                 direction="row"
-                divider={<Divider orientation="vertical" flexItem />}
+                divider={<Divider orientation="vertical" flexItem/>}
                 spacing={1}
                 alignItems="flex-start" // 确保内容垂直对齐到顶部
             >
-                <img src={iconSrc} alt={altText} style={styles.icon} />
+                <img src={iconSrc} alt={altText} style={styles.icon}/>
                 <Stack spacing={0}>
                     <Typography
-                        sx={{ fontSize: 14, textAlign: 'left' }}
+                        sx={{fontSize: 14, textAlign: 'left'}}
                         color="text.secondary"
                         gutterBottom
                     >
@@ -25,7 +25,7 @@ const IconCard = ({ type, iconSrc, altText, text, description }) => (
                     <Typography
                         variant="h6"
                         component="div"
-                        sx={{ fontSize: 20, textAlign: 'left', fontWeight: 600 }}
+                        sx={{fontSize: 20, textAlign: 'left', fontWeight: 600}}
                     >
                         {text}
                     </Typography>
@@ -36,7 +36,7 @@ const IconCard = ({ type, iconSrc, altText, text, description }) => (
             {description && (
                 <Typography
                     variant="body2"
-                    sx={{ textAlign: 'left', mt: 2 }}
+                    sx={{textAlign: 'left', mt: 2}}
                 >
                     {description}
                 </Typography>
@@ -46,13 +46,12 @@ const IconCard = ({ type, iconSrc, altText, text, description }) => (
 );
 
 
-
 const HomePage = () => {
     // 使用 Intersection Observer 来检测元素是否在视口中
-    const [ref1, inView1] = useInView({ triggerOnce: true, threshold: 0.1 });
-    const [ref2, inView2] = useInView({ triggerOnce: true, threshold: 0.1 });
-    const [ref3, inView3] = useInView({ triggerOnce: true, threshold: 0.1 });
-    const [ref4, inView4] = useInView({ triggerOnce: true, threshold: 0.1 });
+    const [ref1, inView1] = useInView({triggerOnce: true, threshold: 0.1});
+    const [ref2, inView2] = useInView({triggerOnce: true, threshold: 0.1});
+    const [ref3, inView3] = useInView({triggerOnce: true, threshold: 0.1});
+    const [ref4, inView4] = useInView({triggerOnce: true, threshold: 0.1});
 
     return (
         <div style={styles.container}>
@@ -65,7 +64,7 @@ const HomePage = () => {
                     loop
                     muted
                 >
-                    <source src="assets/video.mp4" type="video/mp4" />
+                    <source src="assets/video.mp4" type="video/mp4"/>
                     您的浏览器不支持 video 标签。
                 </video>
 
@@ -85,10 +84,10 @@ const HomePage = () => {
                         textAlign: 'center',
                         color: '#fff',
                         zIndex: 2,
-                        display: { xs: 'none', sm: 'none', md: 'block' },
+                        display: {xs: 'none', sm: 'none', md: 'block'},
                     }}
                 >
-                    <Typography variant="h2">人生是旷野</Typography>
+                    <Typography variant="h2">很高兴认识你！</Typography>
                 </Box>
             </div>
 
@@ -129,13 +128,13 @@ const HomePage = () => {
                                     关于我—俞帅威
                                 </Typography>
                                 <Typography variant="body1" paragraph>
-                                    我来自浙江的一个小县城，那里山水环绕，四季分明，像个恬静的梦，可惜那个梦不够辽阔。18岁时，我带着一颗不安分的心，从那里出发，开始了一场通往未知的冒险。
+                                    我来自浙江的一个小县城——新昌县，那里青山绿水，有机会的话请您一定去看看！
                                 </Typography>
                                 <Typography variant="body1" paragraph>
-                                    我的足迹从浙江的田野延伸到德国的街头，在这里我完成了我的学业，穿越了语言与文化的屏障，踏遍了欧洲的山脉与古城。每一次挑战，每一个转折，都让我更加坚韧，更加渴望理解这个世界的复杂与壮丽。
+                                    我在中国完成了我的基础教育，然后我选择了德国作为我的下一站。在慕尼黑（我的第二故乡🤣）我继续攻读了计算机的本科和硕士学位
                                 </Typography>
                                 <Typography variant="body1" paragraph>
-                                    现在的我，就像一个在广袤地图上游走的旅者，一边书写自己的篇章，一边寻找更多的未知。
+                                    我现在准备好了把我的知识运用到实践中，创造一点很酷的东西！
                                 </Typography>
                             </Grid>
                         </Grid>
@@ -187,7 +186,7 @@ const HomePage = () => {
                         <Typography
                             variant="h4"
                             gutterBottom
-                            sx={{ textAlign: 'center' }} // 确保居中
+                            sx={{textAlign: 'center'}} // 确保居中
                         >
                             趣闻
                         </Typography>
@@ -195,19 +194,19 @@ const HomePage = () => {
                         <Typography
                             variant="h5"
                             gutterBottom
-                            sx={{ textAlign: 'left' }} // 确保左对齐
+                            sx={{textAlign: 'left'}} // 确保左对齐
                         >
                             编程技能
                         </Typography>
-                        <Stack 
-                            spacing={{ xs: 1, sm: 2 }}
-                            direction="row" 
+                        <Stack
+                            spacing={{xs: 1, sm: 2}}
+                            direction="row"
                             useFlexGap
-                            sx={{ flexWrap: 'wrap' }}
+                            sx={{flexWrap: 'wrap'}}
                             alignItems="flex-start"
                         >
                             <IconCard
-                            type="Progamming Language"
+                                type="Progamming Language"
                                 iconSrc="/assets/java.png"
                                 altText="Java"
                                 text="Java"
@@ -218,21 +217,22 @@ const HomePage = () => {
                                 iconSrc="/assets/python.png"
                                 altText="Python"
                                 text="Python"
+                                description="Pythons, are a family of nonvenomous snakes"
                             />
                             <IconCard
                                 type="Progamming Language"
                                 iconSrc="/assets/javascript.png"
                                 altText="JavaScript"
                                 text="JavaScript"
-                                description="ChatGPT is taking over"
+                                description="Which has nothing to do with Java"
                             />
-                            <IconCard
-                                type="Progamming Language"
-                                iconSrc="/assets/swift.png"
-                                altText="Swift"
-                                text="Swift"
-                                description=""
-                            />
+                            {/*<IconCard*/}
+                            {/*    type="Progamming Language"*/}
+                            {/*    iconSrc="/assets/swift.png"*/}
+                            {/*    altText="Swift"*/}
+                            {/*    text="Swift"*/}
+                            {/*    description=""*/}
+                            {/*/>*/}
                             <IconCard
                                 type="Framework"
                                 iconSrc="/assets/springboot.webp"
@@ -245,15 +245,15 @@ const HomePage = () => {
                                 iconSrc="/assets/react.png"
                                 altText="React.js"
                                 text="React.js"
-                                description=""
+                                description="This webpage is actually using react"
                             />
-                            <IconCard
-                                type="Framework"
-                                iconSrc="/assets/vue.png"
-                                altText="Vue.js"
-                                text="Vue.js"
-                                description=""
-                            />
+                            {/*<IconCard*/}
+                            {/*    type="Framework"*/}
+                            {/*    iconSrc="/assets/vue.png"*/}
+                            {/*    altText="Vue.js"*/}
+                            {/*    text="Vue.js"*/}
+                            {/*    description=""*/}
+                            {/*/>*/}
                             <IconCard
                                 type="Version Control"
                                 iconSrc="/assets/git.png"
@@ -291,20 +291,20 @@ const HomePage = () => {
                             />
                         </Stack>
 
-                        <Divider sx={{ padding: '8px' }}/>
+                        <Divider sx={{padding: '8px'}}/>
 
                         <Typography
                             variant="h5"
                             gutterBottom
-                            sx={{ textAlign: 'left' }}
+                            sx={{textAlign: 'left'}}
                         >
                             我会说什么语言？
                         </Typography>
-                        <Stack 
-                            spacing={{ xs: 1, sm: 2 }}
-                            direction="row" 
+                        <Stack
+                            spacing={{xs: 1, sm: 2}}
+                            direction="row"
                             useFlexGap
-                            sx={{ flexWrap: 'wrap' }}
+                            sx={{flexWrap: 'wrap'}}
                             alignItems="flex-start"
                         >
                             <IconCard
@@ -312,48 +312,83 @@ const HomePage = () => {
                                 iconSrc="/assets/german.png"
                                 altText="German"
                                 text="German"
-                                description=""
+                                description="Fluent"
                             />
                             <IconCard
                                 type="Language"
                                 iconSrc="/assets/english.png"
                                 altText="English"
                                 text="English"
-                                description=""
+                                description="Fluent"
                             />
                             <IconCard
                                 type="Language"
                                 iconSrc="/assets/chinese.png"
                                 altText="Chinese"
                                 text="Chinese"
-                                description=""
+                                description="Fluent"
                             />
                         </Stack>
 
-                        <Divider sx={{ padding: '8px' }}/>
+                        <Divider sx={{padding: '8px'}}/>
 
-<Typography
-    variant="h5"
-    gutterBottom
-    sx={{ textAlign: 'left' }}
->
-    我的爱好
-</Typography>
-<Stack 
-    spacing={{ xs: 1, sm: 2 }}
-    direction="row" 
-    useFlexGap
-    sx={{ flexWrap: 'wrap' }}
-    alignItems="flex-start"
->
-    <IconCard
-        type="Language"
-        iconSrc="/assets/books.png"
-        altText="books"
-        text="Reading"
-        description=""
-    />
-</Stack>
+                        <Typography
+                            variant="h5"
+                            gutterBottom
+                            sx={{textAlign: 'left'}}
+                        >
+                            我的爱好
+                        </Typography>
+                        <Stack
+                            spacing={{xs: 1, sm: 2}}
+                            direction="row"
+                            useFlexGap
+                            sx={{flexWrap: 'wrap'}}
+                            alignItems="flex-start"
+                        >
+                            <IconCard
+                                type="Hobbys"
+                                iconSrc="/assets/books.png"
+                                altText="books"
+                                text="Reading"
+                                description=""
+                            />
+                            <IconCard
+                                type="Hobbys"
+                                iconSrc="/assets/movie.png"
+                                altText="movie"
+                                text="Movies"
+                                description=""
+                            />
+                            <IconCard
+                                type="Hobbys"
+                                iconSrc="/assets/travel.png"
+                                altText="travel"
+                                text="Traveling"
+                                description=""
+                            />
+                            <IconCard
+                                type="Hobbys"
+                                iconSrc="/assets/books.png"
+                                altText="books"
+                                text="Reading"
+                                description=""
+                            />
+                            <IconCard
+                                type="Hobbys"
+                                iconSrc="/assets/mountain.png"
+                                altText="mountain"
+                                text="Hiking"
+                                description=""
+                            />
+                            <IconCard
+                                type="Hobbys"
+                                iconSrc="/assets/game.png"
+                                altText="game"
+                                text="Gaming"
+                                description=""
+                            />
+                        </Stack>
                     </Paper>
                 </motion.div>
             </Container>
