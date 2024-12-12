@@ -1,10 +1,11 @@
 import React from 'react';
-import {Typography, Box, Container, Paper, Grid, Card, CardContent, Stack, Divider} from '@mui/material';
+import {Typography, Box, Container, Paper, Grid, Card, CardContent, Stack, Divider, IconButton} from '@mui/material';
 import {useInView} from 'react-intersection-observer';
 import {motion} from 'framer-motion';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 const IconCard = ({type, iconSrc, altText, text, description}) => (
-    <Card sx={{minWidth: 100, maxWidth: 250}}>
+    <Card sx={{minWidth: 80, maxWidth: 250}}>
         <CardContent>
             {/* 用于图标和文本的内容容器 */}
             <Stack
@@ -13,10 +14,20 @@ const IconCard = ({type, iconSrc, altText, text, description}) => (
                 spacing={1}
                 alignItems="flex-start" // 确保内容垂直对齐到顶部
             >
-                <img src={iconSrc} alt={altText} style={styles.icon}/>
+                <Box
+                    sx={{
+                        width: { xs: '20px', sm: '24px', md: '36px' },
+                        height: { xs: '20px', sm: '24px', md: '36px' },
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                    }}
+                >
+                    <img src={iconSrc} alt={altText} style={styles.icon}/>
+                </Box>
                 <Stack spacing={0}>
                     <Typography
-                        sx={{fontSize: 14, textAlign: 'left'}}
+                        sx={{fontSize: { xs: 8, sm: 10, md: 12 }, textAlign: 'left'}}
                         color="text.secondary"
                         gutterBottom
                     >
@@ -25,7 +36,7 @@ const IconCard = ({type, iconSrc, altText, text, description}) => (
                     <Typography
                         variant="h6"
                         component="div"
-                        sx={{fontSize: 20, textAlign: 'left', fontWeight: 600}}
+                        sx={{fontSize: { xs: 12, sm: 14, md: 16 }, textAlign: 'left', fontWeight: 600}}
                     >
                         {text}
                     </Typography>
@@ -36,11 +47,80 @@ const IconCard = ({type, iconSrc, altText, text, description}) => (
             {description && (
                 <Typography
                     variant="body2"
-                    sx={{textAlign: 'left', mt: 2}}
+                    sx={{textAlign: 'left', mt: 2, display: {xs: 'none', sm: 'block'}}}
                 >
                     {description}
                 </Typography>
             )}
+        </CardContent>
+    </Card>
+);
+
+const ItemCard = ({type, iconSrc, altText, university, degree, description, duration, link}) => (
+    <Card variant="outlined" sx={{minWidth: 200, width: '100%'}}>
+        <CardContent>
+            <Stack
+                direction={{ xs: 'column', sm: 'row' }}
+                spacing={1}
+                alignItems="center"
+            >
+                <Box
+                    sx={{
+                        height: { xs: '40px', sm: '40px', md: '40px' },
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                    }}
+                >
+                    <img src={iconSrc} alt={altText} style={styles.icon}/>
+                </Box>
+                <Stack spacing={0}>
+                    <Stack 
+                        direction="row" 
+                        spacing={0} 
+                    >
+                        <Typography
+                        variant="h6"
+                        component="div"
+                        sx={{fontSize: { xs: 18, sm: 18, md: 20 }, textAlign: 'left', fontWeight: 600}}
+                        >
+                            {university}
+                        </Typography>
+                        {link && (
+                            <IconButton
+                                size="small"
+                                sx={{ml: 1}}
+                                onClick={() => window.open(link, '_blank')}
+                                aria-label="open-link"
+                            >
+                                <OpenInNewIcon fontSize="small" />
+                            </IconButton>
+                        )}
+                    </Stack>
+                    <Stack 
+                        direction={{ xs: 'column', sm: 'row' }}
+                        spacing={{ xs: 0, sm: 2, md: 2 }}
+                        sx={{fontSize: { xs: 14, sm: 14, md: 16 }, textAlign: 'left'}}
+                    >
+                        <Typography color="text.secondary" sx={{fontSize: 'inherit'}}>
+                            {degree}
+                        </Typography>
+                        <Typography color="text.secondary" sx={{fontSize: 'inherit'}}>
+                            {type}
+                        </Typography>
+                        <Typography color="text.secondary" sx={{fontSize: 'inherit'}}>
+                            {duration}
+                        </Typography>
+                    </Stack>
+                </Stack>
+            </Stack>
+
+            <Typography
+                variant="body2"
+                sx={{textAlign: 'left', mt: 2}}
+            >
+                {description}
+            </Typography>
         </CardContent>
     </Card>
 );
@@ -150,11 +230,47 @@ const HomePage = () => {
                 >
                     <Paper elevation={3} style={styles.paper}>
                         <Typography variant="h4" gutterBottom>
-                            我最近在做什么
+                            我的学业
                         </Typography>
-                        <Typography variant="body1" paragraph>
-                            Text
-                        </Typography>
+                        <Stack
+                            spacing={{xs: 1, sm: 2}}
+                            direction="row"
+                            useFlexGap
+                            sx={{flexWrap: 'wrap'}}
+                            alignItems="flex-start"
+                        >
+                            <ItemCard
+                                type="Master of Science"
+                                iconSrc="/assets/tum2.jpg"
+                                altText="TUM"
+                                university="Technische Universität München"
+                                degree="Information Systems"
+                                description="The Information Systems Master's program focuses on designing, implementing, and analyzing complex systems while integrating computer science and management. It prepares students to drive digital transformation and develop data-driven solutions for management decisions."
+                                duration="2023 - 2025"
+                                link={"www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-master-of-science-msc"}
+                            />
+                            <ItemCard
+                                type="Bachelor of Science"
+                                iconSrc="/assets/tum2.jpg"
+                                altText="TUM"
+                                university="Technische Universität München"
+                                degree="Information Systems"
+                                description="
+The Information Systems program at TU Munich bridges computer science and business administration with a focus on ICT application in business and administration. It emphasizes designing business processes, developing innovative systems, and enabling decision-making and knowledge management, shaping the future of the information society."
+                                duration="2020- 2023"
+                                link={"www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-bachelor-of-science-bsc"}
+                            />
+                            <ItemCard
+                                type=""
+                                iconSrc="/assets/studienkolleg.png"
+                                altText="studienkolleg"
+                                university="Studienkolleg München"
+                                degree="Preparation study"
+                                description="At Studienkollegs, applicants whose university entrance qualification (HZB) is not recognized in Germany are prepared linguistically and academically for university studies. This preparatory program concludes with the state examination, the Feststellungsprüfung (FSP)."
+                                duration="2019 - 2020"
+                                link={"https://mui.com/material-ui/material-icons/?query=link"}
+                            />
+                        </Stack>
                     </Paper>
                 </motion.div>
 
@@ -167,11 +283,46 @@ const HomePage = () => {
                 >
                     <Paper elevation={3} style={styles.paper}>
                         <Typography variant="h4" gutterBottom>
-                            我做过什么？
+                            我的实习
                         </Typography>
-                        <Typography variant="body1" paragraph>
-                            Text
-                        </Typography>
+                        <Stack
+                            spacing={{xs: 1, sm: 2}}
+                            direction="row"
+                            useFlexGap
+                            sx={{flexWrap: 'wrap'}}
+                            alignItems="flex-start"
+                        >
+                            <ItemCard
+                            type=""
+                            iconSrc="/assets/lego.png"
+                            altText="LEGO"
+                            university="LEGO Group"
+                            degree="Fullstack Developer Intern"
+                            description="The LEGO Group inspires creativity and learning through its iconic brick system, offering innovative and sustainable products that bring joy to families worldwide."
+                            duration="04/2024 - 09/2024"
+                            link={"www.lego.com/de-de/aboutus/lego-group"}
+                            />
+                            <ItemCard
+                                type=""
+                                iconSrc="/assets/lexcom.jpeg"
+                                altText="lexcom"
+                                university="LexCom Informationssysteme GmbH"
+                                degree="Fullstack Developer Intern"
+                                description="LexCom Informationssysteme GmbH optimizes after-sales processes with tailored, IT-driven solutions, enabling clients to adapt to global market demands, implement innovative strategies, and stay ahead of the competition."
+                                duration="09/2023 - 12/2024"
+                                link={"www.lexcom.de/home/en/what-we-do.html"}
+                            />
+                            <ItemCard
+                                type=""
+                                iconSrc="/assets/bmw.png"
+                                altText="BMW"
+                                university="BMW Group"
+                                degree="Project Managment Intern"
+                                description="BMW Group is a global leader in premium mobility, known for innovative design, cutting-edge technology, and sustainability. It drives the future of mobility with iconic brands and a commitment to excellence."
+                                duration="08/2022 - 12/2022"
+                                link={"www.bmwgroup.com/en.html"}
+                            />
+                        </Stack>
                     </Paper>
                 </motion.div>
 
@@ -444,8 +595,9 @@ const styles = {
         marginBottom: '2rem',
     },
     icon: {
-        width: '36px',
-        height: '36px',
+        width: '100%',
+        height: '100%',
+        objectFit: 'contain',
     },
     inlineContainer: {
         display: 'flex',
