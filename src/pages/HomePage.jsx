@@ -247,7 +247,7 @@ const HomePage = () => {
                                 degree="Information Systems"
                                 description="The Information Systems Master's program focuses on designing, implementing, and analyzing complex systems while integrating computer science and management. It prepares students to drive digital transformation and develop data-driven solutions for management decisions."
                                 duration="2023 - 2025"
-                                link={"www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-master-of-science-msc"}
+                                link={"https://www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-master-of-science-msc"}
                             />
                             <ItemCard
                                 type="Bachelor of Science"
@@ -258,7 +258,7 @@ const HomePage = () => {
                                 description="
 The Information Systems program at TU Munich bridges computer science and business administration with a focus on ICT application in business and administration. It emphasizes designing business processes, developing innovative systems, and enabling decision-making and knowledge management, shaping the future of the information society."
                                 duration="2020- 2023"
-                                link={"www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-bachelor-of-science-bsc"}
+                                link={"https://www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-bachelor-of-science-bsc"}
                             />
                             <ItemCard
                                 type=""
@@ -268,7 +268,7 @@ The Information Systems program at TU Munich bridges computer science and busine
                                 degree="Preparation study"
                                 description="At Studienkollegs, applicants whose university entrance qualification (HZB) is not recognized in Germany are prepared linguistically and academically for university studies. This preparatory program concludes with the state examination, the Feststellungsprüfung (FSP)."
                                 duration="2019 - 2020"
-                                link={"https://mui.com/material-ui/material-icons/?query=link"}
+                                link={"https://xn--studienkolleg-mnchen-3ec.de/"}
                             />
                         </Stack>
                     </Paper>
@@ -300,7 +300,7 @@ The Information Systems program at TU Munich bridges computer science and busine
                             degree="Fullstack Developer Intern"
                             description="The LEGO Group inspires creativity and learning through its iconic brick system, offering innovative and sustainable products that bring joy to families worldwide."
                             duration="04/2024 - 09/2024"
-                            link={"www.lego.com/de-de/aboutus/lego-group"}
+                            link={"https://www.lego.com/de-de/aboutus/lego-group"}
                             />
                             <ItemCard
                                 type=""
@@ -310,7 +310,7 @@ The Information Systems program at TU Munich bridges computer science and busine
                                 degree="Fullstack Developer Intern"
                                 description="LexCom Informationssysteme GmbH optimizes after-sales processes with tailored, IT-driven solutions, enabling clients to adapt to global market demands, implement innovative strategies, and stay ahead of the competition."
                                 duration="09/2023 - 12/2024"
-                                link={"www.lexcom.de/home/en/what-we-do.html"}
+                                link={"https://www.lexcom.de/home/en/what-we-do.html"}
                             />
                             <ItemCard
                                 type=""
@@ -320,7 +320,7 @@ The Information Systems program at TU Munich bridges computer science and busine
                                 degree="Project Managment Intern"
                                 description="BMW Group is a global leader in premium mobility, known for innovative design, cutting-edge technology, and sustainability. It drives the future of mobility with iconic brands and a commitment to excellence."
                                 duration="08/2022 - 12/2022"
-                                link={"www.bmwgroup.com/en.html"}
+                                link={"https://www.bmwgroup.com/en.html"}
                             />
                         </Stack>
                     </Paper>
