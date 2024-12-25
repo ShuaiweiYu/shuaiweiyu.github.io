@@ -14,10 +14,10 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
-import AdbIcon from '@mui/icons-material/Adb';
+import AssignmentIndIcon from '@mui/icons-material/AssignmentInd';
 import MenuIcon from '@mui/icons-material/Menu';
 
-const pages = ['My Experience', 'My Projects', 'Contact Me'];
+const pages = ['Projects', 'Blog', 'Contact'];
 const languages = ['中文', 'English', 'Deutsch'];
 
 function MyAppBar() {
@@ -46,7 +46,7 @@ function MyAppBar() {
         <AppBar position="static">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
-                    <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+                    <AssignmentIndIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
                     <Typography
                         variant="h6"
                         noWrap
@@ -60,7 +60,7 @@ function MyAppBar() {
                             textDecoration: 'none',
                         }}
                     >
-                        Shuaiwei Yu
+                        Shuaiwei's Page
                     </Typography>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -73,12 +73,12 @@ function MyAppBar() {
                             <MenuIcon />
                         </IconButton>
                     </Box>
-                    <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+                    <AssignmentIndIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
                     <Typography
                         variant="h5"
                         noWrap
-                        component="a"
-                        href="#app-bar-with-responsive-menu"
+                        component="button"
+                        onClick={() => (window.location.href = '/')}
                         sx={{
                             mr: 2,
                             display: { xs: 'flex', md: 'none' },
@@ -88,9 +88,12 @@ function MyAppBar() {
                             letterSpacing: '.3rem',
                             color: 'inherit',
                             textDecoration: 'none',
+                            background: 'none',
+                            border: 'none',
+                            cursor: 'pointer',
                         }}
                     >
-                        LOGO
+                        Shuaiwei's Page
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
