@@ -120,10 +120,14 @@ const ProjectsPage = () => {
                     >
                         <ProjectCard 
                             title={"Receipe Editor"} 
-                            imgSrc={""} 
+                            imgSrc={"/assets/lego-robot-arm.webp"}
                             description={"Designers can quickly create toy packaging layouts in a web application through drag-and-drop, storing them in a database for future refinement. The application also provides a Kanban board for searching and filtering layouts, which are eventually used in robotic production lines in automated factories."} 
                             link={"/receipe-editor"}/>
-                        <ProjectCard title={"PLC Connect"} imgSrc={""} description={"Receipe Editor is a tool"} link={"/plc-connect"}/>
+                        <ProjectCard
+                            title={"PLC Connect"}
+                            imgSrc={"/assets/lego-factory.webp"}
+                            description={"There are a lot of PLCs in the LEGO factory. The PLC Connect is a tool that can connect to different PLCs and read/write data from/to them. The tool is used to monitor the status of the PLCs and to change the data in the PLCs."}
+                            link={"/plc-connect"}/>
                     </Stack>
                 </AccordionDetails>
             </Accordion>
@@ -145,9 +149,24 @@ const ProjectsPage = () => {
                             sx={{flexWrap: 'wrap'}}
                             alignItems="flex-start"
                     >
-                        <ProjectCard title={"PL24-Upload"} imgSrc={""} description={"Receipe Editor is a tool"} link={"/receipe-editor"}/>
-                        <ProjectCard title={"PL24-Bidata"} imgSrc={""} description={"Receipe Editor is a tool"} link={"/plc-connect"}/>
-                        <ProjectCard title={"PL24-DealerMonitor"} imgSrc={""} description={"Receipe Editor is a tool"} link={"/plc-connect"}/>
+                        <ProjectCard
+                            title={"PL24-Upload"}
+                            imgSrc={""}
+                            description={"Receipe Editor is a tool"}
+                            link={"/receipe-editor"}
+                        />
+                        <ProjectCard
+                            title={"PL24-Bidata"}
+                            imgSrc={"assets/lexcom-bidata.webp"}
+                            description={"Receipe Editor is a tool"}
+                            link={"/plc-connect"}
+                        />
+                        <ProjectCard
+                            title={"PL24-DealerMonitor"}
+                            imgSrc={""}
+                            description={"Receipe Editor is a tool"}
+                            link={"/plc-connect"}
+                        />
                     </Stack>
                 </AccordionDetails>
             </Accordion>
