@@ -36,11 +36,6 @@ const ProjectCard = ({ title, imgSrc, description, link }) => {
                 sm: '400px', // Small screen
                 md: '500px', // Medium and larger screen
             },
-            maxHeight: {
-                xs: '250px', // Extra small screen
-                sm: '300px', // Small screen
-                md: '400px', // Medium and larger screen
-            },
             padding: '16px', // Add some padding
             boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', // Subtle shadow
             borderRadius: '8px', // Rounded corners
@@ -61,6 +56,11 @@ const ProjectCard = ({ title, imgSrc, description, link }) => {
         image: {
             width: '100%', // Responsive image
             height: 'auto',
+            maxHeight: {
+                xs: '250px', // Extra small screen
+                sm: '300px', // Small screen
+                md: '400px', // Medium and larger screen
+            },
             borderRadius: '4px', // Rounded image corners
             marginBottom: '16px', // Space below the image
         },
@@ -157,19 +157,19 @@ const ProjectsPage = () => {
                         <ProjectCard
                             title={"PL24-Upload"}
                             imgSrc={"assets/lexcom-upload.webp"}
-                            description={"Receipe Editor is a tool"}
+                            description={"The car workshop can use the web application to scan the order or simply upload the order to the server. The server will process the order and all the parts to be ordered is automatically add to the workshop's shopping cart."}
                             link={"/receipe-editor"}
                         />
                         <ProjectCard
                             title={"PL24-Bidata"}
                             imgSrc={"assets/lexcom-bidata.webp"}
-                            description={"Receipe Editor is a tool"}
+                            description={"This microservice captures user's behaviour in the web application and sends the data via Kafka to the in-house big data system. The data is then processed and analyzed to improve the user experience."}
                             link={"/plc-connect"}
                         />
                         <ProjectCard
                             title={"PL24-DealerMonitor"}
                             imgSrc={"assets/lexcom-monitor.webp"}
-                            description={"Receipe Editor is a tool"}
+                            description={"As many dealers are available in the Partslink 24, the dealer monitor is a monitoring the status of orders. If an order is not processed in time, the dealer monitor will send a notification to the dealer."}
                             link={"/plc-connect"}
                         />
                     </Stack>
@@ -193,7 +193,12 @@ const ProjectsPage = () => {
                             sx={{flexWrap: 'wrap'}}
                             alignItems="flex-start"
                     >
-                        <ProjectCard title={"BMW News"} imgSrc={"/assets/bmw_news.webp"} description={"Receipe Editor is a tool"} link={"/bmw-news"}/>
+                        <ProjectCard 
+                            title={"BMW News"} 
+                            imgSrc={"/assets/bmw_news.webp"} 
+                            description={"BMW News is a Android car-application new aggragator prototype using Google's News API service. The user can read the latest news about of his choise."} 
+                            link={"/bmw-news"}
+                        />
                     </Stack>
                 </AccordionDetails>
             </Accordion>
@@ -218,7 +223,7 @@ const ProjectsPage = () => {
                         <ProjectCard 
                             title={"Siemens EHS Hazard Detection"} 
                             imgSrc={""} 
-                            description={""}
+                            description={"Siemens EHS Hazard Detection is a project that aims to detect the hazard in the factory. The project uses the data sent by the sensors in the factory and in machines to detect the hazard. The project also provides a web application to show the hazard in the factory and an IOS application to notify the workers."}
                             link={""}
                         />
                         <ProjectCard 
@@ -269,13 +274,13 @@ const ProjectsPage = () => {
                         <ProjectCard 
                             title={"Emoji Diary"} 
                             imgSrc={"assets/emoji-dairy.webp"}
-                            description={""} 
+                            description={"Emoji Diary is a diary IOS app. The user can use an emoji, a simple description and several photos to record his/her daily life. The app also supports the function of sharing via iCloud."} 
                             link={""}
                         />
                         <ProjectCard 
                             title={"VolMe"} 
                             imgSrc={"assets/volme.webp"}
-                            description={""} 
+                            description={"VolMe is a volunteer management system. The platform can help the volunteer organization to manage the volunteers and the events. The system also supports various functions like the rating/feed-back, chatting, event management, check-in, etc."} 
                             link={""}
                         />
                     </Stack>
