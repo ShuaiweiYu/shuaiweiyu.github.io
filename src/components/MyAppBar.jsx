@@ -47,17 +47,24 @@ function MyAppBar() {
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <AssignmentIndIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+
                     <Typography
                         variant="h6"
                         noWrap
+                        component="button"
+                        onClick={() => (window.location.href = '/')}
                         sx={{
                             mr: 2,
                             display: { xs: 'none', md: 'flex' },
-                            fontFamily: 'monospace',
+                            flexGrow: 0,
+                            fontFamily: 'serif',
                             fontWeight: 700,
                             letterSpacing: '.3rem',
                             color: 'inherit',
                             textDecoration: 'none',
+                            background: 'none',
+                            border: 'none',
+                            cursor: 'pointer',
                         }}
                     >
                         Shuaiwei's Page
@@ -75,7 +82,7 @@ function MyAppBar() {
                     </Box>
                     <AssignmentIndIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
                     <Typography
-                        variant="h5"
+                        variant="h6"
                         noWrap
                         component="button"
                         onClick={() => (window.location.href = '/')}
@@ -83,7 +90,7 @@ function MyAppBar() {
                             mr: 2,
                             display: { xs: 'flex', md: 'none' },
                             flexGrow: 1,
-                            fontFamily: 'monospace',
+                            fontFamily: 'serif',
                             fontWeight: 700,
                             letterSpacing: '.3rem',
                             color: 'inherit',
@@ -100,6 +107,10 @@ function MyAppBar() {
                             <Button
                                 key={page}
                                 sx={{ my: 2, color: 'white', display: 'block' }}
+                                onClick={() => {
+                                    window.location.href = `/${page.toLowerCase()}`;
+                                    window.scrollTo(0, 0);
+                                }}
                             >
                                 {page}
                             </Button>
