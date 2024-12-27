@@ -169,7 +169,7 @@ const ProjectsPage = () => {
                             sx={{flexWrap: 'wrap'}}
                             alignItems="flex-start"
                     >
-                        <ProjectCard title={"BMW News"} imgSrc={"/assets/bmw_news.png"} description={"Receipe Editor is a tool"} link={"/bmw-news"}/>
+                        <ProjectCard title={"BMW News"} imgSrc={"/assets/bmw_news.webp"} description={"Receipe Editor is a tool"} link={"/bmw-news"}/>
                     </Stack>
                 </AccordionDetails>
             </Accordion>
@@ -199,19 +199,19 @@ const ProjectsPage = () => {
                         />
                         <ProjectCard 
                             title={"Improved Auto-generation of Business Process Models from Natural Language Texts of Various Complexity"} 
-                            imgSrc={"/assets/thesis.png"} 
+                            imgSrc={"/assets/thesis.webp"}
                             description={"Business Process Modeling Notation (BPMN) is essential for structuring and visualizing processes, which can enhance a company's workflow. However, creating BPMN models typically requires specialized knowledge and can be time-consuming. Automating the identification and extraction of process models can alleviate this burden. Recent advancements in NLP technology allow researchers to develop tools that analyze business process descriptions to automatically extract BPMN information. The article discusses the use of Python and the spacy library to improve BPMN model generation through enhanced recognition accuracy."}
                             link={"https://github.com/ShuaiweiYu/text2BPMN"}
                         />
                         <ProjectCard 
                             title={"A Brief Study on the Development of Predictive Process Monitoring"} 
-                            imgSrc={"/assets/PPM.png"} 
+                            imgSrc={"/assets/PPM.webp"}
                             description={"Predictive process monitoring (PPM) is increasingly gaining attention in both industry and academia, necessitating a literature review to identify current trends and research gaps. This paper conducts a systematic review of literature published between 2018 and 2022, filtering 263 articles down to 32 relevant papers. The analysis of these papers reveals current trends in PPM and highlights existing research gaps."} 
                             link={"https://github.com/ShuaiweiYu/SeminarPaper"}
                         />
                         <ProjectCard 
                             title={"BAML - Analytics Cup"} 
-                            imgSrc={"/assets/ana_cup.png"} 
+                            imgSrc={"/assets/ana_cup.webp"}
                             description={"The Analytics Cup is a course project of Business Analytics and Machine Learning at TUM in collaboration with Siemens. The project aims to predict the outcome of potential customers' purchasing decisions. We used the random forest algorithm to train our model. The Model can be trained in a reasonable time and has high accuracy."} 
                             link={"https://github.com/AlexiosFan/AC_Py_version"}
                         />
@@ -238,7 +238,7 @@ const ProjectsPage = () => {
                     >
                         <ProjectCard 
                             title={"Focus List"} 
-                            imgSrc={"/assets/FLen.png"} 
+                            imgSrc={"/assets/FLen.webp"}
                             description={"A front-end to-do webpage based on Vue.js. The app also supports the Pomodoro function to help users complete tasks better. For details, please visit: https://shuaiweiyu .github.io/focuslist/"} 
                             link={"https://github.com/ShuaiweiYu/focuslist"}
                         />

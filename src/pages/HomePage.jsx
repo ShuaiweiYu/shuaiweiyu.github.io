@@ -193,7 +193,7 @@ const HomePage = () => {
 
                             <Grid item sm={12} md={4}>
                                 <img
-                                    src="assets/Profile.jpeg"
+                                    src="assets/Profile.webp"
                                     alt="俞帅威"
                                     style={{
                                         width: '100%',
