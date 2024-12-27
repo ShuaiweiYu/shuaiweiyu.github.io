@@ -17,7 +17,7 @@ import ListItemText from '@mui/material/ListItemText';
 import AssignmentIndIcon from '@mui/icons-material/AssignmentInd';
 import MenuIcon from '@mui/icons-material/Menu';
 
-const pages = ['Projects', 'Blog', 'Contact'];
+const pages = ['Projects', 'Contact'];
 const languages = ['中文', 'English', 'Deutsch'];
 
 function MyAppBar() {
