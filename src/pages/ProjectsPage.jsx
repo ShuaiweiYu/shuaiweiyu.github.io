@@ -36,6 +36,11 @@ const ProjectCard = ({ title, imgSrc, description, link }) => {
                 sm: '400px', // Small screen
                 md: '500px', // Medium and larger screen
             },
+            maxHeight: {
+                xs: '250px', // Extra small screen
+                sm: '300px', // Small screen
+                md: '400px', // Medium and larger screen
+            },
             padding: '16px', // Add some padding
             boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', // Subtle shadow
             borderRadius: '8px', // Rounded corners
@@ -151,7 +156,7 @@ const ProjectsPage = () => {
                     >
                         <ProjectCard
                             title={"PL24-Upload"}
-                            imgSrc={""}
+                            imgSrc={"assets/lexcom-upload.webp"}
                             description={"Receipe Editor is a tool"}
                             link={"/receipe-editor"}
                         />
@@ -163,7 +168,7 @@ const ProjectsPage = () => {
                         />
                         <ProjectCard
                             title={"PL24-DealerMonitor"}
-                            imgSrc={""}
+                            imgSrc={"assets/lexcom-monitor.webp"}
                             description={"Receipe Editor is a tool"}
                             link={"/plc-connect"}
                         />
@@ -263,13 +268,13 @@ const ProjectsPage = () => {
                         />
                         <ProjectCard 
                             title={"Emoji Diary"} 
-                            imgSrc={""} 
+                            imgSrc={"assets/emoji-dairy.webp"}
                             description={""} 
                             link={""}
                         />
                         <ProjectCard 
                             title={"VolMe"} 
-                            imgSrc={""} 
+                            imgSrc={"assets/volme.webp"}
                             description={""} 
                             link={""}
                         />
