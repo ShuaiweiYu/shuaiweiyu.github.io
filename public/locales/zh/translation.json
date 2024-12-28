@@ -3,30 +3,30 @@
         "video": "您的浏览器不支持 video 标签。",
         "greeting": "很高兴认识你！",
         "aboutMe1": "关于我—俞帅威",
-        "aboutMe2": "我来自浙江的一个小县城——新昌县，那里青山绿水，有机会的话请您一定去看看！",
-        "aboutMe3": "我在中国完成了我的基础教育，然后我选择了德国作为我的下一站。在慕尼黑（我的第二故乡🤣）我继续攻读了计算机的本科和硕士学位",
-        "aboutMe4": "我现在准备好了把我的知识运用到实践中，创造一点很酷的东西！",
+        "aboutMe2": "我来自浙江的一个小县城——新昌县，那里青山绿水，如果有机会的话请一定去看看！",
+        "aboutMe3": "我在中国完成了我的基础教育，然后选择了德国作为我的下一站。在慕尼黑（我的第二故乡🤣），我在这里攻读了计算机的本科和硕士学位",
+        "aboutMe4": "我现在准备好了运用我所学到的知识，创造一点很酷的东西！",
         "myStudies": "我的学业",
         "myInternships": "我的实习",
-        "funFacts": "趣闻",
+        "funFacts": "关于我的趣闻",
         "programmingSkills": "编程技能",
         "languagesSpoken": "我会说什么语言？",
-        "myHobbies": "我的爱好"
+        "myHobbies": "我喜欢干什么？"
     },
     "itemCards": {
         "tumMaster": {
             "type": "理学硕士",
             "university": "慕尼黑工业大学",
             "degree": "信息系统",
-            "description": "信息系统硕士项目专注于设计、实现和分析复杂系统，同时融合计算机科学与管理。它旨在培养学生推动数字化转型，并为管理决策开发基于数据的解决方案。",
+            "description": "信息系统硕士项目专注于设计、实现和分析复杂系统，同时融合计算机科学与管理。旨在培养学生推动数字化转型，并为管理决策开发基于数据的解决方案。学科中计算机领域的重点包含了机器学习，深度学习以及高级商业软件的开发。",
             "duration": "2023 - 2025",
             "link": "https://www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-master-of-science-msc"
         },
         "tumBachelor": {
             "type": "理学学士",
             "university": "慕尼黑工业大学",
-            "degree": "信息系统",
-            "description": "慕尼黑工业大学的信息系统本科项目结合了计算机科学和工商管理，重点关注信息通信技术在商业和管理中的应用。课程涵盖业务流程设计、创新系统开发和决策支持，塑造未来的信息社会。",
+            "degree": "计算机类-经济信息",
+            "description": "慕尼黑工业大学的经济信息本科项目结合了计算机科学和工商管理，重点关注信息通信技术在商业和管理中的应用。课程涵盖业务流程设计、创新系统开发和决策支持，塑造未来的信息社会。在计算机方面的课程包含计算机导论，算法与数据结构，软件工程，数据库导论，计算机网络等等。在经济方向的培养包含了宏观/微观经济学，会计学，以及计量经济学等",
             "duration": "2020 - 2023",
             "link": "https://www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-bachelor-of-science-bsc"
         },
@@ -34,7 +34,7 @@
             "type": "预科",
             "university": "巴伐利亚州立预科",
             "degree": "预科课程",
-            "description": "在德国，对于大学入学资格未被认可的申请者，预科提供了语言和学术上的准备课程。这个预备项目以Feststellungsprüfung (FSP)州考作为结尾。",
+            "description": "德国预科给想在德国深造的外国学生提供了语言和学术上的准备课程。预科课程涵盖了德国高中第十三年级的必修课程。学生在最后要参加一项州立预科毕业考试——Feststellungsprüfung (FSP)，取得考试成绩的毕业生能获得等同于德国高考证书的资历",
             "duration": "2019 - 2020",
             "link": "https://xn--studienkolleg-mnchen-3ec.de/"
         },
@@ -42,15 +42,15 @@
             "type": "全栈开发实习生",
             "university": "乐高集团",
             "degree": "",
-            "description": "乐高集团通过其标志性的积木系统激发创造力和学习，提供创新和可持续的产品，为世界各地的家庭带来欢乐。",
+            "description": "乐高集团是世界著名的玩具制造商。我在职期间就职于数字化制造部门的新的绿地项目，该项目的目的是最大程度的挖掘制造车间中的自动化程度，减少人力成本，提高装配的准确性以及促进环境保护。",
             "duration": "2024年4月 - 2024年9月",
             "link": "https://www.lego.com/de-de/aboutus/lego-group"
         },
         "lexcom": {
             "type": "全栈开发实习生",
-            "university": "LexCom信息系统公司",
+            "university": "LexCom信息系统",
             "degree": "",
-            "description": "LexCom信息系统公司通过定制化、IT驱动的解决方案优化售后流程，帮助客户适应全球市场需求、实施创新策略并保持竞争优势。",
+            "description": "LexCom信息系统是欧洲汽车售后平台的隐形冠军，我们的门户汽车零件销售平台Partslink24在欧洲几乎所有国家的汽车修理厂中被广为使用。我在职期间独立开发了多款全栈/后端微服务，提升了平台的功能性，改善了用户的使用体验。",
             "duration": "2023年9月 - 2024年12月",
             "link": "https://www.lexcom.de/home/en/what-we-do.html"
         },
@@ -58,7 +58,7 @@
             "type": "项目管理实习生",
             "university": "宝马集团",
             "degree": "",
-            "description": "宝马集团是全球领先的高端移动服务提供商，以创新设计、尖端技术和可持续发展而闻名。凭借标志性品牌和卓越承诺，推动未来移动出行。",
+            "description": "宝马集团是全球领先的高端汽车制造商，我任职于宝马期间正处于宝马车载应用商场从Linux架构向安卓架构迁移的时候。我主要负责迁移商店中的新应用的质量检测，测试等；同时我也负责开发了多个内部测试软件用于测试新车载系统的功能性和稳定性。",
             "duration": "2022年8月 - 2022年12月",
             "link": "https://www.bmwgroup.com/en.html"
         }
@@ -67,22 +67,22 @@
         "java": {
             "type": "编程语言",
             "text": "Java",
-            "description": "我从未去过爪哇岛"
+            "description": "我从未去过Java岛"
         },
         "python": {
             "type": "编程语言",
             "text": "Python",
-            "description": "蟒蛇是一种无毒的蛇类"
+            "description": "Python指的是一种无毒的蛇类"
         },
         "javascript": {
             "type": "编程语言",
             "text": "JavaScript",
-            "description": "它与Java毫无关系"
+            "description": "蹭Java热度的语言"
         },
         "springboot": {
             "type": "框架",
             "text": "SpringBoot",
-            "description": ""
+            "description": "总是能学到新东西"
         },
         "react": {
             "type": "框架",
@@ -92,12 +92,12 @@
         "git": {
             "type": "版本控制",
             "text": "Git",
-            "description": "我喜欢看git blame"
+            "description": "我来瞧瞧git blame"
         },
         "mongo": {
             "type": "数据库",
             "text": "Mongo DB",
-            "description": ""
+            "description": "根本不需要考虑怎么设计表"
         },
         "mysql": {
             "type": "数据库",
@@ -107,52 +107,136 @@
         "kafka": {
             "type": "中间件",
             "text": "Kafka",
-            "description": ""
+            "description": "卡夫卡其实是奥匈帝国的作家"
         },
         "aws": {
             "type": "云服务",
             "text": "AWS",
-            "description": ""
+            "description": "钱包归零大法"
         },
         "german": {
             "type": "语言",
             "text": "德语",
-            "description": "流利"
+            "description": "无障碍沟通"
         },
         "english": {
             "type": "语言",
             "text": "英语",
-            "description": "流利"
+            "description": "无障碍沟通"
         },
         "chinese": {
             "type": "语言",
             "text": "中文",
-            "description": "流利"
+            "description": "母语"
         },
         "reading": {
             "type": "爱好",
             "text": "阅读",
-            "description": ""
+            "description": "看过的书加起来比我还高"
         },
         "movies": {
             "type": "爱好",
             "text": "看电影",
-            "description": ""
+            "description": "当然也看商业大片"
         },
         "traveling": {
             "type": "爱好",
             "text": "旅行",
-            "description": ""
+            "description": "去过三个大洲咯"
         },
         "hiking": {
             "type": "爱好",
             "text": "徒步",
-            "description": ""
+            "description": "德国南部是徒步天堂"
         },
         "gaming": {
             "type": "爱好",
             "text": "玩游戏",
-            "description": ""
+            "description": "御三家没有PS"
         }
+    },
+    "projectsPage": {
+    "lego": {
+      "name": "LEGO 集团",
+      "projects": {
+        "receipeEditor": {
+          "title": "Receipe Editor",
+          "description": "设计师可以通过拖放操作快速在 Web 应用程序中创建玩具包装的布局图，并将其存储在数据库中以供未来编辑或完善。该应用还提供了一个看板用于搜索和筛选布局图。布局图最终会被用于自动化工厂的机器人生产线。"
+        },
+        "plcConnect": {
+          "title": "PLC Connect",
+          "description": "LEGO 工厂中有许多工业PLC。PLC Connect 可以连接到不同的 PLC 并从中读取/写入数据。该工具还可以用于监控 PLC 的状态并更改其指令。"
+        }
+      }
+    },
+    "lexcom": {
+      "name": "LexCom 信息技术",
+      "projects": {
+        "pl24Upload": {
+          "title": "PL24-Upload",
+          "description": "汽车修理厂可以使用 Web 应用程序扫描订单或地将订单上传到服务器。服务器将通过OCR服务处理订单，并将所有需要订购的零件自动添加到修理厂的购物车中。"
+        },
+        "pl24Bidata": {
+          "title": "PL24-Bidata",
+          "description": "该微服务会捕获用户在 Web 应用程序中的行为，并通过 Kafka 中间件将数据发送到公司内部大数据系统。大数据系统会对数据进行处理分析以改善用户体验。"
+        },
+        "pl24DealerMonitor": {
+          "title": "PL24-DealerMonitor",
+          "description": "Partslink 24 门户平台中有许多不同经销商，PL24-DealerMonitor用于监控订单状态。如果订单未能及时处理，PL24-DealerMonitor会向经销商发送通知以确保所有订单被及时处理。"
+        }
+      }
+    },
+    "bmw": {
+      "name": "BMW 集团",
+      "projects": {
+        "bmwNews": {
+          "title": "BMW News",
+          "description": "BMW News是一个基于 Android 的车载应用程序新闻聚合原型，它使用 Google 的News API 服务。用户可以搜索，浏览自己感兴趣的最新新闻。"
+        }
+      }
+    },
+    "tum": {
+      "name": "大学项目",
+      "projects": {
+        "bpmnGeneration": {
+          "title": "从自然语言文本生成业务流程模型的改进方法",
+          "description": "业务流程建模符号（BPMN）对于结构化和可视化流程至关重要，可提升公司的工作流程。然而，创建 BPMN 模型通常需要专业知识并且耗时。本文讨论如何通过改进的识别精度使用 Python 和 spacy 库生成 BPMN 模型。"
+        },
+        "predictiveProcessMonitoring": {
+          "title": "预测性流程监控的研究发展",
+          "description": "预测性流程监控（PPM）在工业和学术界越来越受到关注。本研究回顾了 2018 年至 2022 年间的文献，从 263 篇文章中筛选出 32 篇相关论文。分析揭示了当前的研究趋势和空白。"
+        },
+        "bamlAnalyticsCup": {
+          "title": "BAML-商分竞赛",
+          "description": "BAML-商分竞赛是 TUM 商业分析与机器学习课程与西门子合作的项目。项目目标是预测潜在客户的购买决策。我们使用随机森林算法训练模型，该模型训练速度快且具有较高的准确性。"
+        }
+      }
+    },
+    "personal": {
+      "name": "个人项目",
+      "projects": {
+        "focusList": {
+          "title": "任务清单",
+          "description": "基于 Vue.js 的前端任务清单网页。该应用还支持番茄钟功能，帮助用户更好地完成任务。详情请访问：https://shuaiweiyu.github.io/focuslist/"
+        },
+        "emojiDiary": {
+          "title": "Emoji 日记",
+          "description": "Emoji Diary 是一个日记类 iOS 应用。用户可以使用 emoji、简单描述和多张照片记录日常生活。该应用还支持通过 iCloud 共享的功能。"
+        },
+        "volMe": {
+          "title": "VolMe",
+          "description": "VolMe 是一个志愿者管理系统。平台可以帮助志愿者组织管理志愿者和活动。系统还支持评分/反馈、聊天、活动管理、签到等功能。"
+        }
+      }
     }
+  },
+    "contactPage": {
+    "title": "联系方式",
+    "github": "GitHub",
+    "linkedin": "领英",
+    "email": "邮箱",
+    "wechat": "微信",
+    "instagram": "Instagram",
+    "xiaohongshu": "小红书"
+  }
 }
