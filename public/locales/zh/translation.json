@@ -15,7 +15,7 @@
     },
     "itemCards": {
         "tumMaster": {
-            "type": "科学硕士",
+            "type": "理学硕士",
             "university": "慕尼黑工业大学",
             "degree": "信息系统",
             "description": "信息系统硕士项目专注于设计、实现和分析复杂系统，同时融合计算机科学与管理。它旨在培养学生推动数字化转型，并为管理决策开发基于数据的解决方案。",
@@ -23,7 +23,7 @@
             "link": "https://www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-master-of-science-msc"
         },
         "tumBachelor": {
-            "type": "科学学士",
+            "type": "理学学士",
             "university": "慕尼黑工业大学",
             "degree": "信息系统",
             "description": "慕尼黑工业大学的信息系统本科项目结合了计算机科学和工商管理，重点关注信息通信技术在商业和管理中的应用。课程涵盖业务流程设计、创新系统开发和决策支持，塑造未来的信息社会。",
@@ -32,7 +32,7 @@
         },
         "studienkolleg": {
             "type": "预科",
-            "university": "慕尼黑大学预科",
+            "university": "巴伐利亚州立预科",
             "degree": "预科课程",
             "description": "在德国，对于大学入学资格未被认可的申请者，预科提供了语言和学术上的准备课程。这个预备项目以Feststellungsprüfung (FSP)州考作为结尾。",
             "duration": "2019 - 2020",

@@ -244,35 +244,34 @@ const HomePage = () => {
                             alignItems="flex-start"
                         >
                             <ItemCard
-                                type={t("home.itemCards.tumMaster.type")}
+                                type={t("itemCards.tumMaster.type")}
                                 iconSrc="/assets/tum2.jpg"
                                 altText="TUM"
-                                university="Technische Universität München"
-                                degree="Information Systems"
-                                description="The Information Systems Master's program focuses on designing, implementing, and analyzing complex systems while integrating computer science and management. It prepares students to drive digital transformation and develop data-driven solutions for management decisions."
-                                duration="2023 - 2025"
-                                link={"https://www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-master-of-science-msc"}
+                                university={t("itemCards.tumMaster.university")}
+                                degree={t("itemCards.tumMaster.degree")}
+                                description={t("itemCards.tumMaster.description")}
+                                duration={t("itemCards.tumMaster.duration")}
+                                link={t("itemCards.tumMaster.link")}
                             />
                             <ItemCard
-                                type="Bachelor of Science"
+                                type={t("itemCards.tumBachelor.type")}
                                 iconSrc="/assets/tum2.jpg"
                                 altText="TUM"
-                                university="Technische Universität München"
-                                degree="Information Systems"
-                                description="
-The Information Systems program at TU Munich bridges computer science and business administration with a focus on ICT application in business and administration. It emphasizes designing business processes, developing innovative systems, and enabling decision-making and knowledge management, shaping the future of the information society."
-                                duration="2020- 2023"
-                                link={"https://www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-bachelor-of-science-bsc"}
+                                university={t("itemCards.tumBachelor.university")}
+                                degree={t("itemCards.tumBachelor.degree")}
+                                description={t("itemCards.tumBachelor.description")}
+                                duration={t("itemCards.tumBachelor.duration")}
+                                link={t("itemCards.tumBachelor.link")}
                             />
                             <ItemCard
                                 type=""
                                 iconSrc="/assets/studienkolleg.png"
                                 altText="studienkolleg"
-                                university="Studienkolleg München"
-                                degree="Preparation study"
-                                description="At Studienkollegs, applicants whose university entrance qualification (HZB) is not recognized in Germany are prepared linguistically and academically for university studies. This preparatory program concludes with the state examination, the Feststellungsprüfung (FSP)."
-                                duration="2019 - 2020"
-                                link={"https://xn--studienkolleg-mnchen-3ec.de/"}
+                                university={t("itemCards.studienkolleg.university")}
+                                degree={t("itemCards.studienkolleg.degree")}
+                                description={t("itemCards.studienkolleg.description")}
+                                duration={t("itemCards.studienkolleg.duration")}
+                                link={t("itemCards.studienkolleg.link")}
                             />
                         </Stack>
                     </Paper>
@@ -287,7 +286,7 @@ The Information Systems program at TU Munich bridges computer science and busine
                 >
                     <Paper elevation={3} style={styles.paper}>
                         <Typography variant="h4" gutterBottom>
-                            我的实习
+                            {t("home.myInternships")}
                         </Typography>
                         <Stack
                             spacing={{xs: 1, sm: 2}}
@@ -297,34 +296,34 @@ The Information Systems program at TU Munich bridges computer science and busine
                             alignItems="flex-start"
                         >
                             <ItemCard
-                            type=""
-                            iconSrc="/assets/lego.png"
-                            altText="LEGO"
-                            university="LEGO Group"
-                            degree="Fullstack Developer Intern"
-                            description="The LEGO Group inspires creativity and learning through its iconic brick system, offering innovative and sustainable products that bring joy to families worldwide."
-                            duration="04/2024 - 09/2024"
-                            link={"https://www.lego.com/de-de/aboutus/lego-group"}
+                                type=""
+                                iconSrc="/assets/lego.png"
+                                altText="LEGO"
+                                university={t("itemCards.lego.university")}
+                                degree={t("itemCards.lego.type")}
+                                description={t("itemCards.lego.description")}
+                                duration={t("itemCards.lego.duration")}
+                                link={t("itemCards.lego.link")}
                             />
                             <ItemCard
                                 type=""
                                 iconSrc="/assets/lexcom.jpeg"
                                 altText="lexcom"
-                                university="LexCom Informationssysteme GmbH"
-                                degree="Fullstack Developer Intern"
-                                description="LexCom Informationssysteme GmbH optimizes after-sales processes with tailored, IT-driven solutions, enabling clients to adapt to global market demands, implement innovative strategies, and stay ahead of the competition."
-                                duration="09/2023 - 12/2024"
-                                link={"https://www.lexcom.de/home/en/what-we-do.html"}
+                                university={t("itemCards.lexcom.university")}
+                                degree={t("itemCards.lexcom.type")}
+                                description={t("itemCards.lexcom.description")}
+                                duration={t("itemCards.lexcom.duration")}
+                                link={t("itemCards.lexcom.link")}
                             />
                             <ItemCard
                                 type=""
                                 iconSrc="/assets/bmw.png"
                                 altText="BMW"
-                                university="BMW Group"
-                                degree="Project Managment Intern"
-                                description="BMW Group is a global leader in premium mobility, known for innovative design, cutting-edge technology, and sustainability. It drives the future of mobility with iconic brands and a commitment to excellence."
-                                duration="08/2022 - 12/2022"
-                                link={"https://www.bmwgroup.com/en.html"}
+                                university={t("itemCards.bmw.university")}
+                                degree={t("itemCards.bmw.type")}
+                                description={t("itemCards.bmw.description")}
+                                duration={t("itemCards.bmw.duration")}
+                                link={t("itemCards.bmw.link")}
                             />
                         </Stack>
                     </Paper>
@@ -343,7 +342,7 @@ The Information Systems program at TU Munich bridges computer science and busine
                             gutterBottom
                             sx={{textAlign: 'center'}} // 确保居中
                         >
-                            趣闻
+                            {t("home.funFacts")}
                         </Typography>
 
                         <Typography
@@ -351,7 +350,7 @@ The Information Systems program at TU Munich bridges computer science and busine
                             gutterBottom
                             sx={{textAlign: 'left'}} // 确保左对齐
                         >
-                            编程技能
+                            {t("home.programmingSkills")}
                         </Typography>
                         <Stack
                             spacing={{xs: 1, sm: 2}}
@@ -361,25 +360,25 @@ The Information Systems program at TU Munich bridges computer science and busine
                             alignItems="flex-start"
                         >
                             <IconCard
-                                type="Progamming Language"
+                                type={t("iconCards.java.type")}
                                 iconSrc="/assets/java.png"
                                 altText="Java"
-                                text="Java"
-                                description="I never been to Java Island"
+                                text={t("iconCards.java.text")}
+                                description={t("iconCards.java.description")}
                             />
                             <IconCard
-                                type="Progamming Language"
+                                type={t("iconCards.python.type")}
                                 iconSrc="/assets/python.png"
                                 altText="Python"
-                                text="Python"
-                                description="Pythons, are a family of nonvenomous snakes"
+                                text={t("iconCards.python.text")}
+                                description={t("iconCards.python.description")}
                             />
                             <IconCard
-                                type="Progamming Language"
+                                type={t("iconCards.javascript.type")}
                                 iconSrc="/assets/javascript.png"
                                 altText="JavaScript"
-                                text="JavaScript"
-                                description="Which has nothing to do with Java"
+                                text={t("iconCards.javascript.text")}
+                                description={t("iconCards.javascript.description")}
                             />
                             {/*<IconCard*/}
                             {/*    type="Progamming Language"*/}
@@ -389,18 +388,18 @@ The Information Systems program at TU Munich bridges computer science and busine
                             {/*    description=""*/}
                             {/*/>*/}
                             <IconCard
-                                type="Framework"
+                                type={t("iconCards.springboot.type")}
                                 iconSrc="/assets/springboot.webp"
                                 altText="SpringBoot"
-                                text="SpringBoot"
-                                description=""
+                                text={t("iconCards.springboot.text")}
+                                description={t("iconCards.springboot.description")}
                             />
                             <IconCard
-                                type="Framework"
+                                type={t("iconCards.react.type")}
                                 iconSrc="/assets/react.png"
                                 altText="React.js"
-                                text="React.js"
-                                description="This webpage is actually using react"
+                                text={t("iconCards.react.text")}
+                                description={t("iconCards.react.description")}
                             />
                             {/*<IconCard*/}
                             {/*    type="Framework"*/}
@@ -410,39 +409,39 @@ The Information Systems program at TU Munich bridges computer science and busine
                             {/*    description=""*/}
                             {/*/>*/}
                             <IconCard
-                                type="Version Control"
+                                type={t("iconCards.git.type")}
                                 iconSrc="/assets/git.png"
                                 altText="Git"
-                                text="Git"
-                                description="I love to check git blame"
+                                text={t("iconCards.git.text")}
+                                description={t("iconCards.git.description")}
                             />
                             <IconCard
-                                type="Database"
+                                type={t("iconCards.mongo.type")}
                                 iconSrc="/assets/mongo.webp"
                                 altText="Mongo DB"
-                                text="Mongo DB"
-                                description=""
+                                text={t("iconCards.mongo.text")}
+                                description={t("iconCards.mongo.description")}
                             />
                             <IconCard
-                                type="Database"
+                                type={t("iconCards.mysql.type")}
                                 iconSrc="/assets/mysql.png"
                                 altText="MySQL"
-                                text="MySQL"
-                                description=""
+                                text={t("iconCards.mysql.text")}
+                                description={t("iconCards.mysql.description")}
                             />
                             <IconCard
-                                type="Middleware"
+                                type={t("iconCards.kafka.type")}
                                 iconSrc="/assets/kafka.webp"
                                 altText="Kafka"
-                                text="Kafka"
-                                description=""
+                                text={t("iconCards.kafka.text")}
+                                description={t("iconCards.kafka.description")}
                             />
                             <IconCard
-                                type="Cloud Service"
+                                type={t("iconCards.aws.type")}
                                 iconSrc="/assets/aws.webp"
                                 altText="AWS"
-                                text="AWS"
-                                description=""
+                                text={t("iconCards.aws.text")}
+                                description={t("iconCards.aws.description")}
                             />
                         </Stack>
 
@@ -453,7 +452,7 @@ The Information Systems program at TU Munich bridges computer science and busine
                             gutterBottom
                             sx={{textAlign: 'left'}}
                         >
-                            我会说什么语言？
+                            {t("home.languagesSpoken")}
                         </Typography>
                         <Stack
                             spacing={{xs: 1, sm: 2}}
@@ -463,25 +462,25 @@ The Information Systems program at TU Munich bridges computer science and busine
                             alignItems="flex-start"
                         >
                             <IconCard
-                                type="Language"
+                                type={t("iconCards.german.type")}
                                 iconSrc="/assets/german.png"
                                 altText="German"
-                                text="German"
-                                description="Fluent"
+                                text={t("iconCards.german.text")}
+                                description={t("iconCards.german.description")}
                             />
                             <IconCard
-                                type="Language"
+                                type={t("iconCards.english.type")}
                                 iconSrc="/assets/english.png"
                                 altText="English"
-                                text="English"
-                                description="Fluent"
+                                text={t("iconCards.english.text")}
+                                description={t("iconCards.english.description")}
                             />
                             <IconCard
-                                type="Language"
+                                type={t("iconCards.chinese.type")}
                                 iconSrc="/assets/chinese.png"
                                 altText="Chinese"
-                                text="Chinese"
-                                description="Fluent"
+                                text={t("iconCards.chinese.text")}
+                                description={t("iconCards.chinese.description")}
                             />
                         </Stack>
 
@@ -492,7 +491,7 @@ The Information Systems program at TU Munich bridges computer science and busine
                             gutterBottom
                             sx={{textAlign: 'left'}}
                         >
-                            我的爱好
+                            {t("home.myHobbies")}
                         </Typography>
                         <Stack
                             spacing={{xs: 1, sm: 2}}
@@ -502,46 +501,39 @@ The Information Systems program at TU Munich bridges computer science and busine
                             alignItems="flex-start"
                         >
                             <IconCard
-                                type="Hobbys"
+                                type={t("iconCards.reading.type")}
                                 iconSrc="/assets/books.png"
                                 altText="books"
-                                text="Reading"
-                                description=""
+                                text={t("iconCards.reading.text")}
+                                description={t("iconCards.reading.description")}
                             />
                             <IconCard
-                                type="Hobbys"
+                                type={t("iconCards.movies.type")}
                                 iconSrc="/assets/movie.png"
                                 altText="movie"
-                                text="Movies"
-                                description=""
+                                text={t("iconCards.movies.text")}
+                                description={t("iconCards.movies.description")}
                             />
                             <IconCard
-                                type="Hobbys"
+                                type={t("iconCards.traveling.type")}
                                 iconSrc="/assets/travel.png"
                                 altText="travel"
-                                text="Traveling"
-                                description=""
+                                text={t("iconCards.traveling.text")}
+                                description={t("iconCards.traveling.description")}
                             />
                             <IconCard
-                                type="Hobbys"
-                                iconSrc="/assets/books.png"
-                                altText="books"
-                                text="Reading"
-                                description=""
-                            />
-                            <IconCard
-                                type="Hobbys"
+                                type={t("iconCards.hiking.type")}
                                 iconSrc="/assets/mountain.png"
                                 altText="mountain"
-                                text="Hiking"
-                                description=""
+                                text={t("iconCards.hiking.text")}
+                                description={t("iconCards.hiking.description")}
                             />
                             <IconCard
-                                type="Hobbys"
+                                type={t("iconCards.gaming.type")}
                                 iconSrc="/assets/game.png"
                                 altText="game"
-                                text="Gaming"
-                                description=""
+                                text={t("iconCards.gaming.text")}
+                                description={t("iconCards.gaming.description")}
                             />
                         </Stack>
                     </Paper>
