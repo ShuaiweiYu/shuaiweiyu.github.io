@@ -143,8 +143,9 @@ const HomePage = () => {
                     autoPlay
                     loop
                     muted
+                    playsInline
                 >
-                    <source src="assets/video.webm" type="video/mp4"/>
+                    <source src="assets/video.webm" type="video/webm"/>
                     您的浏览器不支持 video 标签。
                 </video>
 

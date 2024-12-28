@@ -47,11 +47,12 @@ const ProjectCard = ({ title, imgSrc, description, link }) => {
             textDecoration: 'none', // Remove underline by default
             color: 'black', // Title color
             marginBottom: '8px', // Space below the title
-            cursor: 'pointer', // Change cursor to indicate clickability
-            '&:hover': {
-                textDecoration: 'underline', // Underline on hover
-                color: '#007bff', // Optional hover color (blue-like link)
-            },
+            //todo: re-enable this when the link is available
+            // cursor: 'pointer', // Change cursor to indicate clickability
+            // '&:hover': {
+            //     textDecoration: 'underline', // Underline on hover
+            //     color: '#007bff', // Optional hover color (blue-like link)
+            // },
         },
         image: {
             width: '100%', // Responsive image
@@ -79,10 +80,11 @@ const ProjectCard = ({ title, imgSrc, description, link }) => {
             >
                 {/* Title */}
                 <Typography
-                    component="a"
-                    href={link}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                // todo: re-enable this when the link is available
+                    // component="a"
+                    // href={link}
+                    // target="_blank"
+                    // rel="noopener noreferrer"
                     sx={styles.title}
                 >
                     {title}
@@ -220,12 +222,12 @@ const ProjectsPage = () => {
                             sx={{flexWrap: 'wrap'}}
                             alignItems="flex-start"
                     >
-                        <ProjectCard 
+                        {/* <ProjectCard 
                             title={"Siemens EHS Hazard Detection"} 
                             imgSrc={""} 
                             description={"Siemens EHS Hazard Detection is a project that aims to detect the hazard in the factory. The project uses the data sent by the sensors in the factory and in machines to detect the hazard. The project also provides a web application to show the hazard in the factory and an IOS application to notify the workers."}
                             link={""}
-                        />
+                        /> */}
                         <ProjectCard 
                             title={"Improved Auto-generation of Business Process Models from Natural Language Texts of Various Complexity"} 
                             imgSrc={"/assets/thesis.webp"}
