@@ -1,4 +1,5 @@
 import React from 'react';
+import {useTranslation} from 'react-i18next';
 import {Typography, Box, Container, Paper, Grid, Card, CardContent, Stack, Divider, IconButton} from '@mui/material';
 import {useInView} from 'react-intersection-observer';
 import {motion} from 'framer-motion';
@@ -127,6 +128,8 @@ const ItemCard = ({type, iconSrc, altText, university, degree, description, dura
 
 
 const HomePage = () => {
+    const {t} = useTranslation();
+
     // 使用 Intersection Observer 来检测元素是否在视口中
     const [ref1, inView1] = useInView({triggerOnce: true, threshold: 0.1});
     const [ref2, inView2] = useInView({triggerOnce: true, threshold: 0.1});
@@ -146,7 +149,7 @@ const HomePage = () => {
                     playsInline
                 >
                     <source src="assets/video.webm" type="video/webm"/>
-                    您的浏览器不支持 video 标签。
+                    {t("home.video")}
                 </video>
 
                 {/* 覆盖层 */}
@@ -168,7 +171,7 @@ const HomePage = () => {
                         display: {xs: 'none', sm: 'none', md: 'block'},
                     }}
                 >
-                    <Typography variant="h2">很高兴认识你！</Typography>
+                    <Typography variant="h2">{t("home.greeting")}</Typography>
                 </Box>
             </div>
 
@@ -195,7 +198,7 @@ const HomePage = () => {
                             <Grid item sm={12} md={4}>
                                 <img
                                     src="assets/Profile.webp"
-                                    alt="俞帅威"
+                                    alt="profile"
                                     style={{
                                         width: '100%',
                                         height: '300px',
@@ -206,16 +209,16 @@ const HomePage = () => {
 
                             <Grid item sm={12} md={8}>
                                 <Typography variant="h4" gutterBottom>
-                                    关于我—俞帅威
+                                    {t("home.aboutMe1")}
                                 </Typography>
                                 <Typography variant="body1" paragraph>
-                                    我来自浙江的一个小县城——新昌县，那里青山绿水，有机会的话请您一定去看看！
+                                    {t("home.aboutMe2")}
                                 </Typography>
                                 <Typography variant="body1" paragraph>
-                                    我在中国完成了我的基础教育，然后我选择了德国作为我的下一站。在慕尼黑（我的第二故乡🤣）我继续攻读了计算机的本科和硕士学位
+                                    {t("home.aboutMe3")}
                                 </Typography>
                                 <Typography variant="body1" paragraph>
-                                    我现在准备好了把我的知识运用到实践中，创造一点很酷的东西！
+                                    {t("home.aboutMe4")}    
                                 </Typography>
                             </Grid>
                         </Grid>
@@ -231,7 +234,7 @@ const HomePage = () => {
                 >
                     <Paper elevation={3} style={styles.paper}>
                         <Typography variant="h4" gutterBottom>
-                            我的学业
+                            {t("home.myStudies")}
                         </Typography>
                         <Stack
                             spacing={{xs: 1, sm: 2}}
@@ -241,7 +244,7 @@ const HomePage = () => {
                             alignItems="flex-start"
                         >
                             <ItemCard
-                                type="Master of Science"
+                                type={t("home.itemCards.tumMaster.type")}
                                 iconSrc="/assets/tum2.jpg"
                                 altText="TUM"
                                 university="Technische Universität München"
