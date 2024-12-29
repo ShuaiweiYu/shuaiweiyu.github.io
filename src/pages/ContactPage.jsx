@@ -73,12 +73,31 @@ const ContactPage = () => {
                             </Typography>
 
                             {contact.link ? (
-                                <Link href={contact.link} target="_blank" rel="noopener" underline="hover">
+                                <Link
+                                    href={contact.link}
+                                    target="_blank"
+                                    rel="noopener"
+                                    underline="hover"
+                                    sx={{
+                                        maxWidth: { xs: '200px', sm: 'none' }, // xs 屏幕时限制宽度
+                                        wordWrap: 'break-word', // 长单词自动换行
+                                        overflow: 'hidden', // 避免溢出
+                                    }}
+                                >
                                     {contact.display}
                                 </Link>
                             ) : (
-                                <Typography>{contact.display}</Typography>
+                                <Typography
+                                    sx={{
+                                        maxWidth: { xs: '200px', sm: 'none' }, // 同样限制非链接的文字
+                                        wordWrap: 'break-word',
+                                    }}
+                                >
+                                    {contact.display}
+                                </Typography>
                             )}
+
+
                         </Box>
                     ))}
                 </Stack>

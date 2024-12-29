@@ -109,7 +109,6 @@ function MyAppBar() {
                             <MenuIcon/>
                         </IconButton>
                     </Box>
-                    <AssignmentIndIcon sx={{display: {xs: 'flex', md: 'none'}, mr: 1}}/>
                     <Typography
                         variant="h6"
                         noWrap
@@ -152,8 +151,11 @@ function MyAppBar() {
                                 color="inherit"
                                 onClick={handleOpenLanguageMenu}
                                 startIcon={currentLanguage.icon}
+                                sx={{display: {xs: 'flex'}, justifyContent: 'center', alignItems: 'center'}}
                             >
-                                {currentLanguage.name}
+                                <Typography sx={{display: {xs: 'none', md: 'block'}}}>
+                                    {currentLanguage.name}
+                                </Typography>
                             </Button>
                         </Tooltip>
                         <Menu

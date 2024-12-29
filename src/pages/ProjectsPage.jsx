@@ -8,12 +8,14 @@ const GroupDisplayer = ({iconSrc, altText, name}) => (
         <Box
             sx={{
                 height: {xs: '40px', sm: '40px', md: '40px'},
+                maxWidth: '40px', // 限制宽度
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
+                overflow: 'hidden', // 避免图片超出
             }}
         >
-            <img src={iconSrc} alt={altText} style={{width: '100%', height: '100%', objectFit: 'contain'}}/>
+            <img src={iconSrc} alt={altText} style={{width: '100%', height: 'auto', objectFit: 'contain'}} />
         </Box>
         <Typography variant="h6" sx={{fontSize: {xs: 18, sm: 18, md: 20}, textAlign: 'left', fontWeight: 600}}>
             {name}
@@ -24,11 +26,13 @@ const GroupDisplayer = ({iconSrc, altText, name}) => (
 const ProjectCard = ({title, imgSrc, description, link}) => {
     const styles = {
         card: {
-            width: {xs: '350px', sm: '400px', md: '500px'},
+            width: '100%', // 使用百分比代替固定宽度
+            maxWidth: {xs: '100%', sm: '400px', md: '500px'}, // 限制最大宽度
             padding: '16px',
             boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
             borderRadius: '8px',
             textAlign: 'center',
+            overflow: 'hidden', // 防止内容超出
         },
         image: {
             width: '100%',
@@ -37,6 +41,7 @@ const ProjectCard = ({title, imgSrc, description, link}) => {
             marginBottom: '16px',
         },
     };
+
 
     return (
         <Card sx={styles.card}>
@@ -153,7 +158,7 @@ const ProjectsPage = () => {
     ];
 
     return (
-        <div style={{padding: '2rem'}}>
+        <div style={{padding: '2rem', maxWidth: '100%', overflowX: 'hidden'}}>
             {projectsData.map((group) => (
                 <Accordion key={group.id}>
                     <AccordionSummary
@@ -168,8 +173,7 @@ const ProjectsPage = () => {
                             spacing={{xs: 1, sm: 2}}
                             direction="row"
                             useFlexGap
-                            sx={{flexWrap: 'wrap'}}
-                            alignItems="flex-start"
+                            sx={{flexWrap: 'wrap', alignItems: 'flex-start', justifyContent: 'center'}}
                         >
                             {group.projects.map((project, index) => (
                                 <ProjectCard
@@ -185,6 +189,7 @@ const ProjectsPage = () => {
                 </Accordion>
             ))}
         </div>
+
     );
 };
 
