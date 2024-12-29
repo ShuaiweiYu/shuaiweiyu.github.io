@@ -1,31 +1,30 @@
 import React from 'react';
-import { Typography, Box, Card, Stack, Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
+import {Typography, Box, Card, Stack, Accordion, AccordionSummary, AccordionDetails} from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { useTranslation } from 'react-i18next';
-import { image } from 'framer-motion/client';
+import {useTranslation} from 'react-i18next';
 
-const GroupDisplayer = ({ iconSrc, altText, name }) => (
-    <Stack direction={{ xs: 'row' }} spacing={2} alignItems="center">
+const GroupDisplayer = ({iconSrc, altText, name}) => (
+    <Stack direction={{xs: 'row'}} spacing={2} alignItems="center">
         <Box
             sx={{
-                height: { xs: '40px', sm: '40px', md: '40px' },
+                height: {xs: '40px', sm: '40px', md: '40px'},
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
             }}
         >
-            <img src={iconSrc} alt={altText} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+            <img src={iconSrc} alt={altText} style={{width: '100%', height: '100%', objectFit: 'contain'}}/>
         </Box>
-        <Typography variant="h6" sx={{ fontSize: { xs: 18, sm: 18, md: 20 }, textAlign: 'left', fontWeight: 600 }}>
+        <Typography variant="h6" sx={{fontSize: {xs: 18, sm: 18, md: 20}, textAlign: 'left', fontWeight: 600}}>
             {name}
         </Typography>
     </Stack>
 );
 
-const ProjectCard = ({ title, imgSrc, description, link }) => {
+const ProjectCard = ({title, imgSrc, description, link}) => {
     const styles = {
         card: {
-            width: { xs: '350px', sm: '400px', md: '500px' },
+            width: {xs: '350px', sm: '400px', md: '500px'},
             padding: '16px',
             boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
             borderRadius: '8px',
@@ -42,10 +41,10 @@ const ProjectCard = ({ title, imgSrc, description, link }) => {
     return (
         <Card sx={styles.card}>
             <Stack direction="column" spacing={2} alignItems="center">
-                <Typography sx={{ fontSize: '1.5rem', fontWeight: 'bold', color: 'black', marginBottom: '8px' }}>
+                <Typography sx={{fontSize: '1.5rem', fontWeight: 'bold', color: 'black', marginBottom: '8px'}}>
                     {title}
                 </Typography>
-                {imgSrc && <img src={imgSrc} alt={title} style={styles.image} />}
+                {imgSrc && <img src={imgSrc} alt={title} style={styles.image}/>}
                 <Typography>{description}</Typography>
             </Stack>
         </Card>
@@ -53,7 +52,7 @@ const ProjectCard = ({ title, imgSrc, description, link }) => {
 };
 
 const ProjectsPage = () => {
-    const { t } = useTranslation();
+    const {t} = useTranslation();
 
     const projectsData = [
         {
@@ -154,22 +153,22 @@ const ProjectsPage = () => {
     ];
 
     return (
-        <div style={{ padding: '2rem' }}>
+        <div style={{padding: '2rem'}}>
             {projectsData.map((group) => (
                 <Accordion key={group.id}>
                     <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
+                        expandIcon={<ExpandMoreIcon/>}
                         aria-controls={`${group.id}-content`}
                         id={`${group.id}-header`}
                     >
-                        <GroupDisplayer iconSrc={group.image} altText={group.id} name={group.name} />
+                        <GroupDisplayer iconSrc={group.image} altText={group.id} name={group.name}/>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Stack
-                            spacing={{ xs: 1, sm: 2 }}
+                            spacing={{xs: 1, sm: 2}}
                             direction="row"
                             useFlexGap
-                            sx={{ flexWrap: 'wrap' }}
+                            sx={{flexWrap: 'wrap'}}
                             alignItems="flex-start"
                         >
                             {group.projects.map((project, index) => (

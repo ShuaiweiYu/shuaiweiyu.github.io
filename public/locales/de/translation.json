@@ -1,0 +1,247 @@
+{
+  "navBar": {
+    "projects": "Projekte",
+    "contact": "Kontakt",
+    "title": "Seite von Shaiwei"
+  },
+  "home": {
+    "video": "Ihr Browser unterstützt das Video-Tag nicht.",
+    "greeting": "Schön, Sie kennenzulernen!",
+    "aboutMe1": "Über mich—Shuaiwei Yu",
+    "aboutMe2": "Ich komme aus einer kleinen Stadt in Zhejiang—Xinchang, bekannt für ihre grünen Berge und klaren Gewässer. Wenn Sie die Gelegenheit haben, besuchen Sie sie unbedingt!",
+    "aboutMe3": "Ich habe meine Grundausbildung in China abgeschlossen und Deutschland als meinen nächsten Schritt gewählt. In München (meiner zweiten Heimat 🤣) habe ich meinen Bachelor- und Masterabschluss in Informatik gemacht.",
+    "aboutMe4": "Ich bin jetzt bereit, das Gelernte anzuwenden, um etwas Cooles zu schaffen!",
+    "myStudies": "Mein Studium",
+    "myInternships": "Meine Praktika",
+    "funFacts": "Interessante Fakten über mich",
+    "programmingSkills": "Programmierfähigkeiten",
+    "languagesSpoken": "Welche Sprachen spreche ich?",
+    "myHobbies": "Was mache ich gerne?"
+  },
+  "itemCards": {
+    "tumMaster": {
+      "type": "Master of Science",
+      "university": "Technische Universität München",
+      "degree": "Wirtschaftsinformatik",
+      "description": "Das Masterstudium Wirtschaftsinformatik konzentriert sich auf die Gestaltung, Implementierung und Analyse komplexer Systeme und kombiniert Informatik und Management. Ziel ist es, die Studierenden darauf vorzubereiten, die digitale Transformation voranzutreiben und datenbasierte Lösungen für Managemententscheidungen zu entwickeln. Zu den Schwerpunkten in der Informatik gehören maschinelles Lernen, Deep Learning und die Entwicklung fortschrittlicher Geschäftsanwendungen.",
+      "duration": "2023 - 2025",
+      "link": "https://www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-master-of-science-msc"
+    },
+    "tumBachelor": {
+      "type": "Bachelor of Science",
+      "university": "Technische Universität München",
+      "degree": "Informatik - Wirtschaftsinformatik",
+      "description": "Der Bachelorstudiengang Wirtschaftsinformatik an der TUM kombiniert Informatik und Betriebswirtschaftslehre und konzentriert sich auf die Anwendung von IKT in Wirtschaft und Management. Kurse umfassen Geschäftsprozessdesign, innovative Systementwicklung und Entscheidungsunterstützung. Zu den informatikbezogenen Themen gehören Einführung in die Informatik, Algorithmen und Datenstrukturen, Softwareentwicklung, Datenbanken und Computernetze. Das wirtschaftswissenschaftliche Curriculum umfasst Makro-/Mikroökonomie, Rechnungswesen und Ökonometrie.",
+      "duration": "2020 - 2023",
+      "link": "https://www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-bachelor-of-science-bsc"
+    },
+    "studienkolleg": {
+      "type": "Studienkolleg",
+      "university": "Bayerisches Studienkolleg",
+      "degree": "Vorbereitungskurs",
+      "description": "Das deutsche Studienkolleg bietet ausländischen Studierenden, die in Deutschland studieren möchten, Sprach- und akademische Vorbereitungskurse. Es umfasst Pflichtfächer, die dem 13. Schuljahr des deutschen Gymnasiums entsprechen. Absolventen legen die Feststellungsprüfung (FSP) ab, um eine Hochschulzugangsberechtigung zu erhalten.",
+      "duration": "2019 - 2020",
+      "link": "https://xn--studienkolleg-mnchen-3ec.de/"
+    },
+    "lego": {
+      "type": "Full-Stack-Entwickler Praktikant",
+      "university": "LEGO Gruppe",
+      "degree": "",
+      "description": "Die LEGO Gruppe ist ein weltweit bekannter Spielzeughersteller. Während meiner Zeit in der Abteilung für digitale Fertigung arbeitete ich an einem neuen Greenfield-Projekt, das darauf abzielte, die Automatisierung in Fertigungswerkstätten zu maximieren, Arbeitskosten zu senken, die Montagegenauigkeit zu verbessern und den Umweltschutz zu fördern.",
+      "duration": "April 2024 - September 2024",
+      "link": "https://www.lego.com/de-de/aboutus/lego-group"
+    },
+    "lexcom": {
+      "type": "Full-Stack-Entwickler Praktikant",
+      "university": "LexCom Informationssysteme",
+      "degree": "",
+      "description": "LexCom Informationssysteme ist ein Hidden Champion in Europas Aftermarket-Plattformen für die Automobilindustrie. Das Partslink24-Portal wird in nahezu allen Autowerkstätten Europas genutzt. Ich habe mehrere Full-Stack- und Back-End-Mikrodienste unabhängig entwickelt, die die Plattformfunktionalität und Benutzerfreundlichkeit verbessert haben.",
+      "duration": "September 2023 - Dezember 2024",
+      "link": "https://www.lexcom.de/home/en/what-we-do.html"
+    },
+    "bmw": {
+      "type": "Projektmanagement Praktikant",
+      "university": "BMW Gruppe",
+      "degree": "",
+      "description": "Die BMW Gruppe ist ein weltweit führender Hersteller von Premium-Automobilen. Während meines Praktikums arbeitete ich an der Migration des BMW In-Car-App-Stores von Linux auf Android. Ich war verantwortlich für die Qualitätstests neuer Apps im Store und entwickelte interne Tools zur Prüfung der Funktionalität und Stabilität neuer In-Car-Systeme.",
+      "duration": "August 2022 - Dezember 2022",
+      "link": "https://www.bmwgroup.com/en.html"
+    }
+  },
+  "iconCards": {
+    "java": {
+      "type": "Programmiersprache",
+      "text": "Java",
+      "description": "Ich war noch nie auf der Insel Java."
+    },
+    "python": {
+      "type": "Programmiersprache",
+      "text": "Python",
+      "description": "Python bezieht sich auf eine ungiftige Schlangenart."
+    },
+    "javascript": {
+      "type": "Programmiersprache",
+      "text": "JavaScript",
+      "description": "Eine Sprache, die von Javas Popularität profitiert."
+    },
+    "springboot": {
+      "type": "Framework",
+      "text": "SpringBoot",
+      "description": "Es gibt immer etwas Neues zu lernen."
+    },
+    "react": {
+      "type": "Framework",
+      "text": "React.js",
+      "description": "Diese Webseite wurde tatsächlich mit React entwickelt."
+    },
+    "git": {
+      "type": "Versionskontrolle",
+      "text": "Git",
+      "description": "Lass uns git blame ansehen."
+    },
+    "mongo": {
+      "type": "Datenbank",
+      "text": "Mongo DB",
+      "description": "Keine Sorge um das Design von Tabellen."
+    },
+    "mysql": {
+      "type": "Datenbank",
+      "text": "MySQL",
+      "description": ""
+    },
+    "kafka": {
+      "type": "Middleware",
+      "text": "Kafka",
+      "description": "Kafka war eigentlich ein Schriftsteller aus Österreich-Ungarn."
+    },
+    "aws": {
+      "type": "Cloud-Dienst",
+      "text": "AWS",
+      "description": "Ein sicherer Weg, um das Konto zu leeren."
+    },
+    "german": {
+      "type": "Sprache",
+      "text": "Deutsch",
+      "description": "Fließende Kommunikation."
+    },
+    "english": {
+      "type": "Sprache",
+      "text": "Englisch",
+      "description": "Fließende Kommunikation."
+    },
+    "chinese": {
+      "type": "Sprache",
+      "text": "Chinesisch",
+      "description": "Muttersprache."
+    },
+    "reading": {
+      "type": "Hobby",
+      "text": "Lesen",
+      "description": "Die Bücher, die ich gelesen habe, sind höher als ich."
+    },
+    "movies": {
+      "type": "Hobby",
+      "text": "Filme schauen",
+      "description": "Natürlich schaue ich auch Blockbuster."
+    },
+    "traveling": {
+      "type": "Hobby",
+      "text": "Reisen",
+      "description": "Ich habe bereits drei Kontinente besucht."
+    },
+    "hiking": {
+      "type": "Hobby",
+      "text": "Wandern",
+      "description": "Süddeutschland ist ein Wanderparadies."
+    },
+    "gaming": {
+      "type": "Hobby",
+      "text": "Spiele spielen",
+      "description": "Keine PlayStation in den großen Drei."
+    }
+  },
+  "projectsPage": {
+    "lego": {
+      "name": "LEGO Gruppe",
+      "projects": {
+        "receipeEditor": {
+          "title": "Rezept-Editor",
+          "description": "Designer können mit Drag-and-Drop schnell Layouts für Spielzeugverpackungen in einer Webanwendung erstellen und in einer Datenbank für zukünftige Bearbeitungen oder Verfeinerungen speichern. Die App bietet auch ein Dashboard zum Suchen und Filtern von Layouts. Diese Layouts werden schließlich in automatisierten Fertigungsstraßen eingesetzt."
+        },
+        "plcConnect": {
+          "title": "PLC Connect",
+          "description": "In LEGO-Fabriken gibt es zahlreiche industrielle SPS. PLC Connect kann mit verschiedenen SPS verbunden werden, um Daten zu lesen/schreiben. Das Tool überwacht auch den Status der SPS und ändert deren Anweisungen."
+        }
+      }
+    },
+    "lexcom": {
+      "name": "LexCom Informationssysteme",
+      "projects": {
+        "pl24Upload": {
+          "title": "PL24-Upload",
+          "description": "Autoreparaturwerkstätten können Bestellungen mit einer Web-App scannen oder hochladen. Der Server verarbeitet Bestellungen mit einem OCR-Dienst und fügt die benötigten Teile automatisch in den Warenkorb der Werkstatt ein."
+        },
+        "pl24Bidata": {
+          "title": "PL24-Bidata",
+          "description": "Dieser Mikrodienst erfasst das Nutzerverhalten in der Web-App und sendet die Daten über Kafka-Middleware an das interne Big-Data-System des Unternehmens, das die Daten verarbeitet und analysiert, um die Benutzererfahrung zu verbessern."
+        },
+        "pl24DealerMonitor": {
+          "title": "PL24-DealerMonitor",
+          "description": "PL24-DealerMonitor überwacht den Bestellstatus verschiedener Händler im Partslink24-Portal. Wenn Bestellungen nicht rechtzeitig bearbeitet werden, benachrichtigt es die Händler, um eine rechtzeitige Bearbeitung sicherzustellen."
+        }
+      }
+    },
+    "bmw": {
+      "name": "BMW Gruppe",
+      "projects": {
+        "bmwNews": {
+          "title": "BMW News",
+          "description": "BMW News ist ein auf Android basierendes Prototyp für eine In-Car-App zur Nachrichtenaggregation, das den Google News API-Dienst verwendet. Benutzer können nach den neuesten Nachrichten suchen und diese durchsuchen."
+        }
+      }
+    },
+    "tum": {
+      "name": "Universitätsprojekte",
+      "projects": {
+        "bpmnGeneration": {
+          "title": "Verbesserte Methoden zur Generierung von Geschäftsprozessmodellen aus natürlichem Sprachtext",
+          "description": "Business Process Model and Notation (BPMN) ist entscheidend für die Strukturierung und Visualisierung von Prozessen und verbessert die Arbeitsabläufe eines Unternehmens. Das Erstellen von BPMN-Modellen erfordert jedoch häufig Fachwissen und ist zeitaufwendig. Diese Studie diskutiert, wie BPMN-Modelle mit Python und der spaCy-Bibliothek mit verbesserter Erkennungsgenauigkeit generiert werden können."
+        },
+        "predictiveProcessMonitoring": {
+          "title": "Forschung und Entwicklung im Bereich Predictive Process Monitoring",
+          "description": "Predictive Process Monitoring (PPM) gewinnt in Industrie und Wissenschaft zunehmend an Bedeutung. Diese Studie überprüft 32 relevante Arbeiten aus 263 Artikeln zwischen 2018 und 2022 und zeigt aktuelle Forschungstrends und Lücken auf."
+        },
+        "bamlAnalyticsCup": {
+          "title": "BAML-Business Analytics Cup",
+          "description": "Der BAML-Business Analytics Cup ist ein Projekt des Business Analytics and Machine Learning-Kurses der TUM in Zusammenarbeit mit Siemens. Ziel des Projekts ist die Vorhersage von Kaufentscheidungen potenzieller Kunden mithilfe eines Random-Forest-Modells, das für seine Geschwindigkeit und Genauigkeit bekannt ist."
+        }
+      }
+    },
+    "personal": {
+      "name": "Persönliche Projekte",
+      "projects": {
+        "focusList": {
+          "title": "Aufgabenliste",
+          "description": "Eine front-end Aufgabenlisten-Webseite, die mit Vue.js erstellt wurde. Die App unterstützt auch einen Pomodoro-Timer, um Benutzern zu helfen, Aufgaben effizient zu erledigen. Details: https://shuaiweiyu.github.io/focuslist/"
+        },
+        "emojiDiary": {
+          "title": "Emoji-Tagebuch",
+          "description": "Emoji Diary ist eine Tagebuch-iOS-App. Benutzer können das tägliche Leben mit Emojis, einfachen Beschreibungen und mehreren Fotos aufzeichnen. Die App unterstützt auch das Teilen über iCloud."
+        },
+        "volMe": {
+          "title": "VolMe",
+          "description": "VolMe ist ein Freiwilligenmanagementsystem. Die Plattform hilft Organisationen, Freiwillige und Aktivitäten zu verwalten, und unterstützt Funktionen wie Bewertungen/Feedback, Chat, Aktivitätsmanagement und Check-ins."
+        }
+      }
+    }
+  },
+  "contactPage": {
+    "title": "Kontaktinformation",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "E-Mail",
+    "wechat": "WeChat",
+    "instagram": "Instagram",
+    "xiaohongshu": "Xiaohongshu"
+  }
+}

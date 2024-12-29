@@ -7,18 +7,18 @@ import ProjectsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
 
 function App() {
-  return (
-      <Box>
-          <MyAppBar />
-          <Routes>
-              <Route path="/" element={<Layout />}>
-                  <Route index element={<HomePage />} />
-                  <Route path="projects" element={<ProjectsPage />} />
-                  <Route path="contact" element={<ContactPage />} />
-              </Route>
-          </Routes>
-      </Box>
-  );
+    return (
+        <Box>
+            <MyAppBar/>
+            <Routes>
+                <Route path="/" element={<Layout/>}>
+                    <Route index element={<HomePage/>}/>
+                    <Route path="projects" element={<ProjectsPage/>}/>
+                    <Route path="contact" element={<ContactPage/>}/>
+                </Route>
+            </Routes>
+        </Box>
+    );
 }
 
 export default App;

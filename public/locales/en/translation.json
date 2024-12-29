@@ -1,3 +1,247 @@
 {
-    "test": "this is a test"
+  "navBar": {
+    "projects": "Projects",
+    "contact": "Contact",
+    "title": "Shuaiwei's Page"
+  },
+  "home": {
+    "video": "Your browser does not support the video tag.",
+    "greeting": "Nice to meet you!",
+    "aboutMe1": "About Me—Shuaiwei Yu",
+    "aboutMe2": "I come from a small county in Zhejiang—Xinchang, known for its green mountains and clear waters. If you have a chance, be sure to visit!",
+    "aboutMe3": "I completed my basic education in China and chose Germany as my next stop. In Munich (my second hometown 🤣), I pursued undergraduate and master's degrees in computer science.",
+    "aboutMe4": "I am now ready to use what I have learned to create something cool!",
+    "myStudies": "My Studies",
+    "myInternships": "My Internships",
+    "funFacts": "Fun Facts About Me",
+    "programmingSkills": "Programming Skills",
+    "languagesSpoken": "Languages I Speak",
+    "myHobbies": "What I Enjoy Doing"
+  },
+  "itemCards": {
+    "tumMaster": {
+      "type": "Master of Science",
+      "university": "Technical University of Munich",
+      "degree": "Information Systems",
+      "description": "The Master's program in Information Systems focuses on the design, implementation, and analysis of complex systems, combining computer science and management. It aims to train students to drive digital transformation and develop data-based solutions for managerial decisions. Key computer science subjects include machine learning, deep learning, and advanced business software development.",
+      "duration": "2023 - 2025",
+      "link": "https://www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-master-of-science-msc"
+    },
+    "tumBachelor": {
+      "type": "Bachelor of Science",
+      "university": "Technical University of Munich",
+      "degree": "Informatics - Information Systems",
+      "description": "The Bachelor's program in Information Systems at TUM combines computer science and business administration, focusing on the application of ICT in business and management. Courses include business process design, innovative system development, and decision support. Computer science topics cover introductions to computing, algorithms, data structures, software engineering, databases, and computer networks. The economics curriculum includes macro/microeconomics, accounting, and econometrics.",
+      "duration": "2020 - 2023",
+      "link": "https://www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-bachelor-of-science-bsc"
+    },
+    "studienkolleg": {
+      "type": "Preparatory Course",
+      "university": "Bavarian State Studienkolleg",
+      "degree": "Preparatory Program",
+      "description": "German Studienkolleg provides preparatory courses for international students planning to study in Germany. It covers mandatory subjects equivalent to the 13th grade of German high school. Graduates take the Feststellungsprüfung (FSP) to gain university entrance qualifications.",
+      "duration": "2019 - 2020",
+      "link": "https://xn--studienkolleg-mnchen-3ec.de/"
+    },
+    "lego": {
+      "type": "Full-stack Developer Intern",
+      "university": "LEGO Group",
+      "degree": "",
+      "description": "The LEGO Group is a world-renowned toy manufacturer. During my time in the Digital Manufacturing department, I worked on a new greenfield project aimed at maximizing automation in manufacturing workshops, reducing labor costs, improving assembly accuracy, and promoting environmental sustainability.",
+      "duration": "April 2024 - September 2024",
+      "link": "https://www.lego.com/de-de/aboutus/lego-group"
+    },
+    "lexcom": {
+      "type": "Full-stack Developer Intern",
+      "university": "LexCom Information Systems",
+      "degree": "",
+      "description": "LexCom Information Systems is a hidden champion in Europe's automotive aftermarket platforms. Its Partslink24 portal is widely used in auto repair shops across Europe. I independently developed several full-stack/back-end microservices, enhancing platform functionality and user experience.",
+      "duration": "September 2023 - December 2024",
+      "link": "https://www.lexcom.de/home/en/what-we-do.html"
+    },
+    "bmw": {
+      "type": "Project Management Intern",
+      "university": "BMW Group",
+      "degree": "",
+      "description": "BMW Group is a global leader in premium automotive manufacturing. During my internship, I worked on the migration of BMW's in-car app store from Linux to Android. I was responsible for quality testing of new apps in the store and developed internal tools to test the functionality and stability of the new in-car systems.",
+      "duration": "August 2022 - December 2022",
+      "link": "https://www.bmwgroup.com/en.html"
+    }
+  },
+  "iconCards": {
+    "java": {
+      "type": "Programming Language",
+      "text": "Java",
+      "description": "I've never been to Java Island."
+    },
+    "python": {
+      "type": "Programming Language",
+      "text": "Python",
+      "description": "Python refers to a non-venomous snake."
+    },
+    "javascript": {
+      "type": "Programming Language",
+      "text": "JavaScript",
+      "description": "A language riding on Java's popularity."
+    },
+    "springboot": {
+      "type": "Framework",
+      "text": "SpringBoot",
+      "description": "Always something new to learn."
+    },
+    "react": {
+      "type": "Framework",
+      "text": "React.js",
+      "description": "This webpage was actually built with React."
+    },
+    "git": {
+      "type": "Version Control",
+      "text": "Git",
+      "description": "Let's check git blame."
+    },
+    "mongo": {
+      "type": "Database",
+      "text": "Mongo DB",
+      "description": "No need to worry about table design."
+    },
+    "mysql": {
+      "type": "Database",
+      "text": "MySQL",
+      "description": ""
+    },
+    "kafka": {
+      "type": "Middleware",
+      "text": "Kafka",
+      "description": "Kafka was actually an Austro-Hungarian writer."
+    },
+    "aws": {
+      "type": "Cloud Service",
+      "text": "AWS",
+      "description": "A surefire way to empty your wallet."
+    },
+    "german": {
+      "type": "Language",
+      "text": "German",
+      "description": "Fluent communication."
+    },
+    "english": {
+      "type": "Language",
+      "text": "English",
+      "description": "Fluent communication."
+    },
+    "chinese": {
+      "type": "Language",
+      "text": "Chinese",
+      "description": "Native language."
+    },
+    "reading": {
+      "type": "Hobby",
+      "text": "Reading",
+      "description": "The books I've read stack taller than me."
+    },
+    "movies": {
+      "type": "Hobby",
+      "text": "Watching Movies",
+      "description": "Of course, I enjoy blockbusters too."
+    },
+    "traveling": {
+      "type": "Hobby",
+      "text": "Traveling",
+      "description": "I've visited three continents so far."
+    },
+    "hiking": {
+      "type": "Hobby",
+      "text": "Hiking",
+      "description": "Southern Germany is a hiking paradise."
+    },
+    "gaming": {
+      "type": "Hobby",
+      "text": "Gaming",
+      "description": "No PlayStation in the big three."
+    }
+  },
+  "projectsPage": {
+    "lego": {
+      "name": "LEGO Group",
+      "projects": {
+        "receipeEditor": {
+          "title": "Recipe Editor",
+          "description": "Designers can quickly create layouts for toy packaging using drag-and-drop operations in a web application, storing them in a database for future editing or refinement. The app also provides a dashboard for searching and filtering layouts. These layouts are eventually used in automated factory robotic production lines."
+        },
+        "plcConnect": {
+          "title": "PLC Connect",
+          "description": "LEGO factories house numerous industrial PLCs. PLC Connect can interface with different PLCs to read/write data. The tool also monitors PLC statuses and modifies their instructions."
+        }
+      }
+    },
+    "lexcom": {
+      "name": "LexCom Information Systems",
+      "projects": {
+        "pl24Upload": {
+          "title": "PL24-Upload",
+          "description": "Auto repair shops can scan or upload orders using a web app. The server processes orders through an OCR service, automatically adding required parts to the shop's cart."
+        },
+        "pl24Bidata": {
+          "title": "PL24-Bidata",
+          "description": "This microservice captures user behavior on the web app and sends data via Kafka middleware to the company's internal big data system for processing and analysis to enhance user experience."
+        },
+        "pl24DealerMonitor": {
+          "title": "PL24-DealerMonitor",
+          "description": "PL24-DealerMonitor monitors order statuses across different dealers on the Partslink24 portal. If orders are not processed promptly, it notifies dealers to ensure timely handling."
+        }
+      }
+    },
+    "bmw": {
+      "name": "BMW Group",
+      "projects": {
+        "bmwNews": {
+          "title": "BMW News",
+          "description": "BMW News is an Android-based in-car app prototype for news aggregation, utilizing Google's News API service. Users can search and browse the latest news of interest."
+        }
+      }
+    },
+    "tum": {
+      "name": "University Projects",
+      "projects": {
+        "bpmnGeneration": {
+          "title": "Improved Methods for Generating Business Process Models from Natural Language Text",
+          "description": "Business Process Model and Notation (BPMN) is crucial for structuring and visualizing processes, improving company workflows. However, creating BPMN models often requires expertise and is time-consuming. This study discusses how to generate BPMN models using Python and the spaCy library with improved recognition accuracy."
+        },
+        "predictiveProcessMonitoring": {
+          "title": "Research and Development in Predictive Process Monitoring",
+          "description": "Predictive Process Monitoring (PPM) is gaining traction in industry and academia. This study reviews 32 relevant papers out of 263 between 2018 and 2022, revealing current research trends and gaps."
+        },
+        "bamlAnalyticsCup": {
+          "title": "BAML Business Analytics Cup",
+          "description": "The BAML Business Analytics Cup is a project of TUM's Business Analytics and Machine Learning course in collaboration with Siemens. The project's goal is to predict potential customers' purchasing decisions using a Random Forest model, known for its speed and accuracy."
+        }
+      }
+    },
+    "personal": {
+      "name": "Personal Projects",
+      "projects": {
+        "focusList": {
+          "title": "Task List",
+          "description": "A front-end task list webpage built with Vue.js. The app also supports a Pomodoro timer to help users complete tasks efficiently. Details: https://shuaiweiyu.github.io/focuslist/"
+        },
+        "emojiDiary": {
+          "title": "Emoji Diary",
+          "description": "Emoji Diary is a diary iOS app. Users can record daily life using emojis, simple descriptions, and multiple photos. The app also supports sharing via iCloud."
+        },
+        "volMe": {
+          "title": "VolMe",
+          "description": "VolMe is a volunteer management system. The platform helps organizations manage volunteers and activities, supporting features like rating/feedback, chat, activity management, and check-ins."
+        }
+      }
+    }
+  },
+  "contactPage": {
+    "title": "Contact Information",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email",
+    "wechat": "WeChat",
+    "instagram": "Instagram",
+    "xiaohongshu": "Xiaohongshu"
+  }
 }

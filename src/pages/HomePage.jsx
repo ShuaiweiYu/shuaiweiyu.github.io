@@ -17,8 +17,8 @@ const IconCard = ({type, iconSrc, altText, text, description}) => (
             >
                 <Box
                     sx={{
-                        width: { xs: '20px', sm: '24px', md: '36px' },
-                        height: { xs: '20px', sm: '24px', md: '36px' },
+                        width: {xs: '20px', sm: '24px', md: '36px'},
+                        height: {xs: '20px', sm: '24px', md: '36px'},
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
@@ -28,7 +28,7 @@ const IconCard = ({type, iconSrc, altText, text, description}) => (
                 </Box>
                 <Stack spacing={0}>
                     <Typography
-                        sx={{fontSize: { xs: 8, sm: 10, md: 12 }, textAlign: 'left'}}
+                        sx={{fontSize: {xs: 8, sm: 10, md: 12}, textAlign: 'left'}}
                         color="text.secondary"
                         gutterBottom
                     >
@@ -37,7 +37,7 @@ const IconCard = ({type, iconSrc, altText, text, description}) => (
                     <Typography
                         variant="h6"
                         component="div"
-                        sx={{fontSize: { xs: 12, sm: 14, md: 16 }, textAlign: 'left', fontWeight: 600}}
+                        sx={{fontSize: {xs: 12, sm: 14, md: 16}, textAlign: 'left', fontWeight: 600}}
                     >
                         {text}
                     </Typography>
@@ -61,13 +61,13 @@ const ItemCard = ({type, iconSrc, altText, university, degree, description, dura
     <Card variant="outlined" sx={{minWidth: 200, width: '100%'}}>
         <CardContent>
             <Stack
-                direction={{ xs: 'column', sm: 'row' }}
+                direction={{xs: 'column', sm: 'row'}}
                 spacing={1}
                 alignItems="center"
             >
                 <Box
                     sx={{
-                        height: { xs: '40px', sm: '40px', md: '40px' },
+                        height: {xs: '40px', sm: '40px', md: '40px'},
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
@@ -76,14 +76,14 @@ const ItemCard = ({type, iconSrc, altText, university, degree, description, dura
                     <img src={iconSrc} alt={altText} style={styles.icon}/>
                 </Box>
                 <Stack spacing={0}>
-                    <Stack 
-                        direction="row" 
-                        spacing={0} 
+                    <Stack
+                        direction="row"
+                        spacing={0}
                     >
                         <Typography
-                        variant="h6"
-                        component="div"
-                        sx={{fontSize: { xs: 18, sm: 18, md: 20 }, textAlign: 'left', fontWeight: 600}}
+                            variant="h6"
+                            component="div"
+                            sx={{fontSize: {xs: 18, sm: 18, md: 20}, textAlign: 'left', fontWeight: 600}}
                         >
                             {university}
                         </Typography>
@@ -94,14 +94,14 @@ const ItemCard = ({type, iconSrc, altText, university, degree, description, dura
                                 onClick={() => window.open(link, '_blank')}
                                 aria-label="open-link"
                             >
-                                <OpenInNewIcon fontSize="small" />
+                                <OpenInNewIcon fontSize="small"/>
                             </IconButton>
                         )}
                     </Stack>
-                    <Stack 
-                        direction={{ xs: 'column', sm: 'row' }}
-                        spacing={{ xs: 0, sm: 2, md: 2 }}
-                        sx={{fontSize: { xs: 14, sm: 14, md: 16 }, textAlign: 'left'}}
+                    <Stack
+                        direction={{xs: 'column', sm: 'row'}}
+                        spacing={{xs: 0, sm: 2, md: 2}}
+                        sx={{fontSize: {xs: 14, sm: 14, md: 16}, textAlign: 'left'}}
                     >
                         <Typography color="text.secondary" sx={{fontSize: 'inherit'}}>
                             {degree}
@@ -218,7 +218,7 @@ const HomePage = () => {
                                     {t("home.aboutMe3")}
                                 </Typography>
                                 <Typography variant="body1" paragraph>
-                                    {t("home.aboutMe4")}    
+                                    {t("home.aboutMe4")}
                                 </Typography>
                             </Grid>
                         </Grid>

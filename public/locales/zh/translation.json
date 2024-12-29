@@ -1,161 +1,166 @@
 {
-    "home": {
-        "video": "您的浏览器不支持 video 标签。",
-        "greeting": "很高兴认识你！",
-        "aboutMe1": "关于我—俞帅威",
-        "aboutMe2": "我来自浙江的一个小县城——新昌县，那里青山绿水，如果有机会的话请一定去看看！",
-        "aboutMe3": "我在中国完成了我的基础教育，然后选择了德国作为我的下一站。在慕尼黑（我的第二故乡🤣），我在这里攻读了计算机的本科和硕士学位",
-        "aboutMe4": "我现在准备好了运用我所学到的知识，创造一点很酷的东西！",
-        "myStudies": "我的学业",
-        "myInternships": "我的实习",
-        "funFacts": "关于我的趣闻",
-        "programmingSkills": "编程技能",
-        "languagesSpoken": "我会说什么语言？",
-        "myHobbies": "我喜欢干什么？"
+  "navBar": {
+    "projects": "我的项目",
+    "contact": "联系方式",
+    "title": "俞帅威的页面"
+  },
+  "home": {
+    "video": "您的浏览器不支持 video 标签。",
+    "greeting": "很高兴认识你！",
+    "aboutMe1": "关于我—俞帅威",
+    "aboutMe2": "我来自浙江的一个小县城——新昌县，那里青山绿水，如果有机会的话请一定去看看！",
+    "aboutMe3": "我在中国完成了我的基础教育，然后选择了德国作为我的下一站。在慕尼黑（我的第二故乡🤣），我在这里攻读了计算机的本科和硕士学位",
+    "aboutMe4": "我现在准备好了运用我所学到的知识，创造一点很酷的东西！",
+    "myStudies": "我的学业",
+    "myInternships": "我的实习",
+    "funFacts": "关于我的趣闻",
+    "programmingSkills": "编程技能",
+    "languagesSpoken": "我会说什么语言？",
+    "myHobbies": "我喜欢干什么？"
+  },
+  "itemCards": {
+    "tumMaster": {
+      "type": "理学硕士",
+      "university": "慕尼黑工业大学",
+      "degree": "信息系统",
+      "description": "信息系统硕士项目专注于设计、实现和分析复杂系统，同时融合计算机科学与管理。旨在培养学生推动数字化转型，并为管理决策开发基于数据的解决方案。学科中计算机领域的重点包含了机器学习，深度学习以及高级商业软件的开发。",
+      "duration": "2023 - 2025",
+      "link": "https://www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-master-of-science-msc"
     },
-    "itemCards": {
-        "tumMaster": {
-            "type": "理学硕士",
-            "university": "慕尼黑工业大学",
-            "degree": "信息系统",
-            "description": "信息系统硕士项目专注于设计、实现和分析复杂系统，同时融合计算机科学与管理。旨在培养学生推动数字化转型，并为管理决策开发基于数据的解决方案。学科中计算机领域的重点包含了机器学习，深度学习以及高级商业软件的开发。",
-            "duration": "2023 - 2025",
-            "link": "https://www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-master-of-science-msc"
-        },
-        "tumBachelor": {
-            "type": "理学学士",
-            "university": "慕尼黑工业大学",
-            "degree": "计算机类-经济信息",
-            "description": "慕尼黑工业大学的经济信息本科项目结合了计算机科学和工商管理，重点关注信息通信技术在商业和管理中的应用。课程涵盖业务流程设计、创新系统开发和决策支持，塑造未来的信息社会。在计算机方面的课程包含计算机导论，算法与数据结构，软件工程，数据库导论，计算机网络等等。在经济方向的培养包含了宏观/微观经济学，会计学，以及计量经济学等",
-            "duration": "2020 - 2023",
-            "link": "https://www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-bachelor-of-science-bsc"
-        },
-        "studienkolleg": {
-            "type": "预科",
-            "university": "巴伐利亚州立预科",
-            "degree": "预科课程",
-            "description": "德国预科给想在德国深造的外国学生提供了语言和学术上的准备课程。预科课程涵盖了德国高中第十三年级的必修课程。学生在最后要参加一项州立预科毕业考试——Feststellungsprüfung (FSP)，取得考试成绩的毕业生能获得等同于德国高考证书的资历",
-            "duration": "2019 - 2020",
-            "link": "https://xn--studienkolleg-mnchen-3ec.de/"
-        },
-        "lego": {
-            "type": "全栈开发实习生",
-            "university": "乐高集团",
-            "degree": "",
-            "description": "乐高集团是世界著名的玩具制造商。我在职期间就职于数字化制造部门的新的绿地项目，该项目的目的是最大程度的挖掘制造车间中的自动化程度，减少人力成本，提高装配的准确性以及促进环境保护。",
-            "duration": "2024年4月 - 2024年9月",
-            "link": "https://www.lego.com/de-de/aboutus/lego-group"
-        },
-        "lexcom": {
-            "type": "全栈开发实习生",
-            "university": "LexCom信息系统",
-            "degree": "",
-            "description": "LexCom信息系统是欧洲汽车售后平台的隐形冠军，我们的门户汽车零件销售平台Partslink24在欧洲几乎所有国家的汽车修理厂中被广为使用。我在职期间独立开发了多款全栈/后端微服务，提升了平台的功能性，改善了用户的使用体验。",
-            "duration": "2023年9月 - 2024年12月",
-            "link": "https://www.lexcom.de/home/en/what-we-do.html"
-        },
-        "bmw": {
-            "type": "项目管理实习生",
-            "university": "宝马集团",
-            "degree": "",
-            "description": "宝马集团是全球领先的高端汽车制造商，我任职于宝马期间正处于宝马车载应用商场从Linux架构向安卓架构迁移的时候。我主要负责迁移商店中的新应用的质量检测，测试等；同时我也负责开发了多个内部测试软件用于测试新车载系统的功能性和稳定性。",
-            "duration": "2022年8月 - 2022年12月",
-            "link": "https://www.bmwgroup.com/en.html"
-        }
+    "tumBachelor": {
+      "type": "理学学士",
+      "university": "慕尼黑工业大学",
+      "degree": "计算机类-经济信息",
+      "description": "慕尼黑工业大学的经济信息本科项目结合了计算机科学和工商管理，重点关注信息通信技术在商业和管理中的应用。课程涵盖业务流程设计、创新系统开发和决策支持，塑造未来的信息社会。在计算机方面的课程包含计算机导论，算法与数据结构，软件工程，数据库导论，计算机网络等等。在经济方向的培养包含了宏观/微观经济学，会计学，以及计量经济学等",
+      "duration": "2020 - 2023",
+      "link": "https://www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-bachelor-of-science-bsc"
     },
-    "iconCards": {
-        "java": {
-            "type": "编程语言",
-            "text": "Java",
-            "description": "我从未去过Java岛"
-        },
-        "python": {
-            "type": "编程语言",
-            "text": "Python",
-            "description": "Python指的是一种无毒的蛇类"
-        },
-        "javascript": {
-            "type": "编程语言",
-            "text": "JavaScript",
-            "description": "蹭Java热度的语言"
-        },
-        "springboot": {
-            "type": "框架",
-            "text": "SpringBoot",
-            "description": "总是能学到新东西"
-        },
-        "react": {
-            "type": "框架",
-            "text": "React.js",
-            "description": "这个网页实际上是用React开发的"
-        },
-        "git": {
-            "type": "版本控制",
-            "text": "Git",
-            "description": "我来瞧瞧git blame"
-        },
-        "mongo": {
-            "type": "数据库",
-            "text": "Mongo DB",
-            "description": "根本不需要考虑怎么设计表"
-        },
-        "mysql": {
-            "type": "数据库",
-            "text": "MySQL",
-            "description": ""
-        },
-        "kafka": {
-            "type": "中间件",
-            "text": "Kafka",
-            "description": "卡夫卡其实是奥匈帝国的作家"
-        },
-        "aws": {
-            "type": "云服务",
-            "text": "AWS",
-            "description": "钱包归零大法"
-        },
-        "german": {
-            "type": "语言",
-            "text": "德语",
-            "description": "无障碍沟通"
-        },
-        "english": {
-            "type": "语言",
-            "text": "英语",
-            "description": "无障碍沟通"
-        },
-        "chinese": {
-            "type": "语言",
-            "text": "中文",
-            "description": "母语"
-        },
-        "reading": {
-            "type": "爱好",
-            "text": "阅读",
-            "description": "看过的书加起来比我还高"
-        },
-        "movies": {
-            "type": "爱好",
-            "text": "看电影",
-            "description": "当然也看商业大片"
-        },
-        "traveling": {
-            "type": "爱好",
-            "text": "旅行",
-            "description": "去过三个大洲咯"
-        },
-        "hiking": {
-            "type": "爱好",
-            "text": "徒步",
-            "description": "德国南部是徒步天堂"
-        },
-        "gaming": {
-            "type": "爱好",
-            "text": "玩游戏",
-            "description": "御三家没有PS"
-        }
+    "studienkolleg": {
+      "type": "预科",
+      "university": "巴伐利亚州立预科",
+      "degree": "预科课程",
+      "description": "德国预科给想在德国深造的外国学生提供了语言和学术上的准备课程。预科课程涵盖了德国高中第十三年级的必修课程。学生在最后要参加一项州立预科毕业考试——Feststellungsprüfung (FSP)，取得考试成绩的毕业生能获得等同于德国高考证书的资历",
+      "duration": "2019 - 2020",
+      "link": "https://xn--studienkolleg-mnchen-3ec.de/"
     },
-    "projectsPage": {
+    "lego": {
+      "type": "全栈开发实习生",
+      "university": "乐高集团",
+      "degree": "",
+      "description": "乐高集团是世界著名的玩具制造商。我在职期间就职于数字化制造部门的新的绿地项目，该项目的目的是最大程度的挖掘制造车间中的自动化程度，减少人力成本，提高装配的准确性以及促进环境保护。",
+      "duration": "2024年4月 - 2024年9月",
+      "link": "https://www.lego.com/de-de/aboutus/lego-group"
+    },
+    "lexcom": {
+      "type": "全栈开发实习生",
+      "university": "LexCom信息系统",
+      "degree": "",
+      "description": "LexCom信息系统是欧洲汽车售后平台的隐形冠军，我们的门户汽车零件销售平台Partslink24在欧洲几乎所有国家的汽车修理厂中被广为使用。我在职期间独立开发了多款全栈/后端微服务，提升了平台的功能性，改善了用户的使用体验。",
+      "duration": "2023年9月 - 2024年12月",
+      "link": "https://www.lexcom.de/home/en/what-we-do.html"
+    },
+    "bmw": {
+      "type": "项目管理实习生",
+      "university": "宝马集团",
+      "degree": "",
+      "description": "宝马集团是全球领先的高端汽车制造商，我任职于宝马期间正处于宝马车载应用商场从Linux架构向安卓架构迁移的时候。我主要负责迁移商店中的新应用的质量检测，测试等；同时我也负责开发了多个内部测试软件用于测试新车载系统的功能性和稳定性。",
+      "duration": "2022年8月 - 2022年12月",
+      "link": "https://www.bmwgroup.com/en.html"
+    }
+  },
+  "iconCards": {
+    "java": {
+      "type": "编程语言",
+      "text": "Java",
+      "description": "我从未去过Java岛"
+    },
+    "python": {
+      "type": "编程语言",
+      "text": "Python",
+      "description": "Python指的是一种无毒的蛇类"
+    },
+    "javascript": {
+      "type": "编程语言",
+      "text": "JavaScript",
+      "description": "蹭Java热度的语言"
+    },
+    "springboot": {
+      "type": "框架",
+      "text": "SpringBoot",
+      "description": "总是能学到新东西"
+    },
+    "react": {
+      "type": "框架",
+      "text": "React.js",
+      "description": "这个网页实际上是用React开发的"
+    },
+    "git": {
+      "type": "版本控制",
+      "text": "Git",
+      "description": "我来瞧瞧git blame"
+    },
+    "mongo": {
+      "type": "数据库",
+      "text": "Mongo DB",
+      "description": "根本不需要考虑怎么设计表"
+    },
+    "mysql": {
+      "type": "数据库",
+      "text": "MySQL",
+      "description": ""
+    },
+    "kafka": {
+      "type": "中间件",
+      "text": "Kafka",
+      "description": "卡夫卡其实是奥匈帝国的作家"
+    },
+    "aws": {
+      "type": "云服务",
+      "text": "AWS",
+      "description": "钱包归零大法"
+    },
+    "german": {
+      "type": "语言",
+      "text": "德语",
+      "description": "无障碍沟通"
+    },
+    "english": {
+      "type": "语言",
+      "text": "英语",
+      "description": "无障碍沟通"
+    },
+    "chinese": {
+      "type": "语言",
+      "text": "中文",
+      "description": "母语"
+    },
+    "reading": {
+      "type": "爱好",
+      "text": "阅读",
+      "description": "看过的书加起来比我还高"
+    },
+    "movies": {
+      "type": "爱好",
+      "text": "看电影",
+      "description": "当然也看商业大片"
+    },
+    "traveling": {
+      "type": "爱好",
+      "text": "旅行",
+      "description": "去过三个大洲咯"
+    },
+    "hiking": {
+      "type": "爱好",
+      "text": "徒步",
+      "description": "德国南部是徒步天堂"
+    },
+    "gaming": {
+      "type": "爱好",
+      "text": "玩游戏",
+      "description": "御三家没有PS"
+    }
+  },
+  "projectsPage": {
     "lego": {
       "name": "LEGO 集团",
       "projects": {
@@ -230,7 +235,7 @@
       }
     }
   },
-    "contactPage": {
+  "contactPage": {
     "title": "联系方式",
     "github": "GitHub",
     "linkedin": "领英",
