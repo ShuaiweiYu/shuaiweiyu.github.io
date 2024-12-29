@@ -19,9 +19,11 @@ const IconCard = ({type, iconSrc, altText, text, description}) => (
                     sx={{
                         width: {xs: '20px', sm: '24px', md: '36px'},
                         height: {xs: '20px', sm: '24px', md: '36px'},
+                        maxWidth: '40px',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
+                        overflow: 'hidden', // 避免图片超出
                     }}
                 >
                     <img src={iconSrc} alt={altText} style={styles.icon}/>
@@ -68,9 +70,11 @@ const ItemCard = ({type, iconSrc, altText, university, degree, description, dura
                 <Box
                     sx={{
                         height: {xs: '40px', sm: '40px', md: '40px'},
+                        maxWidth: '120px',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
+                        overflow: 'hidden',
                     }}
                 >
                     <img src={iconSrc} alt={altText} style={styles.icon}/>
@@ -125,7 +129,6 @@ const ItemCard = ({type, iconSrc, altText, university, degree, description, dura
         </CardContent>
     </Card>
 );
-
 
 const HomePage = () => {
     const {t} = useTranslation();
