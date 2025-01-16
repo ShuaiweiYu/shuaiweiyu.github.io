@@ -43,10 +43,18 @@
       "duration": "2019 - 2020",
       "link": "https://xn--studienkolleg-mnchen-3ec.de/"
     },
+    "siemens": {
+      "type": "软件开发实习生",
+      "university": "西门子集团",
+      "degree": "边缘与分布式计算部门",
+      "description": "西门子是全球领先的工业制造商，我在西门子的实习期间主要负责边缘计算和分布式项目的开发。项目的目的是将工厂中的数据通过边缘设备传输到云端以及与其他边缘设备串联，来达成集成计算的目标。",
+      "duration": "2025年1月 - 至今",
+      "link": "https://www.siemens.com/global/en/company/innovation/research-development/siemens-core-technologies.html"
+    },
     "lego": {
       "type": "全栈开发实习生",
       "university": "乐高集团",
-      "degree": "",
+      "degree": "IT/OT部门",
       "description": "乐高集团是世界著名的玩具制造商。我在职期间就职于数字化制造部门的新的绿地项目，该项目的目的是最大程度的挖掘制造车间中的自动化程度，减少人力成本，提高装配的准确性以及促进环境保护。",
       "duration": "2024年4月 - 2024年9月",
       "link": "https://www.lego.com/de-de/aboutus/lego-group"
@@ -54,7 +62,7 @@
     "lexcom": {
       "type": "全栈开发实习生",
       "university": "LexCom信息系统",
-      "degree": "",
+      "degree": "微服务软件开发部门",
       "description": "LexCom信息系统是欧洲汽车售后平台的隐形冠军，我们的门户汽车零件销售平台Partslink24在欧洲几乎所有国家的汽车修理厂中被广为使用。我在职期间独立开发了多款全栈/后端微服务，提升了平台的功能性，改善了用户的使用体验。",
       "duration": "2023年9月 - 2024年12月",
       "link": "https://www.lexcom.de/home/en/what-we-do.html"
@@ -161,6 +169,10 @@
     }
   },
   "projectsPage": {
+    "siemens": {
+      "name": "西门子集团",
+      "projects": {}
+    },
     "lego": {
       "name": "LEGO 集团",
       "projects": {

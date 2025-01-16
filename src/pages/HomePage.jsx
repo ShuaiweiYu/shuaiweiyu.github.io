@@ -299,7 +299,17 @@ const HomePage = () => {
                             alignItems="flex-start"
                         >
                             <ItemCard
-                                type=""
+                                type={t("itemCards.siemens.degree")}
+                                iconSrc="/assets/siemens.jpg"
+                                altText="siemens"
+                                university={t("itemCards.siemens.university")}
+                                degree={t("itemCards.siemens.type")}
+                                description={t("itemCards.siemens.description")}
+                                duration={t("itemCards.siemens.duration")}
+                                link={t("itemCards.siemens.link")}
+                            />
+                            <ItemCard
+                                type={t("itemCards.lego.degree")}
                                 iconSrc="/assets/lego.png"
                                 altText="LEGO"
                                 university={t("itemCards.lego.university")}
@@ -309,7 +319,7 @@ const HomePage = () => {
                                 link={t("itemCards.lego.link")}
                             />
                             <ItemCard
-                                type=""
+                                type={t("itemCards.lexcom.degree")}
                                 iconSrc="/assets/lexcom.jpeg"
                                 altText="lexcom"
                                 university={t("itemCards.lexcom.university")}

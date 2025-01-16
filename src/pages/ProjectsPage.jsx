@@ -61,6 +61,14 @@ const ProjectsPage = () => {
 
     const projectsData = [
         {
+            id: 'siemens',
+            image: '/assets/siemens.jpg',
+            name: t('projectsPage.siemens.name'),
+            projects: [
+
+            ],
+        },
+        {
             id: 'lego',
             image: '/assets/lego.png',
             name: t('projectsPage.lego.name'),

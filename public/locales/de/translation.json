@@ -43,6 +43,14 @@
       "duration": "2019 - 2020",
       "link": "https://xn--studienkolleg-mnchen-3ec.de/"
     },
+    "siemens": {
+      "type": "Software Development Intern",
+      "university": "Siemens AG",
+      "degree": "Edge and Distributed Computing Department",
+      "description": "Siemens AG gehört zu den weltweit führenden Industrieunternehmen. Während meines Praktikums bei Siemens war ich hauptsächlich für die Entwicklung von Edge-Computing- und verteilten Projekten verantwortlich. Das Ziel des Projekts war es, Daten aus Fabriken über Edge-Geräte in die Cloud zu übertragen und mit anderen Edge-Geräten zu integrieren, um integrierte Berechnungen zu ermöglichen.",
+      "duration": "Januar 2025 - Heute",
+      "link": "https://www.siemens.com/global/en/company/innovation/research-development/siemens-core-technologies.html"
+    },
     "lego": {
       "type": "Full-Stack-Entwickler Praktikant",
       "university": "LEGO Gruppe",
@@ -161,6 +169,10 @@
     }
   },
   "projectsPage": {
+    "siemens": {
+      "name": "Sieemens AG",
+      "projects": {}
+    },
     "lego": {
       "name": "LEGO Gruppe",
       "projects": {

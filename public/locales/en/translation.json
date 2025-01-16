@@ -43,10 +43,18 @@
       "duration": "2019 - 2020",
       "link": "https://xn--studienkolleg-mnchen-3ec.de/"
     },
+    "siemens": {
+      "type": "Software Development Intern",
+      "university": "Siemens AG",
+      "degree": "Edge and Distributed Computing Department",
+      "description": "Siemens is a global leader in industrial manufacturing. During my internship at Siemens, I mainly worked on edge computing and distributed projects. The project aims to transmit factory data to the cloud through edge devices and interconnect with other edge devices to achieve integrated computing.",
+      "duration": "January 2025 - Present",
+      "link": "https://www.siemens.com/global/en/company/innovation/research-development/siemens-core-technologies.html"
+    },
     "lego": {
       "type": "Full-stack Developer Intern",
       "university": "LEGO Group",
-      "degree": "",
+      "degree": "IT/OT department",
       "description": "The LEGO Group is a world-renowned toy manufacturer. During my time in the Digital Manufacturing department, I worked on a new greenfield project aimed at maximizing automation in manufacturing workshops, reducing labor costs, improving assembly accuracy, and promoting environmental sustainability.",
       "duration": "April 2024 - September 2024",
       "link": "https://www.lego.com/de-de/aboutus/lego-group"
@@ -54,7 +62,7 @@
     "lexcom": {
       "type": "Full-stack Developer Intern",
       "university": "LexCom Information Systems",
-      "degree": "",
+      "degree": "Microservices Development Department",
       "description": "LexCom Information Systems is a hidden champion in Europe's automotive aftermarket platforms. Its Partslink24 portal is widely used in auto repair shops across Europe. I independently developed several full-stack/back-end microservices, enhancing platform functionality and user experience.",
       "duration": "September 2023 - December 2024",
       "link": "https://www.lexcom.de/home/en/what-we-do.html"
@@ -161,6 +169,10 @@
     }
   },
   "projectsPage": {
+    "siemens": {
+      "name": "Sieemens AG",
+      "projects": {}
+    },
     "lego": {
       "name": "LEGO Group",
       "projects": {
