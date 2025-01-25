@@ -111,13 +111,13 @@ const ProjectsPage = () => {
     const projectsData = [
         {
             id: 'siemens',
-            image: '/assets/siemens.jpg',
+            image: '/assets/siemens.webp',
             name: t('projectsPage.siemens.name'),
             projects: [],
         },
         {
             id: 'lego',
-            image: '/assets/lego.png',
+            image: '/assets/lego.webp',
             name: t('projectsPage.lego.name'),
             projects: [
                 {
@@ -128,15 +128,35 @@ const ProjectsPage = () => {
                     tagColor: '#16982b',
                     techStacks: [
                         {
-                            icon: "/assets/react.png",
+                            icon: "/assets/react.webp",
                             category: "前端",
                             value: "React"
                         },
                         {
-                            icon: "/assets/react.png",
+                            icon: "/assets/react.webp",
                             category: "前端",
-                            value: "React"
+                            value: "JavaScript"
                         },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "后端",
+                            value: ".Net"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "后端",
+                            value: "C#"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "数据库",
+                            value: "MySQL"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "部署",
+                            value: "GitHub CI/CD"
+                        }
                     ]
                 },
                 {
@@ -145,12 +165,44 @@ const ProjectsPage = () => {
                     description: t('projectsPage.lego.projects.plcConnect.description'),
                     tag: t('projectsPage.lego.projects.plcConnect.tag'),
                     tagColor: '#16982b',
+                    techStacks: [
+                        {
+                            icon: "/assets/react.webp",
+                            category: "前端",
+                            value: "Blazor"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "后端",
+                            value: ".Net"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "后端",
+                            value: "C#"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "后端",
+                            value: "PLClib"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "数据库",
+                            value: "MySQL"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "部署",
+                            value: "GitHub CI/CD"
+                        }
+                    ]
                 },
             ],
         },
         {
             id: 'lexcom',
-            image: '/assets/lexcom.jpeg',
+            image: '/assets/lexcom.webp',
             name: t('projectsPage.lexcom.name'),
             projects: [
                 {
@@ -159,6 +211,43 @@ const ProjectsPage = () => {
                     description: t('projectsPage.lexcom.projects.pl24Upload.description'),
                     tag: t('projectsPage.lexcom.projects.pl24Upload.tag'),
                     tagColor: '#16982b',
+                    techStacks: [
+                        {
+                            icon: "/assets/react.webp",
+                            category: "前端",
+                            value: "React"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "前端",
+                            value: "TypeScript"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "后端",
+                            value: "SpringBoot"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "中间件",
+                            value: "kafka"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "数据库",
+                            value: "MongoDB"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "部署",
+                            value: "GitLab CI/CD"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "云技术",
+                            value: "Oracle Cloud"
+                        }
+                    ]
                 },
                 {
                     title: t('projectsPage.lexcom.projects.pl24Bidata.title'),
@@ -166,6 +255,28 @@ const ProjectsPage = () => {
                     description: t('projectsPage.lexcom.projects.pl24Bidata.description'),
                     tag: t('projectsPage.lexcom.projects.pl24Bidata.tag'),
                     tagColor: '#16982b',
+                    techStacks: [
+                        {
+                            icon: "/assets/react.webp",
+                            category: "后端",
+                            value: "SpringBoot"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "中间件",
+                            value: "kafka"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "数据库",
+                            value: "PostgreSQL"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "部署",
+                            value: "GitLab CI/CD"
+                        }
+                    ]
                 },
                 {
                     title: t('projectsPage.lexcom.projects.pl24DealerMonitor.title'),
@@ -173,12 +284,44 @@ const ProjectsPage = () => {
                     description: t('projectsPage.lexcom.projects.pl24DealerMonitor.description'),
                     tag: t('projectsPage.lexcom.projects.pl24DealerMonitor.tag'),
                     tagColor: '#ff8c00',
+                    techStacks: [
+                        {
+                            icon: "/assets/react.webp",
+                            category: "前端",
+                            value: "React"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "前端",
+                            value: "TypeScript"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "后端",
+                            value: "SpringBoot"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "中间件",
+                            value: "kafka"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "数据库",
+                            value: "MongoDB"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "部署",
+                            value: "GitLab CI/CD"
+                        }
+                    ]
                 },
             ],
         },
         {
             id: 'bmw',
-            image: '/assets/bmw.png',
+            image: '/assets/bmw.webp',
             name: t('projectsPage.bmw.name'),
             projects: [
                 {
@@ -187,50 +330,181 @@ const ProjectsPage = () => {
                     description: t('projectsPage.bmw.projects.bmwNews.description'),
                     tag: t('projectsPage.bmw.projects.bmwNews.tag'),
                     tagColor: '#005eff',
+                    techStacks: [
+                        {
+                            icon: "/assets/react.webp",
+                            category: "客户端",
+                            value: "Android"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "客户端",
+                            value: "Java"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "API",
+                            value: "NewsAPI"
+                        }
+                    ]
                 },
             ],
         },
         {
             id: 'tum',
-            image: '/assets/tum.jpeg',
+            image: '/assets/tum.webp',
             name: t('projectsPage.tum.name'),
             projects: [
                 {
                     title: t('projectsPage.tum.projects.bpmnGeneration.title'),
                     imgSrc: '/assets/thesis.webp',
                     description: t('projectsPage.tum.projects.bpmnGeneration.description'),
+                    tag: '本科论文',
+                    tagColor: '#005eff',
+                    techStacks: [
+                        {
+                            icon: "/assets/react.webp",
+                            category: "后端",
+                            value: "Python"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "后端",
+                            value: "Spacy"
+                        },
+                    ]
                 },
                 {
                     title: t('projectsPage.tum.projects.predictiveProcessMonitoring.title'),
                     imgSrc: '/assets/PPM.webp',
                     description: t('projectsPage.tum.projects.predictiveProcessMonitoring.description'),
+                    tag: '研讨会论文',
+                    tagColor: '#005eff',
                 },
                 {
                     title: t('projectsPage.tum.projects.bamlAnalyticsCup.title'),
                     imgSrc: '/assets/ana_cup.webp',
                     description: t('projectsPage.tum.projects.bamlAnalyticsCup.description'),
+                    tag: '课程竞赛',
+                    tagColor: '#005eff',
+                    techStacks: [
+                        {
+                            icon: "/assets/react.webp",
+                            category: "后端",
+                            value: "Python"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "后端",
+                            value: "sklearn"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "后端",
+                            value: "NumPy"
+                        }
+                    ]
                 },
             ],
         },
         {
             id: 'personal',
-            image: '/assets/user.png',
+            image: '/assets/user.webp',
             name: t('projectsPage.personal.name'),
             projects: [
                 {
                     title: t('projectsPage.personal.projects.focusList.title'),
                     imgSrc: '/assets/FLen.webp',
                     description: t('projectsPage.personal.projects.focusList.description'),
+                    tagColor: '#ff8c00',
+                    techStacks: [
+                        {
+                            icon: "/assets/react.webp",
+                            category: "前端",
+                            value: "Vue"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "前端",
+                            value: "JavaScript"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "部署",
+                            value: "GitLab Pages"
+                        }
+                    ]
                 },
                 {
                     title: t('projectsPage.personal.projects.emojiDiary.title'),
                     imgSrc: '/assets/emoji-dairy.webp',
                     description: t('projectsPage.personal.projects.emojiDiary.description'),
+                    tagColor: '#ff8c00',
+                    techStacks: [
+                        {
+                            icon: "/assets/react.webp",
+                            category: "客户端",
+                            value: "iOS"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "客户端",
+                            value: "Swift"
+                        }
+                    ]
                 },
                 {
                     title: t('projectsPage.personal.projects.volMe.title'),
                     imgSrc: '/assets/volme.webp',
                     description: t('projectsPage.personal.projects.volMe.description'),
+                    tagColor: '#ff8c00',
+                    techStacks: [
+                        {
+                            icon: "/assets/react.webp",
+                            category: "前端",
+                            value: "React"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "前端",
+                            value: "JavaScript"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "前端",
+                            value: "Redux"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "后端",
+                            value: "Node.js"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "后端",
+                            value: "Express.js"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "API",
+                            value: "PayPal SDK"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "云技术",
+                            value: "AWS S3"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "云技术",
+                            value: "AWS EC2"
+                        },
+                        {
+                            icon: "/assets/react.webp",
+                            category: "运维",
+                            value: "Ngnix"
+                        }
+                    ]
                 },
             ],
         },
