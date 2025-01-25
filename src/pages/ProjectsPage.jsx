@@ -1,5 +1,6 @@
 import React from 'react';
 import {Typography, Box, Card, Stack, Accordion, AccordionSummary, AccordionDetails} from '@mui/material';
+import Tag from '../components/Tag';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import {useTranslation} from 'react-i18next';
 
@@ -79,6 +80,21 @@ const ProjectCard = ({ title, imgSrc, description, link, tag, tagColor = '#e0e0e
                         </Box>
                     )}
                 </Box>
+
+                <Stack
+                    spacing={{xs: 1, sm: 2}}
+                    direction="row"
+                    useFlexGap
+                    sx={{flexWrap: 'wrap'}}
+                    alignItems="flex-start"
+                >
+                    <Tag icon={"/assets/react.png"} category={"前端"} value={"React"} />
+                    <Tag icon={"/assets/springboot.webp"} category={"后端"} value={"SpringBoot"} />
+                    <Tag icon={"/assets/mysql.png"} category={"数据库"} value={"MySQL"} />
+                    <Tag icon={"/assets/kafka.webp"} category={"中间件"} value={"Kafka"} />
+                    <Tag icon={"/assets/aws.webp"} category={"部署"} value={"AWS"} />
+                </Stack>
+
                 {imgSrc && <img src={imgSrc} alt={title} style={styles.image} />}
                 <Typography>{description}</Typography>
             </Stack>
