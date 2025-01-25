@@ -53,9 +53,9 @@
     },
     "lego": {
       "type": "Full-Stack-Entwickler Praktikant",
-      "university": "LEGO Gruppe",
+      "university": "LEGO Group",
       "degree": "",
-      "description": "Die LEGO Gruppe ist ein weltweit bekannter Spielzeughersteller. Während meiner Zeit in der Abteilung für digitale Fertigung arbeitete ich an einem neuen Greenfield-Projekt, das darauf abzielte, die Automatisierung in Fertigungswerkstätten zu maximieren, Arbeitskosten zu senken, die Montagegenauigkeit zu verbessern und den Umweltschutz zu fördern.",
+      "description": "Die LEGO Group ist ein weltweit bekannter Spielzeughersteller. Während meiner Zeit in der Abteilung für digitale Fertigung arbeitete ich an einem neuen Greenfield-Projekt, das darauf abzielte, die Automatisierung in Fertigungswerkstätten zu maximieren, Arbeitskosten zu senken, die Montagegenauigkeit zu verbessern und den Umweltschutz zu fördern.",
       "duration": "April 2024 - September 2024",
       "link": "https://www.lego.com/de-de/aboutus/lego-group"
     },
@@ -69,9 +69,9 @@
     },
     "bmw": {
       "type": "Projektmanagement Werkstudent",
-      "university": "BMW Gruppe",
+      "university": "BMW Group",
       "degree": "",
-      "description": "Die BMW Gruppe ist ein weltweit führender Hersteller von Premium-Automobilen. Während meines Praktikums arbeitete ich an der Migration des BMW In-Car-App-Stores von Linux auf Android. Ich war verantwortlich für die Qualitätstests neuer Apps im Store und entwickelte interne Tools zur Prüfung der Funktionalität und Stabilität neuer In-Car-Systeme.",
+      "description": "Die BMW Group ist ein weltweit führender Hersteller von Premium-Automobilen. Während meines Praktikums arbeitete ich an der Migration des BMW In-Car-App-Stores von Linux auf Android. Ich war verantwortlich für die Qualitätstests neuer Apps im Store und entwickelte interne Tools zur Prüfung der Funktionalität und Stabilität neuer In-Car-Systeme.",
       "duration": "August 2022 - Dezember 2022",
       "link": "https://www.bmwgroup.com/en.html"
     }
