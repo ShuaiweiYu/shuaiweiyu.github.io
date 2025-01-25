@@ -16,7 +16,7 @@ const GroupDisplayer = ({iconSrc, altText, name}) => (
                 overflow: 'hidden', // 避免图片超出
             }}
         >
-            <img src={iconSrc} alt={altText} style={{width: '100%', height: 'auto', objectFit: 'contain'}} />
+            <img src={iconSrc} alt={altText} style={{width: '100%', height: 'auto', objectFit: 'contain'}}/>
         </Box>
         <Typography variant="h6" sx={{fontSize: {xs: 18, sm: 18, md: 20}, textAlign: 'left', fontWeight: 600}}>
             {name}
@@ -24,11 +24,11 @@ const GroupDisplayer = ({iconSrc, altText, name}) => (
     </Stack>
 );
 
-const ProjectCard = ({ title, imgSrc, description, link, tag, tagColor = '#e0e0e0' }) => {
+const ProjectCard = ({title, imgSrc, description, link, tag, tagColor = '#e0e0e0', tags = []}) => {
     const styles = {
         card: {
             width: '100%',
-            maxWidth: { xs: '100%', sm: '400px', md: '500px' },
+            maxWidth: {xs: '100%', sm: '400px', md: '500px'},
             padding: '16px',
             boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
             borderRadius: '8px',
@@ -57,8 +57,8 @@ const ProjectCard = ({ title, imgSrc, description, link, tag, tagColor = '#e0e0e
                 <Box
                     sx={{
                         display: 'flex',
-                        flexDirection: { xs: 'column', sm: 'row' },
-                        justifyContent: { sm: 'space-between' },
+                        flexDirection: {xs: 'column', sm: 'row'},
+                        justifyContent: {sm: 'space-between'},
                         alignItems: 'center',
                         width: '100%',
                     }}
@@ -88,14 +88,17 @@ const ProjectCard = ({ title, imgSrc, description, link, tag, tagColor = '#e0e0e
                     sx={{flexWrap: 'wrap'}}
                     alignItems="flex-start"
                 >
-                    <Tag icon={"/assets/react.png"} category={"前端"} value={"React"} />
-                    <Tag icon={"/assets/springboot.webp"} category={"后端"} value={"SpringBoot"} />
-                    <Tag icon={"/assets/mysql.png"} category={"数据库"} value={"MySQL"} />
-                    <Tag icon={"/assets/kafka.webp"} category={"中间件"} value={"Kafka"} />
-                    <Tag icon={"/assets/aws.webp"} category={"部署"} value={"AWS"} />
+                    {tags.map((tagData, index) => (
+                        <Tag
+                            key={index}
+                            icon={tagData.icon}
+                            category={tagData.category}
+                            value={tagData.value}
+                        />
+                    ))}
                 </Stack>
 
-                {imgSrc && <img src={imgSrc} alt={title} style={styles.image} />}
+                {imgSrc && <img src={imgSrc} alt={title} style={styles.image}/>}
                 <Typography>{description}</Typography>
             </Stack>
         </Card>
@@ -110,9 +113,7 @@ const ProjectsPage = () => {
             id: 'siemens',
             image: '/assets/siemens.jpg',
             name: t('projectsPage.siemens.name'),
-            projects: [
-
-            ],
+            projects: [],
         },
         {
             id: 'lego',
@@ -125,6 +126,18 @@ const ProjectsPage = () => {
                     description: t('projectsPage.lego.projects.receipeEditor.description'),
                     tag: t('projectsPage.lego.projects.receipeEditor.tag'),
                     tagColor: '#16982b',
+                    techStacks: [
+                        {
+                            icon: "/assets/react.png",
+                            category: "前端",
+                            value: "React"
+                        },
+                        {
+                            icon: "/assets/react.png",
+                            category: "前端",
+                            value: "React"
+                        },
+                    ]
                 },
                 {
                     title: t('projectsPage.lego.projects.plcConnect.title'),
@@ -250,6 +263,7 @@ const ProjectsPage = () => {
                                     link={project.link}
                                     tag={project.tag}
                                     tagColor={project.tagColor}
+                                    tags={project.techStacks}
                                 />
                             ))}
                         </Stack>
