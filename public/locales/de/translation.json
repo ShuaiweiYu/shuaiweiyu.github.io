@@ -44,7 +44,7 @@
       "link": "https://xn--studienkolleg-mnchen-3ec.de/"
     },
     "siemens": {
-      "type": "Software Development Intern",
+      "type": "Software Development Werkstudent",
       "university": "Siemens AG",
       "degree": "Edge and Distributed Computing Department",
       "description": "Siemens AG gehört zu den weltweit führenden Industrieunternehmen. Während meines Praktikums bei Siemens war ich hauptsächlich für die Entwicklung von Edge-Computing- und verteilten Projekten verantwortlich. Das Ziel des Projekts war es, Daten aus Fabriken über Edge-Geräte in die Cloud zu übertragen und mit anderen Edge-Geräten zu integrieren, um integrierte Berechnungen zu ermöglichen.",
@@ -60,7 +60,7 @@
       "link": "https://www.lego.com/de-de/aboutus/lego-group"
     },
     "lexcom": {
-      "type": "Full-Stack-Entwickler Praktikant",
+      "type": "Full-Stack-Entwickler Werkstudent",
       "university": "LexCom Informationssysteme",
       "degree": "",
       "description": "LexCom Informationssysteme ist ein Hidden Champion in Europas Aftermarket-Plattformen für die Automobilindustrie. Das Partslink24-Portal wird in nahezu allen Autowerkstätten Europas genutzt. Ich habe mehrere Full-Stack- und Back-End-Mikrodienste unabhängig entwickelt, die die Plattformfunktionalität und Benutzerfreundlichkeit verbessert haben.",
@@ -68,7 +68,7 @@
       "link": "https://www.lexcom.de/home/en/what-we-do.html"
     },
     "bmw": {
-      "type": "Projektmanagement Praktikant",
+      "type": "Projektmanagement Werkstudent",
       "university": "BMW Gruppe",
       "degree": "",
       "description": "Die BMW Gruppe ist ein weltweit führender Hersteller von Premium-Automobilen. Während meines Praktikums arbeitete ich an der Migration des BMW In-Car-App-Stores von Linux auf Android. Ich war verantwortlich für die Qualitätstests neuer Apps im Store und entwickelte interne Tools zur Prüfung der Funktionalität und Stabilität neuer In-Car-Systeme.",
@@ -170,19 +170,21 @@
   },
   "projectsPage": {
     "siemens": {
-      "name": "Sieemens AG",
+      "name": "Siemens AG",
       "projects": {}
     },
     "lego": {
-      "name": "LEGO Gruppe",
+      "name": "LEGO Group",
       "projects": {
         "receipeEditor": {
-          "title": "Rezept-Editor",
-          "description": "Designer können mit Drag-and-Drop schnell Layouts für Spielzeugverpackungen in einer Webanwendung erstellen und in einer Datenbank für zukünftige Bearbeitungen oder Verfeinerungen speichern. Die App bietet auch ein Dashboard zum Suchen und Filtern von Layouts. Diese Layouts werden schließlich in automatisierten Fertigungsstraßen eingesetzt."
+          "title": "Recipe Editor",
+          "description": "Designer können mit Drag-and-Drop schnell Layouts für Spielzeugverpackungen in einer Webanwendung erstellen und in einer Datenbank für zukünftige Bearbeitungen oder Verfeinerungen speichern. Die App bietet auch ein Dashboard zum Suchen und Filtern von Layouts. Diese Layouts werden schließlich in automatisierten Fertigungsstraßen eingesetzt.",
+          "tag": "In Produktion"
         },
         "plcConnect": {
           "title": "PLC Connect",
-          "description": "In LEGO-Fabriken gibt es zahlreiche industrielle SPS. PLC Connect kann mit verschiedenen SPS verbunden werden, um Daten zu lesen/schreiben. Das Tool überwacht auch den Status der SPS und ändert deren Anweisungen."
+          "description": "In LEGO-Fabriken gibt es zahlreiche industrielle SPS. PLC Connect kann mit verschiedenen SPS verbunden werden, um Daten zu lesen/schreiben. Das Tool überwacht auch den Status der SPS und ändert deren Anweisungen.",
+          "tag": "In Produktion"
         }
       }
     },
@@ -191,24 +193,28 @@
       "projects": {
         "pl24Upload": {
           "title": "PL24-Upload",
-          "description": "Autoreparaturwerkstätten können Bestellungen mit einer Web-App scannen oder hochladen. Der Server verarbeitet Bestellungen mit einem OCR-Dienst und fügt die benötigten Teile automatisch in den Warenkorb der Werkstatt ein."
+          "description": "Autoreparaturwerkstätten können Bestellungen mit einer Web-App scannen oder hochladen. Der Server verarbeitet Bestellungen mit einem OCR-Dienst und fügt die benötigten Teile automatisch in den Warenkorb der Werkstatt ein.",
+          "tag": "In Produktion"
         },
         "pl24Bidata": {
           "title": "PL24-Bidata",
-          "description": "Dieser Mikrodienst erfasst das Nutzerverhalten in der Web-App und sendet die Daten über Kafka-Middleware an das interne Big-Data-System des Unternehmens, das die Daten verarbeitet und analysiert, um die Benutzererfahrung zu verbessern."
+          "description": "Dieser Mikrodienst erfasst das Nutzerverhalten in der Web-App und sendet die Daten über Kafka-Middleware an das interne Big-Data-System des Unternehmens, das die Daten verarbeitet und analysiert, um die Benutzererfahrung zu verbessern.",
+          "tag": "In Produktion"
         },
         "pl24DealerMonitor": {
           "title": "PL24-DealerMonitor",
-          "description": "PL24-DealerMonitor überwacht den Bestellstatus verschiedener Händler im Partslink24-Portal. Wenn Bestellungen nicht rechtzeitig bearbeitet werden, benachrichtigt es die Händler, um eine rechtzeitige Bearbeitung sicherzustellen."
+          "description": "PL24-DealerMonitor überwacht den Bestellstatus verschiedener Händler im Partslink24-Portal. Wenn Bestellungen nicht rechtzeitig bearbeitet werden, benachrichtigt es die Händler, um eine rechtzeitige Bearbeitung sicherzustellen.",
+          "tag": "In Testing"
         }
       }
     },
     "bmw": {
-      "name": "BMW Gruppe",
+      "name": "BMW Group",
       "projects": {
         "bmwNews": {
           "title": "BMW News",
-          "description": "BMW News ist ein auf Android basierendes Prototyp für eine In-Car-App zur Nachrichtenaggregation, das den Google News API-Dienst verwendet. Benutzer können nach den neuesten Nachrichten suchen und diese durchsuchen."
+          "description": "BMW News ist ein auf Android basierendes Prototyp für eine In-Car-App zur Nachrichtenaggregation, das den Google News API-Dienst verwendet. Benutzer können nach den neuesten Nachrichten suchen und diese durchsuchen.",
+          "tag": "Prototyp"
         }
       }
     },
@@ -216,11 +222,11 @@
       "name": "Universitätsprojekte",
       "projects": {
         "bpmnGeneration": {
-          "title": "Verbesserte Methoden zur Generierung von Geschäftsprozessmodellen aus natürlichem Sprachtext",
+          "title": "Improved Methods for Generating Business Process Models from Natural Language Text",
           "description": "Business Process Model and Notation (BPMN) ist entscheidend für die Strukturierung und Visualisierung von Prozessen und verbessert die Arbeitsabläufe eines Unternehmens. Das Erstellen von BPMN-Modellen erfordert jedoch häufig Fachwissen und ist zeitaufwendig. Diese Studie diskutiert, wie BPMN-Modelle mit Python und der spaCy-Bibliothek mit verbesserter Erkennungsgenauigkeit generiert werden können."
         },
         "predictiveProcessMonitoring": {
-          "title": "Forschung und Entwicklung im Bereich Predictive Process Monitoring",
+          "title": "Research and Development in Predictive Process Monitoring",
           "description": "Predictive Process Monitoring (PPM) gewinnt in Industrie und Wissenschaft zunehmend an Bedeutung. Diese Studie überprüft 32 relevante Arbeiten aus 263 Artikeln zwischen 2018 und 2022 und zeigt aktuelle Forschungstrends und Lücken auf."
         },
         "bamlAnalyticsCup": {
@@ -233,11 +239,11 @@
       "name": "Persönliche Projekte",
       "projects": {
         "focusList": {
-          "title": "Aufgabenliste",
+          "title": "Task List",
           "description": "Eine front-end Aufgabenlisten-Webseite, die mit Vue.js erstellt wurde. Die App unterstützt auch einen Pomodoro-Timer, um Benutzern zu helfen, Aufgaben effizient zu erledigen. Details: https://shuaiweiyu.github.io/focuslist/"
         },
         "emojiDiary": {
-          "title": "Emoji-Tagebuch",
+          "title": "Emoji Diary",
           "description": "Emoji Diary ist eine Tagebuch-iOS-App. Benutzer können das tägliche Leben mit Emojis, einfachen Beschreibungen und mehreren Fotos aufzeichnen. Die App unterstützt auch das Teilen über iCloud."
         },
         "volMe": {

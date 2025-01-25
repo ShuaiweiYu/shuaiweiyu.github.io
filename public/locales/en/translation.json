@@ -44,7 +44,7 @@
       "link": "https://xn--studienkolleg-mnchen-3ec.de/"
     },
     "siemens": {
-      "type": "Software Development Intern",
+      "type": "Software Development Working Student",
       "university": "Siemens AG",
       "degree": "Edge and Distributed Computing Department",
       "description": "Siemens is a global leader in industrial manufacturing. During my internship at Siemens, I mainly worked on edge computing and distributed projects. The project aims to transmit factory data to the cloud through edge devices and interconnect with other edge devices to achieve integrated computing.",
@@ -52,7 +52,7 @@
       "link": "https://www.siemens.com/global/en/company/innovation/research-development/siemens-core-technologies.html"
     },
     "lego": {
-      "type": "Full-stack Developer Intern",
+      "type": "Full-Stack Developer Intern",
       "university": "LEGO Group",
       "degree": "IT/OT department",
       "description": "The LEGO Group is a world-renowned toy manufacturer. During my time in the Digital Manufacturing department, I worked on a new greenfield project aimed at maximizing automation in manufacturing workshops, reducing labor costs, improving assembly accuracy, and promoting environmental sustainability.",
@@ -60,7 +60,7 @@
       "link": "https://www.lego.com/de-de/aboutus/lego-group"
     },
     "lexcom": {
-      "type": "Full-stack Developer Intern",
+      "type": "Full-Stack Developer Working Student",
       "university": "LexCom Information Systems",
       "degree": "Microservices Development Department",
       "description": "LexCom Information Systems is a hidden champion in Europe's automotive aftermarket platforms. Its Partslink24 portal is widely used in auto repair shops across Europe. I independently developed several full-stack/back-end microservices, enhancing platform functionality and user experience.",
@@ -68,7 +68,7 @@
       "link": "https://www.lexcom.de/home/en/what-we-do.html"
     },
     "bmw": {
-      "type": "Project Management Intern",
+      "type": "Project Management Working Student",
       "university": "BMW Group",
       "degree": "",
       "description": "BMW Group is a global leader in premium automotive manufacturing. During my internship, I worked on the migration of BMW's in-car app store from Linux to Android. I was responsible for quality testing of new apps in the store and developed internal tools to test the functionality and stability of the new in-car systems.",
@@ -170,7 +170,7 @@
   },
   "projectsPage": {
     "siemens": {
-      "name": "Sieemens AG",
+      "name": "Siemens AG",
       "projects": {}
     },
     "lego": {
@@ -178,11 +178,13 @@
       "projects": {
         "receipeEditor": {
           "title": "Recipe Editor",
-          "description": "Designers can quickly create layouts for toy packaging using drag-and-drop operations in a web application, storing them in a database for future editing or refinement. The app also provides a dashboard for searching and filtering layouts. These layouts are eventually used in automated factory robotic production lines."
+          "description": "Designers can quickly create layouts for toy packaging using drag-and-drop operations in a web application, storing them in a database for future editing or refinement. The app also provides a dashboard for searching and filtering layouts. These layouts are eventually used in automated factory robotic production lines.",
+          "tag": "In Production"
         },
         "plcConnect": {
           "title": "PLC Connect",
-          "description": "LEGO factories house numerous industrial PLCs. PLC Connect can interface with different PLCs to read/write data. The tool also monitors PLC statuses and modifies their instructions."
+          "description": "LEGO factories house numerous industrial PLCs. PLC Connect can interface with different PLCs to read/write data. The tool also monitors PLC statuses and modifies their instructions.",
+          "tag": "In Production"
         }
       }
     },
@@ -191,15 +193,18 @@
       "projects": {
         "pl24Upload": {
           "title": "PL24-Upload",
-          "description": "Auto repair shops can scan or upload orders using a web app. The server processes orders through an OCR service, automatically adding required parts to the shop's cart."
+          "description": "Auto repair shops can scan or upload orders using a web app. The server processes orders through an OCR service, automatically adding required parts to the shop's cart.",
+          "tag": "In Production"
         },
         "pl24Bidata": {
           "title": "PL24-Bidata",
-          "description": "This microservice captures user behavior on the web app and sends data via Kafka middleware to the company's internal big data system for processing and analysis to enhance user experience."
+          "description": "This microservice captures user behavior on the web app and sends data via Kafka middleware to the company's internal big data system for processing and analysis to enhance user experience.",
+          "tag": "In Production"
         },
         "pl24DealerMonitor": {
           "title": "PL24-DealerMonitor",
-          "description": "PL24-DealerMonitor monitors order statuses across different dealers on the Partslink24 portal. If orders are not processed promptly, it notifies dealers to ensure timely handling."
+          "description": "PL24-DealerMonitor monitors order statuses across different dealers on the Partslink24 portal. If orders are not processed promptly, it notifies dealers to ensure timely handling.",
+          "tag": "In Testing"
         }
       }
     },
@@ -208,7 +213,8 @@
       "projects": {
         "bmwNews": {
           "title": "BMW News",
-          "description": "BMW News is an Android-based in-car app prototype for news aggregation, utilizing Google's News API service. Users can search and browse the latest news of interest."
+          "description": "BMW News is an Android-based in-car app prototype for news aggregation, utilizing Google's News API service. Users can search and browse the latest news of interest.",
+          "tag": "Prototype"
         }
       }
     },

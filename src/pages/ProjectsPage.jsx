@@ -23,16 +23,16 @@ const GroupDisplayer = ({iconSrc, altText, name}) => (
     </Stack>
 );
 
-const ProjectCard = ({title, imgSrc, description, link}) => {
+const ProjectCard = ({ title, imgSrc, description, link, tag, tagColor = '#e0e0e0' }) => {
     const styles = {
         card: {
-            width: '100%', // 使用百分比代替固定宽度
-            maxWidth: {xs: '100%', sm: '400px', md: '500px'}, // 限制最大宽度
+            width: '100%',
+            maxWidth: { xs: '100%', sm: '400px', md: '500px' },
             padding: '16px',
             boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
             borderRadius: '8px',
             textAlign: 'center',
-            overflow: 'hidden', // 防止内容超出
+            overflow: 'hidden',
         },
         image: {
             width: '100%',
@@ -40,16 +40,46 @@ const ProjectCard = ({title, imgSrc, description, link}) => {
             borderRadius: '4px',
             marginBottom: '16px',
         },
+        tag: {
+            backgroundColor: tagColor,
+            padding: '4px 8px',
+            borderRadius: '4px',
+            fontSize: '0.875rem',
+            fontWeight: 'bold',
+            whiteSpace: 'nowrap',
+        },
     };
-
 
     return (
         <Card sx={styles.card}>
             <Stack direction="column" spacing={2} alignItems="center">
-                <Typography sx={{fontSize: '1.5rem', fontWeight: 'bold', color: 'black', marginBottom: '8px'}}>
-                    {title}
-                </Typography>
-                {imgSrc && <img src={imgSrc} alt={title} style={styles.image}/>}
+                <Box
+                    sx={{
+                        display: 'flex',
+                        flexDirection: { xs: 'column', sm: 'row' },
+                        justifyContent: { sm: 'space-between' },
+                        alignItems: 'center',
+                        width: '100%',
+                    }}
+                >
+                    <Typography
+                        sx={{
+                            fontSize: '1.5rem',
+                            fontWeight: 'bold',
+                            color: 'black',
+                            textAlign: 'center',
+                            flex: 1,
+                        }}
+                    >
+                        {title}
+                    </Typography>
+                    {tag && (
+                        <Box sx={styles.tag}>
+                            {tag}
+                        </Box>
+                    )}
+                </Box>
+                {imgSrc && <img src={imgSrc} alt={title} style={styles.image} />}
                 <Typography>{description}</Typography>
             </Stack>
         </Card>
@@ -77,11 +107,15 @@ const ProjectsPage = () => {
                     title: t('projectsPage.lego.projects.receipeEditor.title'),
                     imgSrc: '/assets/lego-robot-arm.webp',
                     description: t('projectsPage.lego.projects.receipeEditor.description'),
+                    tag: t('projectsPage.lego.projects.receipeEditor.tag'),
+                    tagColor: '#16982b',
                 },
                 {
                     title: t('projectsPage.lego.projects.plcConnect.title'),
                     imgSrc: '/assets/lego-factory.webp',
                     description: t('projectsPage.lego.projects.plcConnect.description'),
+                    tag: t('projectsPage.lego.projects.plcConnect.tag'),
+                    tagColor: '#16982b',
                 },
             ],
         },
@@ -94,16 +128,22 @@ const ProjectsPage = () => {
                     title: t('projectsPage.lexcom.projects.pl24Upload.title'),
                     imgSrc: '/assets/lexcom-upload.webp',
                     description: t('projectsPage.lexcom.projects.pl24Upload.description'),
+                    tag: t('projectsPage.lexcom.projects.pl24Upload.tag'),
+                    tagColor: '#16982b',
                 },
                 {
                     title: t('projectsPage.lexcom.projects.pl24Bidata.title'),
                     imgSrc: '/assets/lexcom-bidata.webp',
                     description: t('projectsPage.lexcom.projects.pl24Bidata.description'),
+                    tag: t('projectsPage.lexcom.projects.pl24Bidata.tag'),
+                    tagColor: '#16982b',
                 },
                 {
                     title: t('projectsPage.lexcom.projects.pl24DealerMonitor.title'),
                     imgSrc: '/assets/lexcom-monitor.webp',
                     description: t('projectsPage.lexcom.projects.pl24DealerMonitor.description'),
+                    tag: t('projectsPage.lexcom.projects.pl24DealerMonitor.tag'),
+                    tagColor: '#ff8c00',
                 },
             ],
         },
@@ -116,6 +156,8 @@ const ProjectsPage = () => {
                     title: t('projectsPage.bmw.projects.bmwNews.title'),
                     imgSrc: '/assets/bmw_news.webp',
                     description: t('projectsPage.bmw.projects.bmwNews.description'),
+                    tag: t('projectsPage.bmw.projects.bmwNews.tag'),
+                    tagColor: '#005eff',
                 },
             ],
         },
@@ -190,6 +232,8 @@ const ProjectsPage = () => {
                                     imgSrc={project.imgSrc}
                                     description={project.description}
                                     link={project.link}
+                                    tag={project.tag}
+                                    tagColor={project.tagColor}
                                 />
                             ))}
                         </Stack>

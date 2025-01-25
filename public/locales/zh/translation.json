@@ -44,7 +44,7 @@
       "link": "https://xn--studienkolleg-mnchen-3ec.de/"
     },
     "siemens": {
-      "type": "软件开发实习生",
+      "type": "软件开发学生工",
       "university": "西门子集团",
       "degree": "边缘与分布式计算部门",
       "description": "西门子是全球领先的工业制造商，我在西门子的实习期间主要负责边缘计算和分布式项目的开发。项目的目的是将工厂中的数据通过边缘设备传输到云端以及与其他边缘设备串联，来达成集成计算的目标。",
@@ -60,7 +60,7 @@
       "link": "https://www.lego.com/de-de/aboutus/lego-group"
     },
     "lexcom": {
-      "type": "全栈开发实习生",
+      "type": "全栈开发学生工",
       "university": "LexCom信息系统",
       "degree": "微服务软件开发部门",
       "description": "LexCom信息系统是欧洲汽车售后平台的隐形冠军，我们的门户汽车零件销售平台Partslink24在欧洲几乎所有国家的汽车修理厂中被广为使用。我在职期间独立开发了多款全栈/后端微服务，提升了平台的功能性，改善了用户的使用体验。",
@@ -68,7 +68,7 @@
       "link": "https://www.lexcom.de/home/en/what-we-do.html"
     },
     "bmw": {
-      "type": "项目管理实习生",
+      "type": "项目管理学生工",
       "university": "宝马集团",
       "degree": "",
       "description": "宝马集团是全球领先的高端汽车制造商，我任职于宝马期间正处于宝马车载应用商场从Linux架构向安卓架构迁移的时候。我主要负责迁移商店中的新应用的质量检测，测试等；同时我也负责开发了多个内部测试软件用于测试新车载系统的功能性和稳定性。",
@@ -178,11 +178,13 @@
       "projects": {
         "receipeEditor": {
           "title": "Receipe Editor",
-          "description": "设计师可以通过拖放操作快速在 Web 应用程序中创建玩具包装的布局图，并将其存储在数据库中以供未来编辑或完善。该应用还提供了一个看板用于搜索和筛选布局图。布局图最终会被用于自动化工厂的机器人生产线。"
+          "description": "设计师可以通过拖放操作快速在 Web 应用程序中创建玩具包装的布局图，并将其存储在数据库中以供未来编辑或完善。该应用还提供了一个看板用于搜索和筛选布局图。布局图最终会被用于自动化工厂的机器人生产线。",
+          "tag": "生产环境"
         },
         "plcConnect": {
           "title": "PLC Connect",
-          "description": "LEGO 工厂中有许多工业PLC。PLC Connect 可以连接到不同的 PLC 并从中读取/写入数据。该工具还可以用于监控 PLC 的状态并更改其指令。"
+          "description": "LEGO 工厂中有许多工业PLC。PLC Connect 可以连接到不同的 PLC 并从中读取/写入数据。该工具还可以用于监控 PLC 的状态并更改其指令。",
+          "tag": "生产环境"
         }
       }
     },
@@ -191,15 +193,18 @@
       "projects": {
         "pl24Upload": {
           "title": "PL24-Upload",
-          "description": "汽车修理厂可以使用 Web 应用程序扫描订单或地将订单上传到服务器。服务器将通过OCR服务处理订单，并将所有需要订购的零件自动添加到修理厂的购物车中。"
+          "description": "汽车修理厂可以使用 Web 应用程序扫描订单或地将订单上传到服务器。服务器将通过OCR服务处理订单，并将所有需要订购的零件自动添加到修理厂的购物车中。",
+          "tag": "生产环境"
         },
         "pl24Bidata": {
           "title": "PL24-Bidata",
-          "description": "该微服务会捕获用户在 Web 应用程序中的行为，并通过 Kafka 中间件将数据发送到公司内部大数据系统。大数据系统会对数据进行处理分析以改善用户体验。"
+          "description": "该微服务会捕获用户在 Web 应用程序中的行为，并通过 Kafka 中间件将数据发送到公司内部大数据系统。大数据系统会对数据进行处理分析以改善用户体验。",
+          "tag": "生产环境"
         },
         "pl24DealerMonitor": {
           "title": "PL24-DealerMonitor",
-          "description": "Partslink 24 门户平台中有许多不同经销商，PL24-DealerMonitor用于监控订单状态。如果订单未能及时处理，PL24-DealerMonitor会向经销商发送通知以确保所有订单被及时处理。"
+          "description": "Partslink 24 门户平台中有许多不同经销商，PL24-DealerMonitor用于监控订单状态。如果订单未能及时处理，PL24-DealerMonitor会向经销商发送通知以确保所有订单被及时处理。",
+          "tag": "测试环境"
         }
       }
     },
@@ -208,7 +213,8 @@
       "projects": {
         "bmwNews": {
           "title": "BMW News",
-          "description": "BMW News是一个基于 Android 的车载应用程序新闻聚合原型，它使用 Google 的News API 服务。用户可以搜索，浏览自己感兴趣的最新新闻。"
+          "description": "BMW News是一个基于 Android 的车载应用程序新闻聚合原型，它使用 Google 的News API 服务。用户可以搜索，浏览自己感兴趣的最新新闻。",
+          "tag": "工程原型"
         }
       }
     },
