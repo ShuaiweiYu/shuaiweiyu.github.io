@@ -133,27 +133,27 @@ const ProjectsPage = () => {
                             value: "React"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/javascript.webp",
                             category: "前端",
                             value: "JavaScript"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/net.webp",
                             category: "后端",
                             value: ".Net"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/c-sharp.webp",
                             category: "后端",
                             value: "C#"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/mysql.webp",
                             category: "数据库",
                             value: "MySQL"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/github.webp",
                             category: "部署",
                             value: "GitHub CI/CD"
                         }
@@ -167,32 +167,32 @@ const ProjectsPage = () => {
                     tagColor: '#16982b',
                     techStacks: [
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/blazor.webp",
                             category: "前端",
                             value: "Blazor"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/net.webp",
                             category: "后端",
                             value: ".Net"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/c-sharp.webp",
                             category: "后端",
                             value: "C#"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/api.webp",
                             category: "后端",
                             value: "PLClib"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/mysql.webp",
                             category: "数据库",
                             value: "MySQL"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/github.webp",
                             category: "部署",
                             value: "GitHub CI/CD"
                         }
@@ -218,32 +218,32 @@ const ProjectsPage = () => {
                             value: "React"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/typescript.webp",
                             category: "前端",
                             value: "TypeScript"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/springboot.webp",
                             category: "后端",
                             value: "SpringBoot"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/kafka.webp",
                             category: "中间件",
                             value: "kafka"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/mongo.webp",
                             category: "数据库",
                             value: "MongoDB"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/gitlab.webp",
                             category: "部署",
                             value: "GitLab CI/CD"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/oracle.webp",
                             category: "云技术",
                             value: "Oracle Cloud"
                         }
@@ -257,22 +257,22 @@ const ProjectsPage = () => {
                     tagColor: '#16982b',
                     techStacks: [
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/springboot.webp",
                             category: "后端",
                             value: "SpringBoot"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/kafka.webp",
                             category: "中间件",
                             value: "kafka"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/postgre.webp",
                             category: "数据库",
                             value: "PostgreSQL"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/gitlab.webp",
                             category: "部署",
                             value: "GitLab CI/CD"
                         }
@@ -291,27 +291,27 @@ const ProjectsPage = () => {
                             value: "React"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/typescript.webp",
                             category: "前端",
                             value: "TypeScript"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/springboot.webp",
                             category: "后端",
                             value: "SpringBoot"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/kafka.webp",
                             category: "中间件",
                             value: "kafka"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/mongo.webp",
                             category: "数据库",
                             value: "MongoDB"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/gitlab.webp",
                             category: "部署",
                             value: "GitLab CI/CD"
                         }
@@ -332,17 +332,17 @@ const ProjectsPage = () => {
                     tagColor: '#005eff',
                     techStacks: [
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/android.webp",
                             category: "客户端",
                             value: "Android"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/java.webp",
                             category: "客户端",
                             value: "Java"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/api.webp",
                             category: "API",
                             value: "NewsAPI"
                         }
@@ -363,12 +363,12 @@ const ProjectsPage = () => {
                     tagColor: '#005eff',
                     techStacks: [
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/python.webp",
                             category: "后端",
                             value: "Python"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/spacy.webp",
                             category: "后端",
                             value: "Spacy"
                         },
@@ -389,17 +389,17 @@ const ProjectsPage = () => {
                     tagColor: '#005eff',
                     techStacks: [
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/python.webp",
                             category: "后端",
                             value: "Python"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/sklearn.webp",
                             category: "后端",
                             value: "sklearn"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/numpy.webp",
                             category: "后端",
                             value: "NumPy"
                         }
@@ -419,19 +419,19 @@ const ProjectsPage = () => {
                     tagColor: '#ff8c00',
                     techStacks: [
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/vue.webp",
                             category: "前端",
                             value: "Vue"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/javascript.webp",
                             category: "前端",
                             value: "JavaScript"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/github.webp",
                             category: "部署",
-                            value: "GitLab Pages"
+                            value: "Github Pages"
                         }
                     ]
                 },
@@ -442,12 +442,12 @@ const ProjectsPage = () => {
                     tagColor: '#ff8c00',
                     techStacks: [
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/apple.webp",
                             category: "客户端",
                             value: "iOS"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/swift.webp",
                             category: "客户端",
                             value: "Swift"
                         }
@@ -465,42 +465,42 @@ const ProjectsPage = () => {
                             value: "React"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/javascript.webp",
                             category: "前端",
                             value: "JavaScript"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/redux.webp",
                             category: "前端",
                             value: "Redux"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/node-js.webp",
                             category: "后端",
                             value: "Node.js"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/express-js.webp",
                             category: "后端",
                             value: "Express.js"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/paypal.webp",
                             category: "API",
                             value: "PayPal SDK"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/aws-s3.webp",
                             category: "云技术",
                             value: "AWS S3"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/aws-ec2.webp",
                             category: "云技术",
                             value: "AWS EC2"
                         },
                         {
-                            icon: "/assets/react.webp",
+                            icon: "/assets/ngnix.webp",
                             category: "运维",
                             value: "Ngnix"
                         }
