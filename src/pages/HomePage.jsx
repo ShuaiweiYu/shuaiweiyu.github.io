@@ -248,7 +248,7 @@ const HomePage = () => {
                         >
                             <ItemCard
                                 type={t("itemCards.tumMaster.type")}
-                                iconSrc="/assets/tum2.jpg"
+                                iconSrc="/assets/tum2.webp"
                                 altText="TUM"
                                 university={t("itemCards.tumMaster.university")}
                                 degree={t("itemCards.tumMaster.degree")}
@@ -258,7 +258,7 @@ const HomePage = () => {
                             />
                             <ItemCard
                                 type={t("itemCards.tumBachelor.type")}
-                                iconSrc="/assets/tum2.jpg"
+                                iconSrc="/assets/tum2.webp"
                                 altText="TUM"
                                 university={t("itemCards.tumBachelor.university")}
                                 degree={t("itemCards.tumBachelor.degree")}
@@ -268,7 +268,7 @@ const HomePage = () => {
                             />
                             <ItemCard
                                 type=""
-                                iconSrc="/assets/studienkolleg.png"
+                                iconSrc="/assets/studienkolleg.webp"
                                 altText="studienkolleg"
                                 university={t("itemCards.studienkolleg.university")}
                                 degree={t("itemCards.studienkolleg.degree")}
@@ -300,7 +300,7 @@ const HomePage = () => {
                         >
                             <ItemCard
                                 type={t("itemCards.siemens.degree")}
-                                iconSrc="/assets/siemens.jpg"
+                                iconSrc="/assets/siemens.webp"
                                 altText="siemens"
                                 university={t("itemCards.siemens.university")}
                                 degree={t("itemCards.siemens.type")}
@@ -310,7 +310,7 @@ const HomePage = () => {
                             />
                             <ItemCard
                                 type={t("itemCards.lego.degree")}
-                                iconSrc="/assets/lego.png"
+                                iconSrc="/assets/lego.webp"
                                 altText="LEGO"
                                 university={t("itemCards.lego.university")}
                                 degree={t("itemCards.lego.type")}
@@ -320,7 +320,7 @@ const HomePage = () => {
                             />
                             <ItemCard
                                 type={t("itemCards.lexcom.degree")}
-                                iconSrc="/assets/lexcom.jpeg"
+                                iconSrc="/assets/lexcom.webp"
                                 altText="lexcom"
                                 university={t("itemCards.lexcom.university")}
                                 degree={t("itemCards.lexcom.type")}
@@ -330,7 +330,7 @@ const HomePage = () => {
                             />
                             <ItemCard
                                 type=""
-                                iconSrc="/assets/bmw.png"
+                                iconSrc="/assets/bmw.webp"
                                 altText="BMW"
                                 university={t("itemCards.bmw.university")}
                                 degree={t("itemCards.bmw.type")}
@@ -374,28 +374,28 @@ const HomePage = () => {
                         >
                             <IconCard
                                 type={t("iconCards.java.type")}
-                                iconSrc="/assets/java.png"
+                                iconSrc="/assets/java.webp"
                                 altText="Java"
                                 text={t("iconCards.java.text")}
                                 description={t("iconCards.java.description")}
                             />
                             <IconCard
                                 type={t("iconCards.python.type")}
-                                iconSrc="/assets/python.png"
+                                iconSrc="/assets/python.webp"
                                 altText="Python"
                                 text={t("iconCards.python.text")}
                                 description={t("iconCards.python.description")}
                             />
                             <IconCard
                                 type={t("iconCards.javascript.type")}
-                                iconSrc="/assets/javascript.png"
+                                iconSrc="/assets/javascript.webp"
                                 altText="JavaScript"
                                 text={t("iconCards.javascript.text")}
                                 description={t("iconCards.javascript.description")}
                             />
                             {/*<IconCard*/}
                             {/*    type="Progamming Language"*/}
-                            {/*    iconSrc="/assets/swift.png"*/}
+                            {/*    iconSrc="/assets/swift.webp"*/}
                             {/*    altText="Swift"*/}
                             {/*    text="Swift"*/}
                             {/*    description=""*/}
@@ -409,21 +409,21 @@ const HomePage = () => {
                             />
                             <IconCard
                                 type={t("iconCards.react.type")}
-                                iconSrc="/assets/react.png"
+                                iconSrc="/assets/react.webp"
                                 altText="React.js"
                                 text={t("iconCards.react.text")}
                                 description={t("iconCards.react.description")}
                             />
                             {/*<IconCard*/}
                             {/*    type="Framework"*/}
-                            {/*    iconSrc="/assets/vue.png"*/}
+                            {/*    iconSrc="/assets/vue.webp"*/}
                             {/*    altText="Vue.js"*/}
                             {/*    text="Vue.js"*/}
                             {/*    description=""*/}
                             {/*/>*/}
                             <IconCard
                                 type={t("iconCards.git.type")}
-                                iconSrc="/assets/git.png"
+                                iconSrc="/assets/git.webp"
                                 altText="Git"
                                 text={t("iconCards.git.text")}
                                 description={t("iconCards.git.description")}
@@ -437,7 +437,7 @@ const HomePage = () => {
                             />
                             <IconCard
                                 type={t("iconCards.mysql.type")}
-                                iconSrc="/assets/mysql.png"
+                                iconSrc="/assets/mysql.webp"
                                 altText="MySQL"
                                 text={t("iconCards.mysql.text")}
                                 description={t("iconCards.mysql.description")}
@@ -476,21 +476,21 @@ const HomePage = () => {
                         >
                             <IconCard
                                 type={t("iconCards.german.type")}
-                                iconSrc="/assets/german.png"
+                                iconSrc="/assets/german.webp"
                                 altText="German"
                                 text={t("iconCards.german.text")}
                                 description={t("iconCards.german.description")}
                             />
                             <IconCard
                                 type={t("iconCards.english.type")}
-                                iconSrc="/assets/english.png"
+                                iconSrc="/assets/english.webp"
                                 altText="English"
                                 text={t("iconCards.english.text")}
                                 description={t("iconCards.english.description")}
                             />
                             <IconCard
                                 type={t("iconCards.chinese.type")}
-                                iconSrc="/assets/chinese.png"
+                                iconSrc="/assets/chinese.webp"
                                 altText="Chinese"
                                 text={t("iconCards.chinese.text")}
                                 description={t("iconCards.chinese.description")}
@@ -515,35 +515,35 @@ const HomePage = () => {
                         >
                             <IconCard
                                 type={t("iconCards.reading.type")}
-                                iconSrc="/assets/books.png"
+                                iconSrc="/assets/books.webp"
                                 altText="books"
                                 text={t("iconCards.reading.text")}
                                 description={t("iconCards.reading.description")}
                             />
                             <IconCard
                                 type={t("iconCards.movies.type")}
-                                iconSrc="/assets/movie.png"
+                                iconSrc="/assets/movie.webp"
                                 altText="movie"
                                 text={t("iconCards.movies.text")}
                                 description={t("iconCards.movies.description")}
                             />
                             <IconCard
                                 type={t("iconCards.traveling.type")}
-                                iconSrc="/assets/travel.png"
+                                iconSrc="/assets/travel.webp"
                                 altText="travel"
                                 text={t("iconCards.traveling.text")}
                                 description={t("iconCards.traveling.description")}
                             />
                             <IconCard
                                 type={t("iconCards.hiking.type")}
-                                iconSrc="/assets/mountain.png"
+                                iconSrc="/assets/mountain.webp"
                                 altText="mountain"
                                 text={t("iconCards.hiking.text")}
                                 description={t("iconCards.hiking.description")}
                             />
                             <IconCard
                                 type={t("iconCards.gaming.type")}
-                                iconSrc="/assets/game.png"
+                                iconSrc="/assets/game.webp"
                                 altText="game"
                                 text={t("iconCards.gaming.text")}
                                 description={t("iconCards.gaming.description")}
