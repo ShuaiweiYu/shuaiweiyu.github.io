@@ -179,12 +179,64 @@
         "receipeEditor": {
           "title": "Receipe Editor",
           "description": "设计师可以通过拖放操作快速在 Web 应用程序中创建玩具包装的布局图，并将其存储在数据库中以供未来编辑或完善。该应用还提供了一个看板用于搜索和筛选布局图。布局图最终会被用于自动化工厂的机器人生产线。",
-          "tag": "生产环境"
+          "tag": "生产环境",
+          "techStacks": {
+            "techStack1": {
+              "category": "前端",
+              "value": "React.js"
+            },
+            "techStack2": {
+              "category": "前端",
+              "value": "JavaScript"
+            },
+            "techStack3": {
+              "category": "后端",
+              "value": ".Net"
+            },
+            "techStack4": {
+              "category": "后端",
+              "value": "C#"
+            },
+            "techStack5": {
+              "category": "数据库",
+              "value": "MySQL"
+            },
+            "techStack6": {
+              "category": "部署",
+              "value": "GitHub CI/CD"
+            }
+          }
         },
         "plcConnect": {
           "title": "PLC Connect",
           "description": "LEGO 工厂中有许多工业PLC。PLC Connect 可以连接到不同的 PLC 并从中读取/写入数据。该工具还可以用于监控 PLC 的状态并更改其指令。",
-          "tag": "生产环境"
+          "tag": "生产环境",
+          "techStacks": {
+            "techStack1": {
+              "category": "前端",
+              "value": "Blazor"
+            },
+            "techStack2": {
+              "category": "后端",
+              "value": ".Net"
+            },
+            "techStack3": {
+              "category": "后端",
+              "value": "C#"
+            },
+            "techStack4": {
+              "category": "后端",
+              "value": "PLClib"
+            },
+            "techStack5": {
+              "category": "数据库",
+              "value": "MySQL"
+            },
+            "techStack6": {
+              "category": "部署",
+              "value": "GitHub CI/CD"
+            }
+          }
         }
       }
     },
@@ -194,17 +246,95 @@
         "pl24Upload": {
           "title": "PL24-Upload",
           "description": "汽车修理厂可以使用 Web 应用程序扫描订单或地将订单上传到服务器。服务器将通过OCR服务处理订单，并将所有需要订购的零件自动添加到修理厂的购物车中。",
-          "tag": "生产环境"
+          "tag": "生产环境",
+          "techStacks": {
+            "techStack1": {
+              "category": "前端",
+              "value": "React.js"
+            },
+            "techStack2": {
+              "category": "前端",
+              "value": "JavaScript"
+            },
+            "techStack3": {
+              "category": "后端",
+              "value": ".Net"
+            },
+            "techStack4": {
+              "category": "后端",
+              "value": "C#"
+            },
+            "techStack5": {
+              "category": "数据库",
+              "value": "MySQL"
+            },
+            "techStack6": {
+              "category": "部署",
+              "value": "GitHub CI/CD"
+            }
+          }
         },
         "pl24Bidata": {
           "title": "PL24-Bidata",
           "description": "该微服务会捕获用户在 Web 应用程序中的行为，并通过 Kafka 中间件将数据发送到公司内部大数据系统。大数据系统会对数据进行处理分析以改善用户体验。",
-          "tag": "生产环境"
+          "tag": "生产环境",
+          "techStacks": {
+            "techStack1": {
+              "category": "前端",
+              "value": "React.js"
+            },
+            "techStack2": {
+              "category": "前端",
+              "value": "JavaScript"
+            },
+            "techStack3": {
+              "category": "后端",
+              "value": ".Net"
+            },
+            "techStack4": {
+              "category": "后端",
+              "value": "C#"
+            },
+            "techStack5": {
+              "category": "数据库",
+              "value": "MySQL"
+            },
+            "techStack6": {
+              "category": "部署",
+              "value": "GitHub CI/CD"
+            }
+          }
         },
         "pl24DealerMonitor": {
           "title": "PL24-DealerMonitor",
           "description": "Partslink 24 门户平台中有许多不同经销商，PL24-DealerMonitor用于监控订单状态。如果订单未能及时处理，PL24-DealerMonitor会向经销商发送通知以确保所有订单被及时处理。",
-          "tag": "测试环境"
+          "tag": "测试环境",
+          "techStacks": {
+            "techStack1": {
+              "category": "前端",
+              "value": "React.js"
+            },
+            "techStack2": {
+              "category": "前端",
+              "value": "JavaScript"
+            },
+            "techStack3": {
+              "category": "后端",
+              "value": ".Net"
+            },
+            "techStack4": {
+              "category": "后端",
+              "value": "C#"
+            },
+            "techStack5": {
+              "category": "数据库",
+              "value": "MySQL"
+            },
+            "techStack6": {
+              "category": "部署",
+              "value": "GitHub CI/CD"
+            }
+          }
         }
       }
     },
@@ -214,7 +344,33 @@
         "bmwNews": {
           "title": "BMW News",
           "description": "BMW News是一个基于 Android 的车载应用程序新闻聚合原型，它使用 Google 的News API 服务。用户可以搜索，浏览自己感兴趣的最新新闻。",
-          "tag": "工程原型"
+          "tag": "工程原型",
+          "techStacks": {
+            "techStack1": {
+              "category": "前端",
+              "value": "React.js"
+            },
+            "techStack2": {
+              "category": "前端",
+              "value": "JavaScript"
+            },
+            "techStack3": {
+              "category": "后端",
+              "value": ".Net"
+            },
+            "techStack4": {
+              "category": "后端",
+              "value": "C#"
+            },
+            "techStack5": {
+              "category": "数据库",
+              "value": "MySQL"
+            },
+            "techStack6": {
+              "category": "部署",
+              "value": "GitHub CI/CD"
+            }
+          }
         }
       }
     },
@@ -223,7 +379,33 @@
       "projects": {
         "bpmnGeneration": {
           "title": "从自然语言文本生成业务流程模型的改进方法",
-          "description": "业务流程建模符号（BPMN）对于结构化和可视化流程至关重要，可提升公司的工作流程。然而，创建 BPMN 模型通常需要专业知识并且耗时。本文讨论如何通过改进的识别精度使用 Python 和 spacy 库生成 BPMN 模型。"
+          "description": "业务流程建模符号（BPMN）对于结构化和可视化流程至关重要，可提升公司的工作流程。然而，创建 BPMN 模型通常需要专业知识并且耗时。本文讨论如何通过改进的识别精度使用 Python 和 spacy 库生成 BPMN 模型。",
+          "techStacks": {
+            "techStack1": {
+              "category": "前端",
+              "value": "React.js"
+            },
+            "techStack2": {
+              "category": "前端",
+              "value": "JavaScript"
+            },
+            "techStack3": {
+              "category": "后端",
+              "value": ".Net"
+            },
+            "techStack4": {
+              "category": "后端",
+              "value": "C#"
+            },
+            "techStack5": {
+              "category": "数据库",
+              "value": "MySQL"
+            },
+            "techStack6": {
+              "category": "部署",
+              "value": "GitHub CI/CD"
+            }
+          }
         },
         "predictiveProcessMonitoring": {
           "title": "预测性流程监控的研究发展",
@@ -231,7 +413,33 @@
         },
         "bamlAnalyticsCup": {
           "title": "BAML-商分竞赛",
-          "description": "BAML-商分竞赛是 TUM 商业分析与机器学习课程与西门子合作的项目。项目目标是预测潜在客户的购买决策。我们使用随机森林算法训练模型，该模型训练速度快且具有较高的准确性。"
+          "description": "BAML-商分竞赛是 TUM 商业分析与机器学习课程与西门子合作的项目。项目目标是预测潜在客户的购买决策。我们使用随机森林算法训练模型，该模型训练速度快且具有较高的准确性。",
+          "techStacks": {
+            "techStack1": {
+              "category": "前端",
+              "value": "React.js"
+            },
+            "techStack2": {
+              "category": "前端",
+              "value": "JavaScript"
+            },
+            "techStack3": {
+              "category": "后端",
+              "value": ".Net"
+            },
+            "techStack4": {
+              "category": "后端",
+              "value": "C#"
+            },
+            "techStack5": {
+              "category": "数据库",
+              "value": "MySQL"
+            },
+            "techStack6": {
+              "category": "部署",
+              "value": "GitHub CI/CD"
+            }
+          }
         }
       }
     },
@@ -240,15 +448,96 @@
       "projects": {
         "focusList": {
           "title": "任务清单",
-          "description": "基于 Vue.js 的前端任务清单网页。该应用还支持番茄钟功能，帮助用户更好地完成任务。详情请访问：https://shuaiweiyu.github.io/focuslist/"
+          "description": "基于 Vue.js 的前端任务清单网页。该应用还支持番茄钟功能，帮助用户更好地完成任务。详情请访问：https://shuaiweiyu.github.io/focuslist/",
+          "tag": "工程原型",
+          "techStacks": {
+            "techStack1": {
+              "category": "前端",
+              "value": "React.js"
+            },
+            "techStack2": {
+              "category": "前端",
+              "value": "JavaScript"
+            },
+            "techStack3": {
+              "category": "后端",
+              "value": ".Net"
+            },
+            "techStack4": {
+              "category": "后端",
+              "value": "C#"
+            },
+            "techStack5": {
+              "category": "数据库",
+              "value": "MySQL"
+            },
+            "techStack6": {
+              "category": "部署",
+              "value": "GitHub CI/CD"
+            }
+          }
         },
         "emojiDiary": {
           "title": "Emoji 日记",
-          "description": "Emoji Diary 是一个日记类 iOS 应用。用户可以使用 emoji、简单描述和多张照片记录日常生活。该应用还支持通过 iCloud 共享的功能。"
+          "description": "Emoji Diary 是一个日记类 iOS 应用。用户可以使用 emoji、简单描述和多张照片记录日常生活。该应用还支持通过 iCloud 共享的功能。",
+          "tag": "工程原型",
+          "techStacks": {
+            "techStack1": {
+              "category": "前端",
+              "value": "React.js"
+            },
+            "techStack2": {
+              "category": "前端",
+              "value": "JavaScript"
+            },
+            "techStack3": {
+              "category": "后端",
+              "value": ".Net"
+            },
+            "techStack4": {
+              "category": "后端",
+              "value": "C#"
+            },
+            "techStack5": {
+              "category": "数据库",
+              "value": "MySQL"
+            },
+            "techStack6": {
+              "category": "部署",
+              "value": "GitHub CI/CD"
+            }
+          }
         },
         "volMe": {
           "title": "VolMe",
-          "description": "VolMe 是一个志愿者管理系统。平台可以帮助志愿者组织管理志愿者和活动。系统还支持评分/反馈、聊天、活动管理、签到等功能。"
+          "description": "VolMe 是一个志愿者管理系统。平台可以帮助志愿者组织管理志愿者和活动。系统还支持评分/反馈、聊天、活动管理、签到等功能。",
+          "tag": "工程原型",
+          "techStacks": {
+            "techStack1": {
+              "category": "前端",
+              "value": "React.js"
+            },
+            "techStack2": {
+              "category": "前端",
+              "value": "JavaScript"
+            },
+            "techStack3": {
+              "category": "后端",
+              "value": ".Net"
+            },
+            "techStack4": {
+              "category": "后端",
+              "value": "C#"
+            },
+            "techStack5": {
+              "category": "数据库",
+              "value": "MySQL"
+            },
+            "techStack6": {
+              "category": "部署",
+              "value": "GitHub CI/CD"
+            }
+          }
         }
       }
     }

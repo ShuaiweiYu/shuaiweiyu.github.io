@@ -179,12 +179,64 @@
         "receipeEditor": {
           "title": "Recipe Editor",
           "description": "Designers can quickly create layouts for toy packaging using drag-and-drop operations in a web application, storing them in a database for future editing or refinement. The app also provides a dashboard for searching and filtering layouts. These layouts are eventually used in automated factory robotic production lines.",
-          "tag": "In Production"
+          "tag": "In Production",
+          "techStacks": {
+            "techStack1": {
+              "category": "Frontend",
+              "value": "React.js"
+            },
+            "techStack2": {
+              "category": "Frontend",
+              "value": "JavaScript"
+            },
+            "techStack3": {
+              "category": "Backend",
+              "value": ".Net"
+            },
+            "techStack4": {
+              "category": "Backend",
+              "value": "C#"
+            },
+            "techStack5": {
+              "category": "Database",
+              "value": "MySQL"
+            },
+            "techStack6": {
+              "category": "Pipeline",
+              "value": "GitHub CI/CD"
+            }
+          }
         },
         "plcConnect": {
           "title": "PLC Connect",
           "description": "LEGO factories house numerous industrial PLCs. PLC Connect can interface with different PLCs to read/write data. The tool also monitors PLC statuses and modifies their instructions.",
-          "tag": "In Production"
+          "tag": "In Production",
+          "techStacks": {
+            "techStack1": {
+              "category": "Frontend",
+              "value": "Blazor"
+            },
+            "techStack2": {
+              "category": "Backend",
+              "value": ".Net"
+            },
+            "techStack3": {
+              "category": "Backend",
+              "value": "C#"
+            },
+            "techStack4": {
+              "category": "Backend",
+              "value": "PLClib"
+            },
+            "techStack5": {
+              "category": "Database",
+              "value": "MySQL"
+            },
+            "techStack6": {
+              "category": "Pipeline",
+              "value": "GitHub CI/CD"
+            }
+          }
         }
       }
     },

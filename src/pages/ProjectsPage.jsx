@@ -108,6 +108,9 @@ const ProjectCard = ({title, imgSrc, description, link, tag, tagColor = '#e0e0e0
 const ProjectsPage = () => {
     const {t} = useTranslation();
 
+    //TODO: Edit the translation file
+    //TODO: Edit the project data
+
     const projectsData = [
         {
             id: 'siemens',
@@ -129,33 +132,33 @@ const ProjectsPage = () => {
                     techStacks: [
                         {
                             icon: "/assets/react.webp",
-                            category: "前端",
-                            value: "React"
+                            category: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack1.category'),
+                            value: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack1.value')
                         },
                         {
                             icon: "/assets/javascript.webp",
-                            category: "前端",
-                            value: "JavaScript"
+                            category: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack2.category'),
+                            value: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack2.value')
                         },
                         {
                             icon: "/assets/net.webp",
-                            category: "后端",
-                            value: ".Net"
+                            category: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack3.category'),
+                            value: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack3.value')
                         },
                         {
                             icon: "/assets/c-sharp.webp",
-                            category: "后端",
-                            value: "C#"
+                            category: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack4.category'),
+                            value: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack4.value')
                         },
                         {
                             icon: "/assets/mysql.webp",
-                            category: "数据库",
-                            value: "MySQL"
+                            category: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack5.category'),
+                            value: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack5.value')
                         },
                         {
                             icon: "/assets/github.webp",
-                            category: "部署",
-                            value: "GitHub CI/CD"
+                            category: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack6.category'),
+                            value: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack6.value')
                         }
                     ]
                 },
@@ -168,33 +171,33 @@ const ProjectsPage = () => {
                     techStacks: [
                         {
                             icon: "/assets/blazor.webp",
-                            category: "前端",
-                            value: "Blazor"
+                            category: t('projectsPage.lego.projects.plcConnect.techStacks.techStack1.category'),
+                            value: t('projectsPage.lego.projects.plcConnect.techStacks.techStack1.value')
                         },
                         {
                             icon: "/assets/net.webp",
-                            category: "后端",
-                            value: ".Net"
+                            category: t('projectsPage.lego.projects.plcConnect.techStacks.techStack2.category'),
+                            value: t('projectsPage.lego.projects.plcConnect.techStacks.techStack2.value')
                         },
                         {
                             icon: "/assets/c-sharp.webp",
-                            category: "后端",
-                            value: "C#"
+                            category: t('projectsPage.lego.projects.plcConnect.techStacks.techStack3.category'),
+                            value: t('projectsPage.lego.projects.plcConnect.techStacks.techStack3.value')
                         },
                         {
                             icon: "/assets/api.webp",
-                            category: "后端",
-                            value: "PLClib"
+                            category: t('projectsPage.lego.projects.plcConnect.techStacks.techStack4.category'),
+                            value: t('projectsPage.lego.projects.plcConnect.techStacks.techStack4.value')
                         },
                         {
                             icon: "/assets/mysql.webp",
-                            category: "数据库",
-                            value: "MySQL"
+                            category: t('projectsPage.lego.projects.plcConnect.techStacks.techStack5.category'),
+                            value: t('projectsPage.lego.projects.plcConnect.techStacks.techStack5.value')
                         },
                         {
                             icon: "/assets/github.webp",
-                            category: "部署",
-                            value: "GitHub CI/CD"
+                            category: t('projectsPage.lego.projects.plcConnect.techStacks.techStack6.category'),
+                            value: t('projectsPage.lego.projects.plcConnect.techStacks.techStack6.value')
                         }
                     ]
                 },
