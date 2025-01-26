@@ -217,38 +217,38 @@ const ProjectsPage = () => {
                     techStacks: [
                         {
                             icon: "/assets/react.webp",
-                            category: "前端",
-                            value: "React"
+                            category: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack1.category'),
+                            value: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack1.value')
                         },
                         {
                             icon: "/assets/typescript.webp",
-                            category: "前端",
-                            value: "TypeScript"
+                            category: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack2.category'),
+                            value: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack2.value')
                         },
                         {
                             icon: "/assets/springboot.webp",
-                            category: "后端",
-                            value: "SpringBoot"
+                            category: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack3.category'),
+                            value: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack3.value')
                         },
                         {
                             icon: "/assets/kafka.webp",
-                            category: "中间件",
-                            value: "kafka"
+                            category: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack4.category'),
+                            value: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack4.value')
                         },
                         {
                             icon: "/assets/mongo.webp",
-                            category: "数据库",
-                            value: "MongoDB"
+                            category: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack5.category'),
+                            value: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack5.value')
                         },
                         {
                             icon: "/assets/gitlab.webp",
-                            category: "部署",
-                            value: "GitLab CI/CD"
+                            category: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack6.category'),
+                            value: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack6.value')
                         },
                         {
                             icon: "/assets/oracle.webp",
-                            category: "云技术",
-                            value: "Oracle Cloud"
+                            category: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack7.category'),
+                            value: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack7.value')
                         }
                     ]
                 },
@@ -261,23 +261,23 @@ const ProjectsPage = () => {
                     techStacks: [
                         {
                             icon: "/assets/springboot.webp",
-                            category: "后端",
-                            value: "SpringBoot"
+                            category: t('projectsPage.lexcom.projects.pl24Bidata.techStacks.techStack1.category'),
+                            value: t('projectsPage.lexcom.projects.pl24Bidata.techStacks.techStack1.value')
                         },
                         {
                             icon: "/assets/kafka.webp",
-                            category: "中间件",
-                            value: "kafka"
+                            category: t('projectsPage.lexcom.projects.pl24Bidata.techStacks.techStack2.category'),
+                            value: t('projectsPage.lexcom.projects.pl24Bidata.techStacks.techStack2.value')
                         },
                         {
                             icon: "/assets/postgre.webp",
-                            category: "数据库",
-                            value: "PostgreSQL"
+                            category: t('projectsPage.lexcom.projects.pl24Bidata.techStacks.techStack3.category'),
+                            value: t('projectsPage.lexcom.projects.pl24Bidata.techStacks.techStack3.value')
                         },
                         {
                             icon: "/assets/gitlab.webp",
-                            category: "部署",
-                            value: "GitLab CI/CD"
+                            category: t('projectsPage.lexcom.projects.pl24Bidata.techStacks.techStack4.category'),
+                            value: t('projectsPage.lexcom.projects.pl24Bidata.techStacks.techStack4.value')
                         }
                     ]
                 },
@@ -290,33 +290,33 @@ const ProjectsPage = () => {
                     techStacks: [
                         {
                             icon: "/assets/react.webp",
-                            category: "前端",
-                            value: "React"
+                            category: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack1.category'),
+                            value: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack1.value')
                         },
                         {
                             icon: "/assets/typescript.webp",
-                            category: "前端",
-                            value: "TypeScript"
+                            category: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack2.category'),
+                            value: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack2.value')
                         },
                         {
                             icon: "/assets/springboot.webp",
-                            category: "后端",
-                            value: "SpringBoot"
+                            category: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack3.category'),
+                            value: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack3.value')
                         },
                         {
                             icon: "/assets/kafka.webp",
-                            category: "中间件",
-                            value: "kafka"
+                            category: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack4.category'),
+                            value: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack4.value')
                         },
                         {
                             icon: "/assets/mongo.webp",
-                            category: "数据库",
-                            value: "MongoDB"
+                            category: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack5.category'),
+                            value: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack5.value')
                         },
                         {
                             icon: "/assets/gitlab.webp",
-                            category: "部署",
-                            value: "GitLab CI/CD"
+                            category: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack6.category'),
+                            value: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack6.value')
                         }
                     ]
                 },
@@ -336,18 +336,18 @@ const ProjectsPage = () => {
                     techStacks: [
                         {
                             icon: "/assets/android.webp",
-                            category: "客户端",
-                            value: "Android"
+                            category: t('projectsPage.bmw.projects.bmwNews.techStacks.techStack1.category'),
+                            value: t('projectsPage.bmw.projects.bmwNews.techStacks.techStack1.value')
                         },
                         {
                             icon: "/assets/java.webp",
-                            category: "客户端",
-                            value: "Java"
+                            category: t('projectsPage.bmw.projects.bmwNews.techStacks.techStack2.category'),
+                            value: t('projectsPage.bmw.projects.bmwNews.techStacks.techStack2.value')
                         },
                         {
                             icon: "/assets/api.webp",
-                            category: "API",
-                            value: "NewsAPI"
+                            category: t('projectsPage.bmw.projects.bmwNews.techStacks.techStack3.category'),
+                            value: t('projectsPage.bmw.projects.bmwNews.techStacks.techStack3.value')
                         }
                     ]
                 },

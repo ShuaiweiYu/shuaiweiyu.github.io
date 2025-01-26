@@ -254,23 +254,27 @@
             },
             "techStack2": {
               "category": "前端",
-              "value": "JavaScript"
+              "value": "TypeScript"
             },
             "techStack3": {
               "category": "后端",
-              "value": ".Net"
+              "value": "SpringBoot"
             },
             "techStack4": {
-              "category": "后端",
-              "value": "C#"
+              "category": "中间件",
+              "value": "Kafka"
             },
             "techStack5": {
               "category": "数据库",
-              "value": "MySQL"
+              "value": "MongoDB"
             },
             "techStack6": {
               "category": "部署",
-              "value": "GitHub CI/CD"
+              "value": "GitLab CI/CD"
+            },
+            "techStack7": {
+              "category": "云技术",
+              "value": "Oracle Cloud"
             }
           }
         },
@@ -280,28 +284,20 @@
           "tag": "生产环境",
           "techStacks": {
             "techStack1": {
-              "category": "前端",
-              "value": "React.js"
+              "category": "后端",
+              "value": "SpringBoot"
             },
             "techStack2": {
-              "category": "前端",
-              "value": "JavaScript"
+              "category": "中间件",
+              "value": "Kafka"
             },
             "techStack3": {
-              "category": "后端",
-              "value": ".Net"
+              "category": "数据库",
+              "value": "PostgreSQL"
             },
             "techStack4": {
-              "category": "后端",
-              "value": "C#"
-            },
-            "techStack5": {
-              "category": "数据库",
-              "value": "MySQL"
-            },
-            "techStack6": {
               "category": "部署",
-              "value": "GitHub CI/CD"
+              "value": "GitLab CI/CD"
             }
           }
         },
@@ -316,19 +312,19 @@
             },
             "techStack2": {
               "category": "前端",
-              "value": "JavaScript"
+              "value": "TypeScript"
             },
             "techStack3": {
               "category": "后端",
-              "value": ".Net"
+              "value": "SpringBoot"
             },
             "techStack4": {
-              "category": "后端",
-              "value": "C#"
+              "category": "中间件",
+              "value": "Kafka"
             },
             "techStack5": {
               "category": "数据库",
-              "value": "MySQL"
+              "value": "MongoDB"
             },
             "techStack6": {
               "category": "部署",
@@ -347,28 +343,16 @@
           "tag": "工程原型",
           "techStacks": {
             "techStack1": {
-              "category": "前端",
-              "value": "React.js"
+              "category": "客户端",
+              "value": "Android"
             },
             "techStack2": {
-              "category": "前端",
-              "value": "JavaScript"
+              "category": "客户端",
+              "value": "Java"
             },
             "techStack3": {
-              "category": "后端",
-              "value": ".Net"
-            },
-            "techStack4": {
-              "category": "后端",
-              "value": "C#"
-            },
-            "techStack5": {
-              "category": "数据库",
-              "value": "MySQL"
-            },
-            "techStack6": {
-              "category": "部署",
-              "value": "GitHub CI/CD"
+              "category": "API",
+              "value": "Google NewsAPI"
             }
           }
         }
