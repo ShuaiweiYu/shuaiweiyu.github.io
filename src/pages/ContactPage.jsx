@@ -7,6 +7,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import PublicIcon from "@mui/icons-material/Public";
 import ChatIcon from "@mui/icons-material/Chat";
 import {useTranslation} from "react-i18next";
+import BuyMeACoffee from "../components/BuyMeACoffee";
 
 const contacts = (t) => [
     {
@@ -79,9 +80,9 @@ const ContactPage = () => {
                                     rel="noopener"
                                     underline="hover"
                                     sx={{
-                                        maxWidth: { xs: '200px', sm: 'none' }, // xs 屏幕时限制宽度
-                                        wordWrap: 'break-word', // 长单词自动换行
-                                        overflow: 'hidden', // 避免溢出
+                                        maxWidth: {xs: "200px", sm: "none"},
+                                        wordWrap: "break-word",
+                                        overflow: "hidden",
                                     }}
                                 >
                                     {contact.display}
@@ -89,18 +90,20 @@ const ContactPage = () => {
                             ) : (
                                 <Typography
                                     sx={{
-                                        maxWidth: { xs: '200px', sm: 'none' }, // 同样限制非链接的文字
-                                        wordWrap: 'break-word',
+                                        maxWidth: {xs: "200px", sm: "none"},
+                                        wordWrap: "break-word",
                                     }}
                                 >
                                     {contact.display}
                                 </Typography>
                             )}
-
-
                         </Box>
                     ))}
                 </Stack>
+
+                <Box sx={{ display: "flex", justifyContent: "center", mt: 2 }}>
+                    <BuyMeACoffee/>
+                </Box>
             </Paper>
         </Container>
     );
