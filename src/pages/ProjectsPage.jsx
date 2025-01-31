@@ -362,18 +362,18 @@ const ProjectsPage = () => {
                     title: t('projectsPage.tum.projects.bpmnGeneration.title'),
                     imgSrc: '/assets/thesis.webp',
                     description: t('projectsPage.tum.projects.bpmnGeneration.description'),
-                    tag: '本科论文',
+                    tag: t('projectsPage.tum.projects.bpmnGeneration.tag'),
                     tagColor: '#005eff',
                     techStacks: [
                         {
                             icon: "/assets/python.webp",
-                            category: "后端",
-                            value: "Python"
+                            category: t('projectsPage.tum.projects.bpmnGeneration.techStacks.techStack1.category'),
+                            value: t('projectsPage.tum.projects.bpmnGeneration.techStacks.techStack1.value'),
                         },
                         {
                             icon: "/assets/spacy.webp",
-                            category: "后端",
-                            value: "Spacy"
+                            category: t('projectsPage.tum.projects.bpmnGeneration.techStacks.techStack2.category'),
+                            value: t('projectsPage.tum.projects.bpmnGeneration.techStacks.techStack2.value'),
                         },
                     ]
                 },
@@ -381,30 +381,30 @@ const ProjectsPage = () => {
                     title: t('projectsPage.tum.projects.predictiveProcessMonitoring.title'),
                     imgSrc: '/assets/PPM.webp',
                     description: t('projectsPage.tum.projects.predictiveProcessMonitoring.description'),
-                    tag: '研讨会论文',
+                    tag: t('projectsPage.tum.projects.predictiveProcessMonitoring.tag'),
                     tagColor: '#005eff',
                 },
                 {
                     title: t('projectsPage.tum.projects.bamlAnalyticsCup.title'),
                     imgSrc: '/assets/ana_cup.webp',
                     description: t('projectsPage.tum.projects.bamlAnalyticsCup.description'),
-                    tag: '课程竞赛',
+                    tag: t('projectsPage.tum.projects.bamlAnalyticsCup.tag'),
                     tagColor: '#005eff',
                     techStacks: [
                         {
                             icon: "/assets/python.webp",
-                            category: "后端",
-                            value: "Python"
+                            category: t('projectsPage.tum.projects.bamlAnalyticsCup.techStacks.techStack1.category'),
+                            value: t('projectsPage.tum.projects.bamlAnalyticsCup.techStacks.techStack1.value'),
                         },
                         {
                             icon: "/assets/sklearn.webp",
-                            category: "后端",
-                            value: "sklearn"
+                            category: t('projectsPage.tum.projects.bamlAnalyticsCup.techStacks.techStack2.category'),
+                            value: t('projectsPage.tum.projects.bamlAnalyticsCup.techStacks.techStack2.value'),
                         },
                         {
                             icon: "/assets/numpy.webp",
-                            category: "后端",
-                            value: "NumPy"
+                            category: t('projectsPage.tum.projects.bamlAnalyticsCup.techStacks.techStack3.category'),
+                            value: t('projectsPage.tum.projects.bamlAnalyticsCup.techStacks.techStack3.value'),
                         }
                     ]
                 },
@@ -419,22 +419,23 @@ const ProjectsPage = () => {
                     title: t('projectsPage.personal.projects.focusList.title'),
                     imgSrc: '/assets/FLen.webp',
                     description: t('projectsPage.personal.projects.focusList.description'),
-                    tagColor: '#ff8c00',
+                    tag: t('projectsPage.personal.projects.focusList.tag'),
+                    tagColor: '#16982b',
                     techStacks: [
                         {
                             icon: "/assets/vue.webp",
-                            category: "前端",
-                            value: "Vue"
+                            category: t('projectsPage.personal.projects.focusList.techStacks.techStack1.category'),
+                            value: t('projectsPage.personal.projects.focusList.techStacks.techStack1.value'),
                         },
                         {
                             icon: "/assets/javascript.webp",
-                            category: "前端",
-                            value: "JavaScript"
+                            category:  t('projectsPage.personal.projects.focusList.techStacks.techStack2.category'),
+                            value: t('projectsPage.personal.projects.focusList.techStacks.techStack2.value'),
                         },
                         {
                             icon: "/assets/github.webp",
-                            category: "部署",
-                            value: "Github Pages"
+                            category: t('projectsPage.personal.projects.focusList.techStacks.techStack3.category'),
+                            value: t('projectsPage.personal.projects.focusList.techStacks.techStack3.value'),
                         }
                     ]
                 },
@@ -442,17 +443,18 @@ const ProjectsPage = () => {
                     title: t('projectsPage.personal.projects.emojiDiary.title'),
                     imgSrc: '/assets/emoji-dairy.webp',
                     description: t('projectsPage.personal.projects.emojiDiary.description'),
-                    tagColor: '#ff8c00',
+                    tag: t('projectsPage.personal.projects.emojiDiary.tag'),
+                    tagColor: '#005eff',
                     techStacks: [
                         {
                             icon: "/assets/apple.webp",
-                            category: "客户端",
-                            value: "iOS"
+                            category: t('projectsPage.personal.projects.emojiDiary.techStacks.techStack1.category'),
+                            value: t('projectsPage.personal.projects.emojiDiary.techStacks.techStack1.value'),
                         },
                         {
                             icon: "/assets/swift.webp",
-                            category: "客户端",
-                            value: "Swift"
+                            category: t('projectsPage.personal.projects.emojiDiary.techStacks.techStack2.category'),
+                            value: t('projectsPage.personal.projects.emojiDiary.techStacks.techStack2.value'),
                         }
                     ]
                 },
@@ -460,52 +462,53 @@ const ProjectsPage = () => {
                     title: t('projectsPage.personal.projects.volMe.title'),
                     imgSrc: '/assets/volme.webp',
                     description: t('projectsPage.personal.projects.volMe.description'),
-                    tagColor: '#ff8c00',
+                    tag: t('projectsPage.personal.projects.volMe.tag'),
+                    tagColor: '#16982b',
                     techStacks: [
                         {
                             icon: "/assets/react.webp",
-                            category: "前端",
-                            value: "React"
+                            category: t('projectsPage.personal.projects.volMe.techStacks.techStack1.category'),
+                            value: t('projectsPage.personal.projects.volMe.techStacks.techStack1.value'),
                         },
                         {
                             icon: "/assets/javascript.webp",
-                            category: "前端",
-                            value: "JavaScript"
+                            category: t('projectsPage.personal.projects.volMe.techStacks.techStack2.category'),
+                            value: t('projectsPage.personal.projects.volMe.techStacks.techStack2.value'),
                         },
                         {
                             icon: "/assets/redux.webp",
-                            category: "前端",
-                            value: "Redux"
+                            category: t('projectsPage.personal.projects.volMe.techStacks.techStack3.category'),
+                            value: t('projectsPage.personal.projects.volMe.techStacks.techStack3.value'),
                         },
                         {
                             icon: "/assets/node-js.webp",
-                            category: "后端",
-                            value: "Node.js"
+                            category: t('projectsPage.personal.projects.volMe.techStacks.techStack4.category'),
+                            value: t('projectsPage.personal.projects.volMe.techStacks.techStack4.value'),
                         },
                         {
                             icon: "/assets/express-js.webp",
-                            category: "后端",
-                            value: "Express.js"
+                            category: t('projectsPage.personal.projects.volMe.techStacks.techStack5.category'),
+                            value: t('projectsPage.personal.projects.volMe.techStacks.techStack5.value'),
                         },
                         {
                             icon: "/assets/paypal.webp",
-                            category: "API",
-                            value: "PayPal SDK"
+                            category: t('projectsPage.personal.projects.volMe.techStacks.techStack6.category'),
+                            value: t('projectsPage.personal.projects.volMe.techStacks.techStack6.value'),
                         },
                         {
                             icon: "/assets/aws-s3.webp",
-                            category: "云技术",
-                            value: "AWS S3"
+                            category: t('projectsPage.personal.projects.volMe.techStacks.techStack7.category'),
+                            value: t('projectsPage.personal.projects.volMe.techStacks.techStack7.value'),
                         },
                         {
                             icon: "/assets/aws-ec2.webp",
-                            category: "云技术",
-                            value: "AWS EC2"
+                            category: t('projectsPage.personal.projects.volMe.techStacks.techStack8.category'),
+                            value: t('projectsPage.personal.projects.volMe.techStacks.techStack8.value'),
                         },
                         {
                             icon: "/assets/ngnix.webp",
-                            category: "运维",
-                            value: "Ngnix"
+                            category: t('projectsPage.personal.projects.volMe.techStacks.techStack9.category'),
+                            value: t('projectsPage.personal.projects.volMe.techStacks.techStack9.value'),
                         }
                     ]
                 },

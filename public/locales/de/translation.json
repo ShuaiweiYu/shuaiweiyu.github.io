@@ -246,17 +246,91 @@
         "pl24Upload": {
           "title": "PL24-Upload",
           "description": "Autoreparaturwerkstätten können Bestellungen mit einer Web-App scannen oder hochladen. Der Server verarbeitet Bestellungen mit einem OCR-Dienst und fügt die benötigten Teile automatisch in den Warenkorb der Werkstatt ein.",
-          "tag": "In Produktion"
+          "tag": "In Produktion",
+          "techStacks": {
+            "techStack1": {
+              "category": "Frontend",
+              "value": "React.js"
+            },
+            "techStack2": {
+              "category": "Frontend",
+              "value": "TypeScript"
+            },
+            "techStack3": {
+              "category": "Backend",
+              "value": "SpringBoot"
+            },
+            "techStack4": {
+              "category": "Middleware",
+              "value": "Kafka"
+            },
+            "techStack5": {
+              "category": "Datenbank",
+              "value": "MongoDB"
+            },
+            "techStack6": {
+              "category": "Deployment",
+              "value": "GitLab CI/CD"
+            },
+            "techStack7": {
+              "category": "Cloud",
+              "value": "Oracle Cloud"
+            }
+          }
         },
         "pl24Bidata": {
           "title": "PL24-Bidata",
           "description": "Dieser Mikrodienst erfasst das Nutzerverhalten in der Web-App und sendet die Daten über Kafka-Middleware an das interne Big-Data-System des Unternehmens, das die Daten verarbeitet und analysiert, um die Benutzererfahrung zu verbessern.",
-          "tag": "In Produktion"
+          "tag": "In Produktion",
+          "techStacks": {
+            "techStack1": {
+              "category": "Backend",
+              "value": "SpringBoot"
+            },
+            "techStack2": {
+              "category": "Middleware",
+              "value": "Kafka"
+            },
+            "techStack3": {
+              "category": "Datenbank",
+              "value": "PostgreSQL"
+            },
+            "techStack4": {
+              "category": "Deployment",
+              "value": "GitLab CI/CD"
+            }
+          }
         },
         "pl24DealerMonitor": {
           "title": "PL24-DealerMonitor",
           "description": "PL24-DealerMonitor überwacht den Bestellstatus verschiedener Händler im Partslink24-Portal. Wenn Bestellungen nicht rechtzeitig bearbeitet werden, benachrichtigt es die Händler, um eine rechtzeitige Bearbeitung sicherzustellen.",
-          "tag": "In Testing"
+          "tag": "In Testing",
+          "techStacks": {
+            "techStack1": {
+              "category": "Frontend",
+              "value": "React.js"
+            },
+            "techStack2": {
+              "category": "Frontend",
+              "value": "TypeScript"
+            },
+            "techStack3": {
+              "category": "Backend",
+              "value": "SpringBoot"
+            },
+            "techStack4": {
+              "category": "Middleware",
+              "value": "Kafka"
+            },
+            "techStack5": {
+              "category": "Datenbank",
+              "value": "MongoDB"
+            },
+            "techStack6": {
+              "category": "Middleware",
+              "value": "GitHub CI/CD"
+            }
+          }
         }
       }
     },
@@ -266,7 +340,21 @@
         "bmwNews": {
           "title": "BMW News",
           "description": "BMW News ist ein auf Android basierendes Prototyp für eine In-Car-App zur Nachrichtenaggregation, das den Google News API-Dienst verwendet. Benutzer können nach den neuesten Nachrichten suchen und diese durchsuchen.",
-          "tag": "Prototyp"
+          "tag": "Prototyp",
+          "techStacks": {
+            "techStack1": {
+              "category": "Client",
+              "value": "Android"
+            },
+            "techStack2": {
+              "category": "Client",
+              "value": "Java"
+            },
+            "techStack3": {
+              "category": "API",
+              "value": "Google NewsAPI"
+            }
+          }
         }
       }
     },
@@ -275,15 +363,42 @@
       "projects": {
         "bpmnGeneration": {
           "title": "Improved Methods for Generating Business Process Models from Natural Language Text",
-          "description": "Business Process Model and Notation (BPMN) ist entscheidend für die Strukturierung und Visualisierung von Prozessen und verbessert die Arbeitsabläufe eines Unternehmens. Das Erstellen von BPMN-Modellen erfordert jedoch häufig Fachwissen und ist zeitaufwendig. Diese Studie diskutiert, wie BPMN-Modelle mit Python und der spaCy-Bibliothek mit verbesserter Erkennungsgenauigkeit generiert werden können."
+          "description": "Business Process Model and Notation (BPMN) ist entscheidend für die Strukturierung und Visualisierung von Prozessen und verbessert die Arbeitsabläufe eines Unternehmens. Das Erstellen von BPMN-Modellen erfordert jedoch häufig Fachwissen und ist zeitaufwendig. Diese Studie diskutiert, wie BPMN-Modelle mit Python und der spaCy-Bibliothek mit verbesserter Erkennungsgenauigkeit generiert werden können.",
+          "tag": "Bachelor Abschlussarbeit",
+          "techStacks": {
+            "techStack1": {
+              "category": "Backend",
+              "value": "Python"
+            },
+            "techStack2": {
+              "category": "Backend",
+              "value": "Spacy"
+            }
+          }
         },
         "predictiveProcessMonitoring": {
           "title": "Research and Development in Predictive Process Monitoring",
-          "description": "Predictive Process Monitoring (PPM) gewinnt in Industrie und Wissenschaft zunehmend an Bedeutung. Diese Studie überprüft 32 relevante Arbeiten aus 263 Artikeln zwischen 2018 und 2022 und zeigt aktuelle Forschungstrends und Lücken auf."
+          "description": "Predictive Process Monitoring (PPM) gewinnt in Industrie und Wissenschaft zunehmend an Bedeutung. Diese Studie überprüft 32 relevante Arbeiten aus 263 Artikeln zwischen 2018 und 2022 und zeigt aktuelle Forschungstrends und Lücken auf.",
+          "tag": "Seminararbeit"
         },
         "bamlAnalyticsCup": {
           "title": "BAML-Business Analytics Cup",
-          "description": "Der BAML-Business Analytics Cup ist ein Projekt des Business Analytics and Machine Learning-Kurses der TUM in Zusammenarbeit mit Siemens. Ziel des Projekts ist die Vorhersage von Kaufentscheidungen potenzieller Kunden mithilfe eines Random-Forest-Modells, das für seine Geschwindigkeit und Genauigkeit bekannt ist."
+          "description": "Der BAML-Business Analytics Cup ist ein Projekt des Business Analytics and Machine Learning-Kurses der TUM in Zusammenarbeit mit Siemens. Ziel des Projekts ist die Vorhersage von Kaufentscheidungen potenzieller Kunden mithilfe eines Random-Forest-Modells, das für seine Geschwindigkeit und Genauigkeit bekannt ist.",
+          "tag": "Kurs Wettbewerb",
+          "techStacks": {
+            "techStack1": {
+              "category": "Backend",
+              "value": "Python"
+            },
+            "techStack2": {
+              "category": "Backend",
+              "value": "sklearn"
+            },
+            "techStack3": {
+              "category": "Backend",
+              "value": "NumPy"
+            }
+          }
         }
       }
     },
@@ -292,15 +407,80 @@
       "projects": {
         "focusList": {
           "title": "Task List",
-          "description": "Eine front-end Aufgabenlisten-Webseite, die mit Vue.js erstellt wurde. Die App unterstützt auch einen Pomodoro-Timer, um Benutzern zu helfen, Aufgaben effizient zu erledigen. Details: https://shuaiweiyu.github.io/focuslist/"
+          "description": "Eine front-end Aufgabenlisten-Webseite, die mit Vue.js erstellt wurde. Die App unterstützt auch einen Pomodoro-Timer, um Benutzern zu helfen, Aufgaben effizient zu erledigen. Details: https://shuaiweiyu.github.io/focuslist/",
+          "tag": "Github Pages",
+          "techStacks": {
+            "techStack1": {
+              "category": "Frontend",
+              "value": "Vue.js"
+            },
+            "techStack2": {
+              "category": "Frontend",
+              "value": "JavaScript"
+            },
+            "techStack3": {
+              "category": "Deployment",
+              "value": "Github Pages"
+            }
+          }
         },
         "emojiDiary": {
           "title": "Emoji Diary",
-          "description": "Emoji Diary ist eine Tagebuch-iOS-App. Benutzer können das tägliche Leben mit Emojis, einfachen Beschreibungen und mehreren Fotos aufzeichnen. Die App unterstützt auch das Teilen über iCloud."
+          "description": "Emoji Diary ist eine Tagebuch-iOS-App. Benutzer können das tägliche Leben mit Emojis, einfachen Beschreibungen und mehreren Fotos aufzeichnen. Die App unterstützt auch das Teilen über iCloud.",
+          "tag": "Prototype",
+          "techStacks": {
+            "techStack1": {
+              "category": "Client",
+              "value": "iOS"
+            },
+            "techStack2": {
+              "category": "Client",
+              "value": "Swift"
+            }
+          }
         },
         "volMe": {
           "title": "VolMe",
-          "description": "VolMe ist ein Freiwilligenmanagementsystem. Die Plattform hilft Organisationen, Freiwillige und Aktivitäten zu verwalten, und unterstützt Funktionen wie Bewertungen/Feedback, Chat, Aktivitätsmanagement und Check-ins."
+          "description": "VolMe ist ein Freiwilligenmanagementsystem. Die Plattform hilft Organisationen, Freiwillige und Aktivitäten zu verwalten, und unterstützt Funktionen wie Bewertungen/Feedback, Chat, Aktivitätsmanagement und Check-ins.",
+          "tag": "In Production",
+          "techStacks": {
+            "techStack1": {
+              "category": "Frontend",
+              "value": "React.js"
+            },
+            "techStack2": {
+              "category": "Frontend",
+              "value": "JavaScript"
+            },
+            "techStack3": {
+              "category": "Frontend",
+              "value": "Redux"
+            },
+            "techStack4": {
+              "category": "Backend",
+              "value": "Node.js"
+            },
+            "techStack5": {
+              "category": "Backend",
+              "value": "Express.js"
+            },
+            "techStack6": {
+              "category": "API",
+              "value": "PayPal SDK"
+            },
+            "techStack7": {
+              "category": "Cloud",
+              "value": "AWS S3"
+            },
+            "techStack8": {
+              "category": "Cloud",
+              "value": "AWS EC2"
+            },
+            "techStack9": {
+              "category": "Deployment",
+              "value": "Nginx"
+            }
+          }
         }
       }
     }

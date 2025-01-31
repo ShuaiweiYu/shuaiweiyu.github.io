@@ -364,64 +364,39 @@
         "bpmnGeneration": {
           "title": "从自然语言文本生成业务流程模型的改进方法",
           "description": "业务流程建模符号（BPMN）对于结构化和可视化流程至关重要，可提升公司的工作流程。然而，创建 BPMN 模型通常需要专业知识并且耗时。本文讨论如何通过改进的识别精度使用 Python 和 spacy 库生成 BPMN 模型。",
+          "tag": "本科论文",
           "techStacks": {
             "techStack1": {
-              "category": "前端",
-              "value": "React.js"
+              "category": "后端",
+              "value": "Python"
             },
             "techStack2": {
-              "category": "前端",
-              "value": "JavaScript"
-            },
-            "techStack3": {
               "category": "后端",
-              "value": ".Net"
-            },
-            "techStack4": {
-              "category": "后端",
-              "value": "C#"
-            },
-            "techStack5": {
-              "category": "数据库",
-              "value": "MySQL"
-            },
-            "techStack6": {
-              "category": "部署",
-              "value": "GitHub CI/CD"
+              "value": "Spacy"
             }
           }
         },
         "predictiveProcessMonitoring": {
           "title": "预测性流程监控的研究发展",
-          "description": "预测性流程监控（PPM）在工业和学术界越来越受到关注。本研究回顾了 2018 年至 2022 年间的文献，从 263 篇文章中筛选出 32 篇相关论文。分析揭示了当前的研究趋势和空白。"
+          "description": "预测性流程监控（PPM）在工业和学术界越来越受到关注。本研究回顾了 2018 年至 2022 年间的文献，从 263 篇文章中筛选出 32 篇相关论文。分析揭示了当前的研究趋势和空白。",
+          "tag": "研讨会论文"
         },
         "bamlAnalyticsCup": {
           "title": "BAML-商分竞赛",
           "description": "BAML-商分竞赛是 TUM 商业分析与机器学习课程与西门子合作的项目。项目目标是预测潜在客户的购买决策。我们使用随机森林算法训练模型，该模型训练速度快且具有较高的准确性。",
+          "tag": "课程竞赛",
           "techStacks": {
             "techStack1": {
-              "category": "前端",
-              "value": "React.js"
+              "category": "后端",
+              "value": "Python"
             },
             "techStack2": {
-              "category": "前端",
-              "value": "JavaScript"
+              "category": "后端",
+              "value": "sklearn"
             },
             "techStack3": {
               "category": "后端",
-              "value": ".Net"
-            },
-            "techStack4": {
-              "category": "后端",
-              "value": "C#"
-            },
-            "techStack5": {
-              "category": "数据库",
-              "value": "MySQL"
-            },
-            "techStack6": {
-              "category": "部署",
-              "value": "GitHub CI/CD"
+              "value": "NumPy"
             }
           }
         }
@@ -433,69 +408,41 @@
         "focusList": {
           "title": "任务清单",
           "description": "基于 Vue.js 的前端任务清单网页。该应用还支持番茄钟功能，帮助用户更好地完成任务。详情请访问：https://shuaiweiyu.github.io/focuslist/",
-          "tag": "工程原型",
+          "tag": "Github Pages部署",
           "techStacks": {
             "techStack1": {
               "category": "前端",
-              "value": "React.js"
+              "value": "Vue.js"
             },
             "techStack2": {
               "category": "前端",
               "value": "JavaScript"
             },
             "techStack3": {
-              "category": "后端",
-              "value": ".Net"
-            },
-            "techStack4": {
-              "category": "后端",
-              "value": "C#"
-            },
-            "techStack5": {
-              "category": "数据库",
-              "value": "MySQL"
-            },
-            "techStack6": {
               "category": "部署",
-              "value": "GitHub CI/CD"
+              "value": "Github Pages"
             }
           }
         },
         "emojiDiary": {
           "title": "Emoji 日记",
           "description": "Emoji Diary 是一个日记类 iOS 应用。用户可以使用 emoji、简单描述和多张照片记录日常生活。该应用还支持通过 iCloud 共享的功能。",
-          "tag": "工程原型",
+          "tag": "项目原型",
           "techStacks": {
             "techStack1": {
-              "category": "前端",
-              "value": "React.js"
+              "category": "客户端",
+              "value": "iOS"
             },
             "techStack2": {
-              "category": "前端",
-              "value": "JavaScript"
-            },
-            "techStack3": {
-              "category": "后端",
-              "value": ".Net"
-            },
-            "techStack4": {
-              "category": "后端",
-              "value": "C#"
-            },
-            "techStack5": {
-              "category": "数据库",
-              "value": "MySQL"
-            },
-            "techStack6": {
-              "category": "部署",
-              "value": "GitHub CI/CD"
+              "category": "客户端",
+              "value": "Swift"
             }
           }
         },
         "volMe": {
           "title": "VolMe",
           "description": "VolMe 是一个志愿者管理系统。平台可以帮助志愿者组织管理志愿者和活动。系统还支持评分/反馈、聊天、活动管理、签到等功能。",
-          "tag": "工程原型",
+          "tag": "生产环境",
           "techStacks": {
             "techStack1": {
               "category": "前端",
@@ -506,20 +453,32 @@
               "value": "JavaScript"
             },
             "techStack3": {
-              "category": "后端",
-              "value": ".Net"
+              "category": "前端",
+              "value": "Redux"
             },
             "techStack4": {
               "category": "后端",
-              "value": "C#"
+              "value": "Node.js"
             },
             "techStack5": {
-              "category": "数据库",
-              "value": "MySQL"
+              "category": "后端",
+              "value": "Express.js"
             },
             "techStack6": {
-              "category": "部署",
-              "value": "GitHub CI/CD"
+              "category": "API",
+              "value": "PayPal SDK"
+            },
+            "techStack7": {
+              "category": "云技术",
+              "value": "AWS S3"
+            },
+            "techStack8": {
+              "category": "云技术",
+              "value": "AWS EC2"
+            },
+            "techStack9": {
+              "category": "运维",
+              "value": "Nginx"
             }
           }
         }
