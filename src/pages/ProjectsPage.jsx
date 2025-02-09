@@ -3,6 +3,7 @@ import {Typography, Box, Card, Stack, Accordion, AccordionSummary, AccordionDeta
 import Tag from '../components/Tag';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import {useTranslation} from 'react-i18next';
+import {useNavigate} from "react-router-dom";
 
 const GroupDisplayer = ({iconSrc, altText, name}) => (
     <Stack direction={{xs: 'row'}} spacing={2} alignItems="center">
@@ -25,6 +26,7 @@ const GroupDisplayer = ({iconSrc, altText, name}) => (
 );
 
 const ProjectCard = ({title, imgSrc, description, link, tag, tagColor = '#e0e0e0', tags = []}) => {
+
     const styles = {
         card: {
             width: '100%',
@@ -49,6 +51,22 @@ const ProjectCard = ({title, imgSrc, description, link, tag, tagColor = '#e0e0e0
             fontWeight: 'bold',
             whiteSpace: 'nowrap',
         },
+        titleLink: {
+            color: '#1976d2',
+            textDecoration: 'none',
+            '&:hover': {
+                textDecoration: 'underline',
+                cursor: 'pointer',
+            },
+        },
+    };
+
+    const handleTitleClick = () => {
+        if (!link) return;
+
+        const currentOrigin = window.location.origin;
+        const fullUrl = link.startsWith('http') ? link : `${currentOrigin}${link}`;
+        window.open(fullUrl, '_blank');
     };
 
     return (
@@ -64,12 +82,14 @@ const ProjectCard = ({title, imgSrc, description, link, tag, tagColor = '#e0e0e0
                     }}
                 >
                     <Typography
+                        component={link ? "a" : "div"}
+                        onClick={link ? handleTitleClick : undefined}
                         sx={{
                             fontSize: '1.5rem',
                             fontWeight: 'bold',
-                            color: 'black',
                             textAlign: 'center',
                             flex: 1,
+                            ...(link && styles.titleLink),
                         }}
                     >
                         {title}
@@ -108,7 +128,6 @@ const ProjectCard = ({title, imgSrc, description, link, tag, tagColor = '#e0e0e0
 const ProjectsPage = () => {
     const {t} = useTranslation();
 
-    //TODO: Edit the translation file
     //TODO: Edit the project data
 
     const projectsData = [
@@ -127,6 +146,7 @@ const ProjectsPage = () => {
                     title: t('projectsPage.lego.projects.receipeEditor.title'),
                     imgSrc: '/assets/lego-robot-arm.webp',
                     description: t('projectsPage.lego.projects.receipeEditor.description'),
+                    link: '/projects/lego/receipe-editor',
                     tag: t('projectsPage.lego.projects.receipeEditor.tag'),
                     tagColor: '#16982b',
                     techStacks: [

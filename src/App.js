@@ -5,6 +5,7 @@ import MyAppBar from "./components/MyAppBar";
 import HomePage from "./pages/HomePage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
+import RecipeEditor from "./pages/projects/RecipeEditor";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                     <Route index element={<HomePage/>}/>
                     <Route path="projects" element={<ProjectsPage/>}/>
                     <Route path="contact" element={<ContactPage/>}/>
+                    <Route path="projects/lego/receipe-editor" element={<RecipeEditor/>}/>
                 </Route>
             </Routes>
         </Box>
