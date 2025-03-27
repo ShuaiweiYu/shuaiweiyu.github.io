@@ -171,7 +171,16 @@
   "projectsPage": {
     "siemens": {
       "name": "Siemens AG",
-      "projects": {}
+      "projects": {
+        "safeGuard": {
+          "title": "EHS Alert System",
+          "description": "The Environmental Health and Safety (EHS) Alert System monitors environmental data within factories. If data exceeds predefined thresholds, the system automatically sends alerts to the factory's safety personnel. The system also supports automated data analysis and report generation."
+        },
+        "collaborationModule": {
+          "title": "Collaboration Module",
+          "description": "The Collaboration Module is a distributed system for managing automated vehicles in factories. It automatically assigns tasks to vehicles and monitors their positions, statuses, and task execution conditions."
+        }
+      }
     },
     "lego": {
       "name": "LEGO Group",

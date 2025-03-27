@@ -171,7 +171,16 @@
   "projectsPage": {
     "siemens": {
       "name": "西门子集团",
-      "projects": {}
+      "projects": {
+        "safeGuard": {
+          "title": "EHS警报系统",
+          "description": "Enviromental Health and Safety 警报系统用于监控工厂中的环境数据。如果数据超过预设的阈值，系统会自动发送警报给工厂的安全员。该系统还支持自动化的数据分析和报告生成。"
+        },
+        "collaborationModule": {
+          "title": "Collaboration Module",
+          "description": "Collaboration Module是一个用于管理工厂中的自动化车辆的一个分布式系统。该系统可以自动化的分配任务给车辆，并监控车辆的位置，状态以及任务执行的状况。"
+        }
+      }
     },
     "lego": {
       "name": "LEGO 集团",

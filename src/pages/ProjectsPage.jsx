@@ -135,7 +135,26 @@ const ProjectsPage = () => {
             id: 'siemens',
             image: '/assets/siemens.webp',
             name: t('projectsPage.siemens.name'),
-            projects: [],
+            projects: [
+                {
+                    title: t('projectsPage.lego.projects.receipeEditor.title'),
+                    imgSrc: '/assets/safeguard.webp',
+                    description: t('projectsPage.lego.projects.receipeEditor.description'),
+                    link: '/projects/lego/receipe-editor',
+                    tag: t('projectsPage.lego.projects.receipeEditor.tag'),
+                    // tagColor: '#16982b',
+                    techStacks: []
+                },
+                {
+                    title: t('projectsPage.lego.projects.receipeEditor.title'),
+                    imgSrc: '/assets/collaboration_module.webp',
+                    description: t('projectsPage.lego.projects.receipeEditor.description'),
+                    link: '/projects/lego/receipe-editor',
+                    tag: t('projectsPage.lego.projects.receipeEditor.tag'),
+                    // tagColor: '#16982b',
+                    techStacks: []
+                },
+            ],
         },
         {
             id: 'lego',

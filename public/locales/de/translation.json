@@ -171,7 +171,16 @@
   "projectsPage": {
     "siemens": {
       "name": "Siemens AG",
-      "projects": {}
+      "projects": {
+        "safeGuard": {
+          "title": "EHS-Alarmsystem",
+          "description": "Das Environmental Health and Safety (EHS)-Alarmsystem überwacht Umweltdaten in Fabriken. Falls die Daten vordefinierte Grenzwerte überschreiten, sendet das System automatisch Alarme an das Sicherheitspersonal der Fabrik. Außerdem unterstützt das System automatisierte Datenanalysen und die Erstellung von Berichten."
+        },
+        "collaborationModule": {
+          "title": "Kollaborationsmodul",
+          "description": "Das Kollaborationsmodul ist ein verteiltes System zur Verwaltung automatisierter Fahrzeuge in Fabriken. Es weist Fahrzeugen automatisch Aufgaben zu und überwacht deren Positionen, Status sowie den Zustand der Aufgabenausführung."
+        }
+      }
     },
     "lego": {
       "name": "LEGO Group",
