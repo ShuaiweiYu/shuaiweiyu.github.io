@@ -370,6 +370,49 @@
     "tum": {
       "name": "University Projects",
       "projects": {
+        "volMe": {
+          "title": "VolMe",
+          "description": "VolMe is a volunteer management system. The platform helps organizations manage volunteers and activities, supporting features like rating/feedback, chat, activity management, and check-ins.",
+          "tag": "In Production",
+          "techStacks": {
+            "techStack1": {
+              "category": "Frontend",
+              "value": "React.js"
+            },
+            "techStack2": {
+              "category": "Frontend",
+              "value": "JavaScript"
+            },
+            "techStack3": {
+              "category": "Frontend",
+              "value": "Redux"
+            },
+            "techStack4": {
+              "category": "Backend",
+              "value": "Node.js"
+            },
+            "techStack5": {
+              "category": "Backend",
+              "value": "Express.js"
+            },
+            "techStack6": {
+              "category": "API",
+              "value": "PayPal SDK"
+            },
+            "techStack7": {
+              "category": "Cloud",
+              "value": "AWS S3"
+            },
+            "techStack8": {
+              "category": "Cloud",
+              "value": "AWS EC2"
+            },
+            "techStack9": {
+              "category": "Deployment",
+              "value": "Nginx"
+            }
+          }
+        },
         "bpmnGeneration": {
           "title": "Improved Methods for Generating Business Process Models from Natural Language Text",
           "description": "Business Process Model and Notation (BPMN) is crucial for structuring and visualizing processes, improving company workflows. However, creating BPMN models often requires expertise and is time-consuming. This study discusses how to generate BPMN models using Python and the spaCy library with improved recognition accuracy.",
@@ -448,46 +491,18 @@
             }
           }
         },
-        "volMe": {
-          "title": "VolMe",
-          "description": "VolMe is a volunteer management system. The platform helps organizations manage volunteers and activities, supporting features like rating/feedback, chat, activity management, and check-ins.",
-          "tag": "In Production",
+        "macQR": {
+          "title": "Mac QR Scanner",
+          "description": "Mac QR Scanner is a lightweight macOS application that allows users to invoke a screenshot function via hotkeys to recognize QR codes. The application also supports automatic recognition of QR code contents and can open the corresponding links.",
+          "tag": "Production",
           "techStacks": {
             "techStack1": {
-              "category": "Frontend",
-              "value": "React.js"
+              "category": "Client",
+              "value": "macOS"
             },
             "techStack2": {
-              "category": "Frontend",
-              "value": "JavaScript"
-            },
-            "techStack3": {
-              "category": "Frontend",
-              "value": "Redux"
-            },
-            "techStack4": {
-              "category": "Backend",
-              "value": "Node.js"
-            },
-            "techStack5": {
-              "category": "Backend",
-              "value": "Express.js"
-            },
-            "techStack6": {
-              "category": "API",
-              "value": "PayPal SDK"
-            },
-            "techStack7": {
-              "category": "Cloud",
-              "value": "AWS S3"
-            },
-            "techStack8": {
-              "category": "Cloud",
-              "value": "AWS EC2"
-            },
-            "techStack9": {
-              "category": "Deployment",
-              "value": "Nginx"
+              "category": "Client",
+              "value": "Swift"
             }
           }
         }

@@ -3,7 +3,6 @@ import {Typography, Box, Card, Stack, Accordion, AccordionSummary, AccordionDeta
 import Tag from '../components/Tag';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import {useTranslation} from 'react-i18next';
-import {useNavigate} from "react-router-dom";
 
 const GroupDisplayer = ({iconSrc, altText, name}) => (
     <Stack direction={{xs: 'row'}} spacing={2} alignItems="center">
@@ -398,6 +397,60 @@ const ProjectsPage = () => {
             name: t('projectsPage.tum.name'),
             projects: [
                 {
+                    title: t('projectsPage.tum.projects.volMe.title'),
+                    imgSrc: '/assets/volme.webp',
+                    description: t('projectsPage.tum.projects.volMe.description'),
+                    tag: t('projectsPage.tum.projects.volMe.tag'),
+                    tagColor: '#16982b',
+                    techStacks: [
+                        {
+                            icon: "/assets/react.webp",
+                            category: t('projectsPage.tum.projects.volMe.techStacks.techStack1.category'),
+                            value: t('projectsPage.tum.projects.volMe.techStacks.techStack1.value'),
+                        },
+                        {
+                            icon: "/assets/javascript.webp",
+                            category: t('projectsPage.tum.projects.volMe.techStacks.techStack2.category'),
+                            value: t('projectsPage.tum.projects.volMe.techStacks.techStack2.value'),
+                        },
+                        {
+                            icon: "/assets/redux.webp",
+                            category: t('projectsPage.tum.projects.volMe.techStacks.techStack3.category'),
+                            value: t('projectsPage.tum.projects.volMe.techStacks.techStack3.value'),
+                        },
+                        {
+                            icon: "/assets/node-js.webp",
+                            category: t('projectsPage.tum.projects.volMe.techStacks.techStack4.category'),
+                            value: t('projectsPage.tum.projects.volMe.techStacks.techStack4.value'),
+                        },
+                        {
+                            icon: "/assets/express-js.webp",
+                            category: t('projectsPage.tum.projects.volMe.techStacks.techStack5.category'),
+                            value: t('projectsPage.tum.projects.volMe.techStacks.techStack5.value'),
+                        },
+                        {
+                            icon: "/assets/paypal.webp",
+                            category: t('projectsPage.tum.projects.volMe.techStacks.techStack6.category'),
+                            value: t('projectsPage.tum.projects.volMe.techStacks.techStack6.value'),
+                        },
+                        {
+                            icon: "/assets/aws-s3.webp",
+                            category: t('projectsPage.tum.projects.volMe.techStacks.techStack7.category'),
+                            value: t('projectsPage.tum.projects.volMe.techStacks.techStack7.value'),
+                        },
+                        {
+                            icon: "/assets/aws-ec2.webp",
+                            category: t('projectsPage.tum.projects.volMe.techStacks.techStack8.category'),
+                            value: t('projectsPage.tum.projects.volMe.techStacks.techStack8.value'),
+                        },
+                        {
+                            icon: "/assets/ngnix.webp",
+                            category: t('projectsPage.tum.projects.volMe.techStacks.techStack9.category'),
+                            value: t('projectsPage.tum.projects.volMe.techStacks.techStack9.value'),
+                        }
+                    ]
+                },
+                {
                     title: t('projectsPage.tum.projects.bpmnGeneration.title'),
                     imgSrc: '/assets/thesis.webp',
                     description: t('projectsPage.tum.projects.bpmnGeneration.description'),
@@ -498,59 +551,24 @@ const ProjectsPage = () => {
                     ]
                 },
                 {
-                    title: t('projectsPage.personal.projects.volMe.title'),
-                    imgSrc: '/assets/volme.webp',
-                    description: t('projectsPage.personal.projects.volMe.description'),
-                    tag: t('projectsPage.personal.projects.volMe.tag'),
-                    tagColor: '#16982b',
+                    title: t('projectsPage.personal.projects.macQR.title'),
+                    imgSrc: '/assets/mac-qr-scanner.webp',
+                    description: t('projectsPage.personal.projects.macQR.description'),
+                    tag: t('projectsPage.personal.projects.macQR.tag'),
+                    tagColor: '#005eff',
                     techStacks: [
                         {
-                            icon: "/assets/react.webp",
-                            category: t('projectsPage.personal.projects.volMe.techStacks.techStack1.category'),
-                            value: t('projectsPage.personal.projects.volMe.techStacks.techStack1.value'),
+                            icon: "/assets/apple.webp",
+                            category: t('projectsPage.personal.projects.macQR.techStacks.techStack1.category'),
+                            value: t('projectsPage.personal.projects.macQR.techStacks.techStack1.value'),
                         },
                         {
-                            icon: "/assets/javascript.webp",
-                            category: t('projectsPage.personal.projects.volMe.techStacks.techStack2.category'),
-                            value: t('projectsPage.personal.projects.volMe.techStacks.techStack2.value'),
-                        },
-                        {
-                            icon: "/assets/redux.webp",
-                            category: t('projectsPage.personal.projects.volMe.techStacks.techStack3.category'),
-                            value: t('projectsPage.personal.projects.volMe.techStacks.techStack3.value'),
-                        },
-                        {
-                            icon: "/assets/node-js.webp",
-                            category: t('projectsPage.personal.projects.volMe.techStacks.techStack4.category'),
-                            value: t('projectsPage.personal.projects.volMe.techStacks.techStack4.value'),
-                        },
-                        {
-                            icon: "/assets/express-js.webp",
-                            category: t('projectsPage.personal.projects.volMe.techStacks.techStack5.category'),
-                            value: t('projectsPage.personal.projects.volMe.techStacks.techStack5.value'),
-                        },
-                        {
-                            icon: "/assets/paypal.webp",
-                            category: t('projectsPage.personal.projects.volMe.techStacks.techStack6.category'),
-                            value: t('projectsPage.personal.projects.volMe.techStacks.techStack6.value'),
-                        },
-                        {
-                            icon: "/assets/aws-s3.webp",
-                            category: t('projectsPage.personal.projects.volMe.techStacks.techStack7.category'),
-                            value: t('projectsPage.personal.projects.volMe.techStacks.techStack7.value'),
-                        },
-                        {
-                            icon: "/assets/aws-ec2.webp",
-                            category: t('projectsPage.personal.projects.volMe.techStacks.techStack8.category'),
-                            value: t('projectsPage.personal.projects.volMe.techStacks.techStack8.value'),
-                        },
-                        {
-                            icon: "/assets/ngnix.webp",
-                            category: t('projectsPage.personal.projects.volMe.techStacks.techStack9.category'),
-                            value: t('projectsPage.personal.projects.volMe.techStacks.techStack9.value'),
+                            icon: "/assets/swift.webp",
+                            category: t('projectsPage.personal.projects.macQR.techStacks.techStack2.category'),
+                            value: t('projectsPage.personal.projects.macQR.techStacks.techStack2.value'),
                         }
                     ]
-                },
+                }
             ],
         },
     ];

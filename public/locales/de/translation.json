@@ -370,6 +370,49 @@
     "tum": {
       "name": "Universitätsprojekte",
       "projects": {
+        "volMe": {
+          "title": "VolMe",
+          "description": "VolMe ist ein Freiwilligenmanagementsystem. Die Plattform hilft Organisationen, Freiwillige und Aktivitäten zu verwalten, und unterstützt Funktionen wie Bewertungen/Feedback, Chat, Aktivitätsmanagement und Check-ins.",
+          "tag": "In Production",
+          "techStacks": {
+            "techStack1": {
+              "category": "Frontend",
+              "value": "React.js"
+            },
+            "techStack2": {
+              "category": "Frontend",
+              "value": "JavaScript"
+            },
+            "techStack3": {
+              "category": "Frontend",
+              "value": "Redux"
+            },
+            "techStack4": {
+              "category": "Backend",
+              "value": "Node.js"
+            },
+            "techStack5": {
+              "category": "Backend",
+              "value": "Express.js"
+            },
+            "techStack6": {
+              "category": "API",
+              "value": "PayPal SDK"
+            },
+            "techStack7": {
+              "category": "Cloud",
+              "value": "AWS S3"
+            },
+            "techStack8": {
+              "category": "Cloud",
+              "value": "AWS EC2"
+            },
+            "techStack9": {
+              "category": "Deployment",
+              "value": "Nginx"
+            }
+          }
+        },
         "bpmnGeneration": {
           "title": "Improved Methods for Generating Business Process Models from Natural Language Text",
           "description": "Business Process Model and Notation (BPMN) ist entscheidend für die Strukturierung und Visualisierung von Prozessen und verbessert die Arbeitsabläufe eines Unternehmens. Das Erstellen von BPMN-Modellen erfordert jedoch häufig Fachwissen und ist zeitaufwendig. Diese Studie diskutiert, wie BPMN-Modelle mit Python und der spaCy-Bibliothek mit verbesserter Erkennungsgenauigkeit generiert werden können.",
@@ -448,46 +491,18 @@
             }
           }
         },
-        "volMe": {
-          "title": "VolMe",
-          "description": "VolMe ist ein Freiwilligenmanagementsystem. Die Plattform hilft Organisationen, Freiwillige und Aktivitäten zu verwalten, und unterstützt Funktionen wie Bewertungen/Feedback, Chat, Aktivitätsmanagement und Check-ins.",
-          "tag": "In Production",
+        "macQR": {
+          "title": "Mac QR Scanner",
+          "description": "Mac QR Scanner ist eine leichtgewichtige macOS-Anwendung, mit der Benutzer über Tastenkombinationen eine Screenshot-Funktion aktivieren können, um QR-Codes zu erkennen. Die Anwendung unterstützt außerdem die automatische Erkennung des QR-Code-Inhalts und öffnet die zugehörigen Links.",
+          "tag": "Produktion",
           "techStacks": {
             "techStack1": {
-              "category": "Frontend",
-              "value": "React.js"
+              "category": "Client",
+              "value": "macOS"
             },
             "techStack2": {
-              "category": "Frontend",
-              "value": "JavaScript"
-            },
-            "techStack3": {
-              "category": "Frontend",
-              "value": "Redux"
-            },
-            "techStack4": {
-              "category": "Backend",
-              "value": "Node.js"
-            },
-            "techStack5": {
-              "category": "Backend",
-              "value": "Express.js"
-            },
-            "techStack6": {
-              "category": "API",
-              "value": "PayPal SDK"
-            },
-            "techStack7": {
-              "category": "Cloud",
-              "value": "AWS S3"
-            },
-            "techStack8": {
-              "category": "Cloud",
-              "value": "AWS EC2"
-            },
-            "techStack9": {
-              "category": "Deployment",
-              "value": "Nginx"
+              "category": "Client",
+              "value": "Swift"
             }
           }
         }

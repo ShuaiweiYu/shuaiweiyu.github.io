@@ -370,6 +370,49 @@
     "tum": {
       "name": "大学项目",
       "projects": {
+        "volMe": {
+          "title": "VolMe",
+          "description": "VolMe 是一个志愿者管理系统。平台可以帮助志愿者组织管理志愿者和活动。系统还支持评分/反馈、聊天、活动管理、签到等功能。",
+          "tag": "生产环境",
+          "techStacks": {
+            "techStack1": {
+              "category": "前端",
+              "value": "React.js"
+            },
+            "techStack2": {
+              "category": "前端",
+              "value": "JavaScript"
+            },
+            "techStack3": {
+              "category": "前端",
+              "value": "Redux"
+            },
+            "techStack4": {
+              "category": "后端",
+              "value": "Node.js"
+            },
+            "techStack5": {
+              "category": "后端",
+              "value": "Express.js"
+            },
+            "techStack6": {
+              "category": "API",
+              "value": "PayPal SDK"
+            },
+            "techStack7": {
+              "category": "云技术",
+              "value": "AWS S3"
+            },
+            "techStack8": {
+              "category": "云技术",
+              "value": "AWS EC2"
+            },
+            "techStack9": {
+              "category": "运维",
+              "value": "Nginx"
+            }
+          }
+        },
         "bpmnGeneration": {
           "title": "从自然语言文本生成业务流程模型的改进方法",
           "description": "业务流程建模符号（BPMN）对于结构化和可视化流程至关重要，可提升公司的工作流程。然而，创建 BPMN 模型通常需要专业知识并且耗时。本文讨论如何通过改进的识别精度使用 Python 和 spacy 库生成 BPMN 模型。",
@@ -448,46 +491,18 @@
             }
           }
         },
-        "volMe": {
-          "title": "VolMe",
-          "description": "VolMe 是一个志愿者管理系统。平台可以帮助志愿者组织管理志愿者和活动。系统还支持评分/反馈、聊天、活动管理、签到等功能。",
+        "macQR": {
+          "title": "Mac QR Scanner",
+          "description": "Mac QR Scanners 是一个轻量级 macOS 应用程序，用户可以通过快捷键呼唤出截图功能来识别二维码。该应用还支持自动识别二维码内容并打开对应的链接。",
           "tag": "生产环境",
           "techStacks": {
             "techStack1": {
-              "category": "前端",
-              "value": "React.js"
+              "category": "客户端",
+              "value": "MacOS"
             },
             "techStack2": {
-              "category": "前端",
-              "value": "JavaScript"
-            },
-            "techStack3": {
-              "category": "前端",
-              "value": "Redux"
-            },
-            "techStack4": {
-              "category": "后端",
-              "value": "Node.js"
-            },
-            "techStack5": {
-              "category": "后端",
-              "value": "Express.js"
-            },
-            "techStack6": {
-              "category": "API",
-              "value": "PayPal SDK"
-            },
-            "techStack7": {
-              "category": "云技术",
-              "value": "AWS S3"
-            },
-            "techStack8": {
-              "category": "云技术",
-              "value": "AWS EC2"
-            },
-            "techStack9": {
-              "category": "运维",
-              "value": "Nginx"
+              "category": "客户端",
+              "value": "Swift"
             }
           }
         }
