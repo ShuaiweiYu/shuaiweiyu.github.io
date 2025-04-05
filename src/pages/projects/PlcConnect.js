@@ -13,7 +13,7 @@ function MarkdownComponent() {
         if (lang.startsWith("de")) langSuffix = "de";
         else if (lang.startsWith("zh")) langSuffix = "cn";
 
-        const filePath = `/readme/recipe-editor_${langSuffix}.md`;
+        const filePath = `/readme/plc-connect_${langSuffix}.md`;
 
         fetch(filePath)
             .then((response) => response.text())

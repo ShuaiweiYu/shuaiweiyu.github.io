@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
 import RecipeEditor from "./pages/projects/RecipeEditor";
+import PlcConnect from "./pages/projects/PlcConnect";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                     <Route path="projects" element={<ProjectsPage/>}/>
                     <Route path="contact" element={<ContactPage/>}/>
                     <Route path="projects/lego/receipe-editor" element={<RecipeEditor/>}/>
+                    <Route path="projects/lego/plc-connect" element={<PlcConnect/>}/>
                 </Route>
             </Routes>
         </Box>

@@ -127,8 +127,6 @@ const ProjectCard = ({title, imgSrc, description, link, tag, tagColor = '#e0e0e0
 const ProjectsPage = () => {
     const {t} = useTranslation();
 
-    //TODO: Edit the project data
-
     const projectsData = [
         {
             id: 'siemens',
@@ -136,21 +134,21 @@ const ProjectsPage = () => {
             name: t('projectsPage.siemens.name'),
             projects: [
                 {
-                    title: t('projectsPage.lego.projects.receipeEditor.title'),
+                    title: t('projectsPage.siemens.projects.safeGuard.title'),
                     imgSrc: '/assets/safeguard.webp',
-                    description: t('projectsPage.lego.projects.receipeEditor.description'),
-                    link: '/projects/lego/receipe-editor',
-                    tag: t('projectsPage.lego.projects.receipeEditor.tag'),
-                    // tagColor: '#16982b',
+                    description: t('projectsPage.siemens.projects.safeGuard.description'),
+                    // link: '/projects/siemens/safe-guard',
+                    tag: t('projectsPage.siemens.projects.safeGuard.tag'),
+                    tagColor: '#005eff',
                     techStacks: []
                 },
                 {
-                    title: t('projectsPage.lego.projects.receipeEditor.title'),
+                    title: t('projectsPage.siemens.projects.collaborationModule.title'),
                     imgSrc: '/assets/collaboration_module.webp',
-                    description: t('projectsPage.lego.projects.receipeEditor.description'),
-                    link: '/projects/lego/receipe-editor',
-                    tag: t('projectsPage.lego.projects.receipeEditor.tag'),
-                    // tagColor: '#16982b',
+                    description: t('projectsPage.siemens.projects.collaborationModule.description'),
+                    // link: '/projects/siemens/collaboration-module',
+                    tag: t('projectsPage.siemens.projects.collaborationModule.tag'),
+                    tagColor: '#ff8c00',
                     techStacks: []
                 },
             ],
@@ -204,6 +202,7 @@ const ProjectsPage = () => {
                     title: t('projectsPage.lego.projects.plcConnect.title'),
                     imgSrc: '/assets/lego-factory.webp',
                     description: t('projectsPage.lego.projects.plcConnect.description'),
+                    link: '/projects/lego/plc-connect',
                     tag: t('projectsPage.lego.projects.plcConnect.tag'),
                     tagColor: '#16982b',
                     techStacks: [
@@ -400,6 +399,7 @@ const ProjectsPage = () => {
                     title: t('projectsPage.tum.projects.volMe.title'),
                     imgSrc: '/assets/volme.webp',
                     description: t('projectsPage.tum.projects.volMe.description'),
+                    link: 'https://volme.org',
                     tag: t('projectsPage.tum.projects.volMe.tag'),
                     tagColor: '#16982b',
                     techStacks: [
@@ -454,6 +454,7 @@ const ProjectsPage = () => {
                     title: t('projectsPage.tum.projects.bpmnGeneration.title'),
                     imgSrc: '/assets/thesis.webp',
                     description: t('projectsPage.tum.projects.bpmnGeneration.description'),
+                    link: 'https://github.com/ShuaiweiYu/text2BPMN',
                     tag: t('projectsPage.tum.projects.bpmnGeneration.tag'),
                     tagColor: '#005eff',
                     techStacks: [
@@ -511,6 +512,7 @@ const ProjectsPage = () => {
                     title: t('projectsPage.personal.projects.focusList.title'),
                     imgSrc: '/assets/FLen.webp',
                     description: t('projectsPage.personal.projects.focusList.description'),
+                    link: 'https://github.com/ShuaiweiYu/focuslist',
                     tag: t('projectsPage.personal.projects.focusList.tag'),
                     tagColor: '#16982b',
                     techStacks: [
@@ -554,6 +556,7 @@ const ProjectsPage = () => {
                     title: t('projectsPage.personal.projects.macQR.title'),
                     imgSrc: '/assets/mac-qr-scanner.webp',
                     description: t('projectsPage.personal.projects.macQR.description'),
+                    link: 'https://github.com/ShuaiweiYu/MacQRscanner',
                     tag: t('projectsPage.personal.projects.macQR.tag'),
                     tagColor: '#005eff',
                     techStacks: [

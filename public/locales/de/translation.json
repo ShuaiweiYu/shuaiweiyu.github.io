@@ -174,11 +174,45 @@
       "projects": {
         "safeGuard": {
           "title": "EHS-Alarmsystem",
-          "description": "Das Environmental Health and Safety (EHS)-Alarmsystem überwacht Umweltdaten in Fabriken. Falls die Daten vordefinierte Grenzwerte überschreiten, sendet das System automatisch Alarme an das Sicherheitspersonal der Fabrik. Außerdem unterstützt das System automatisierte Datenanalysen und die Erstellung von Berichten."
+          "description": "Das Environmental Health and Safety (EHS)-Alarmsystem überwacht Umweltdaten in Fabriken. Falls die Daten vordefinierte Grenzwerte überschreiten, sendet das System automatisch Alarme an das Sicherheitspersonal der Fabrik. Außerdem unterstützt das System automatisierte Datenanalysen und die Erstellung von Berichten.",
+          "tag": "Prototyp",
+          "techStacks": {
+            "techStack1": {
+              "category": "Frontend",
+              "value": "React.js"
+            },
+            "techStack2": {
+              "category": "Frontend",
+              "value": "JavaScript"
+            },
+            "techStack3": {
+              "category": "Backend",
+              "value": "Go"
+            },
+            "techStack4": {
+              "category": "Datenbank",
+              "value": "MySQL"
+            }
+          }
         },
         "collaborationModule": {
           "title": "Kollaborationsmodul",
-          "description": "Das Kollaborationsmodul ist ein verteiltes System zur Verwaltung automatisierter Fahrzeuge in Fabriken. Es weist Fahrzeugen automatisch Aufgaben zu und überwacht deren Positionen, Status sowie den Zustand der Aufgabenausführung."
+          "description": "Das Kollaborationsmodul ist ein verteiltes System zur Verwaltung automatisierter Fahrzeuge in Fabriken. Es weist Fahrzeugen automatisch Aufgaben zu und überwacht deren Positionen, Status sowie den Zustand der Aufgabenausführung.",
+          "tag": "In Testing",
+          "techStacks": {
+            "techStack3": {
+              "category": "Backend",
+              "value": "Node.js"
+            },
+            "techStack4": {
+              "category": "Backend",
+              "value": "JavaScript"
+            },
+            "techStack6": {
+              "category": "Deployment",
+              "value": "docker"
+            }
+          }
         }
       }
     },
