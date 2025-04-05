@@ -140,7 +140,28 @@ const ProjectsPage = () => {
                     // link: '/projects/siemens/safe-guard',
                     tag: t('projectsPage.siemens.projects.safeGuard.tag'),
                     tagColor: '#005eff',
-                    techStacks: []
+                    techStacks: [
+                        {
+                            icon: "/assets/react.webp",
+                            category: t('projectsPage.siemens.projects.safeGuard.techStacks.techStack1.category'),
+                            value: t('projectsPage.siemens.projects.safeGuard.techStacks.techStack1.value')
+                        },
+                        {
+                            icon: "/assets/javascript.webp",
+                            category: t('projectsPage.siemens.projects.safeGuard.techStacks.techStack2.category'),
+                            value: t('projectsPage.siemens.projects.safeGuard.techStacks.techStack2.value')
+                        },
+                        {
+                            icon: "/assets/go.webp",
+                            category: t('projectsPage.siemens.projects.safeGuard.techStacks.techStack3.category'),
+                            value: t('projectsPage.siemens.projects.safeGuard.techStacks.techStack3.value')
+                        },
+                        {
+                            icon: "/assets/mysql.webp",
+                            category: t('projectsPage.siemens.projects.safeGuard.techStacks.techStack4.category'),
+                            value: t('projectsPage.siemens.projects.safeGuard.techStacks.techStack4.value')
+                        },
+                    ]
                 },
                 {
                     title: t('projectsPage.siemens.projects.collaborationModule.title'),
@@ -149,7 +170,23 @@ const ProjectsPage = () => {
                     // link: '/projects/siemens/collaboration-module',
                     tag: t('projectsPage.siemens.projects.collaborationModule.tag'),
                     tagColor: '#ff8c00',
-                    techStacks: []
+                    techStacks: [
+                        {
+                            icon: "/assets/node-js.webp",
+                            category: t('projectsPage.siemens.projects.collaborationModule.techStacks.techStack1.category'),
+                            value: t('projectsPage.siemens.projects.collaborationModule.techStacks.techStack1.value')
+                        },
+                        {
+                            icon: "/assets/javascript.webp",
+                            category: t('projectsPage.siemens.projects.collaborationModule.techStacks.techStack2.category'),
+                            value: t('projectsPage.siemens.projects.collaborationModule.techStacks.techStack2.value')
+                        },
+                        {
+                            icon: "/assets/docker.webp",
+                            category: t('projectsPage.siemens.projects.collaborationModule.techStacks.techStack3.category'),
+                            value: t('projectsPage.siemens.projects.collaborationModule.techStacks.techStack3.value')
+                        },
+                    ]
                 },
             ],
         },

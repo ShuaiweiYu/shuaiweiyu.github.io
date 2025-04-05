@@ -200,15 +200,15 @@
           "description": "Collaboration Module是一个用于管理工厂中的自动化车辆的一个分布式系统。该系统可以自动化的分配任务给车辆，并监控车辆的位置，状态以及任务执行的状况。",
           "tag": "测试环境",
           "techStacks": {
-            "techStack3": {
+            "techStack1": {
               "category": "后端",
               "value": "Node.js"
             },
-            "techStack4": {
+            "techStack2": {
               "category": "后端",
               "value": "JavaScript"
             },
-            "techStack6": {
+            "techStack3": {
               "category": "部署",
               "value": "docker"
             }
