@@ -7,6 +7,11 @@ import ProjectsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
 import RecipeEditor from "./pages/projects/RecipeEditor";
 import PlcConnect from "./pages/projects/PlcConnect";
+import SafeGuard from "./pages/projects/SafeGuard";
+import CollaborationModule from "./pages/projects/CollaborationModule";
+import PL24Upload from "./pages/projects/PL24Upload";
+import PL24Bidata from "./pages/projects/PL24Bidata";
+import PL24DealerMonitor from "./pages/projects/PL24DealerMonitor";
 
 function App() {
     return (
@@ -19,6 +24,11 @@ function App() {
                     <Route path="contact" element={<ContactPage/>}/>
                     <Route path="projects/lego/receipe-editor" element={<RecipeEditor/>}/>
                     <Route path="projects/lego/plc-connect" element={<PlcConnect/>}/>
+                    <Route path="projects/siemens/safe-guard" element={<SafeGuard/>}/>
+                    <Route path="projects/siemens/collaboration-module" element={<CollaborationModule/>}/>
+                    <Route path="projects/lexcom/pl24-upload" element={<PL24Upload/>}/>
+                    <Route path="projects/lexcom/pl24-bidata" element={<PL24Bidata/>}/>
+                    <Route path="projects/lexcom/pl24-dealer-monitor" element={<PL24DealerMonitor/>}/>
                 </Route>
             </Routes>
         </Box>
