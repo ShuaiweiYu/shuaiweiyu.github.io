@@ -200,15 +200,15 @@
           "description": "The Collaboration Module is a distributed system for managing automated vehicles in factories. It automatically assigns tasks to vehicles and monitors their positions, statuses, and task execution conditions.",
           "tag": "In Testing",
           "techStacks": {
-            "techStack3": {
+            "techStack1": {
               "category": "Backend",
               "value": "Node.js"
             },
-            "techStack4": {
+            "techStack2": {
               "category": "Backend",
               "value": "JavaScript"
             },
-            "techStack6": {
+            "techStack3": {
               "category": "Deployment",
               "value": "docker"
             }

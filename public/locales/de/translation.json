@@ -200,15 +200,15 @@
           "description": "Das Kollaborationsmodul ist ein verteiltes System zur Verwaltung automatisierter Fahrzeuge in Fabriken. Es weist Fahrzeugen automatisch Aufgaben zu und überwacht deren Positionen, Status sowie den Zustand der Aufgabenausführung.",
           "tag": "In Testing",
           "techStacks": {
-            "techStack3": {
+            "techStack1": {
               "category": "Backend",
               "value": "Node.js"
             },
-            "techStack4": {
+            "techStack2": {
               "category": "Backend",
               "value": "JavaScript"
             },
-            "techStack6": {
+            "techStack3": {
               "category": "Deployment",
               "value": "docker"
             }
