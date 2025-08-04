@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: react-spa
+    ports:
+      - "3101:80"
+    restart: unless-stopped
