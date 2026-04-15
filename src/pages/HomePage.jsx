@@ -151,7 +151,7 @@ const HomePage = () => {
                     muted
                     playsInline
                 >
-                    <source src="assets/video.webm" type="video/webm"/>
+                    <source src="https://wei-tech.site/personal-web/video.webm" type="video/webm"/>
                     {t("home.video")}
                 </video>
 
@@ -200,7 +200,7 @@ const HomePage = () => {
 
                             <Grid item sm={12} md={4}>
                                 <img
-                                    src="assets/Profile.webp"
+                                    src="https://wei-tech.site/personal-web/Profile.webp"
                                     alt="profile"
                                     style={{
                                         width: '100%',
@@ -248,7 +248,7 @@ const HomePage = () => {
                         >
                             <ItemCard
                                 type={t("itemCards.tumMaster.type")}
-                                iconSrc="/assets/tum2.webp"
+                                iconSrc="https://wei-tech.site/personal-web/tum2.webp"
                                 altText="TUM"
                                 university={t("itemCards.tumMaster.university")}
                                 degree={t("itemCards.tumMaster.degree")}
@@ -258,7 +258,7 @@ const HomePage = () => {
                             />
                             <ItemCard
                                 type={t("itemCards.tumBachelor.type")}
-                                iconSrc="/assets/tum2.webp"
+                                iconSrc="https://wei-tech.site/personal-web/tum2.webp"
                                 altText="TUM"
                                 university={t("itemCards.tumBachelor.university")}
                                 degree={t("itemCards.tumBachelor.degree")}
@@ -268,7 +268,7 @@ const HomePage = () => {
                             />
                             <ItemCard
                                 type=""
-                                iconSrc="/assets/studienkolleg.webp"
+                                iconSrc="https://wei-tech.site/personal-web/studienkolleg.webp"
                                 altText="studienkolleg"
                                 university={t("itemCards.studienkolleg.university")}
                                 degree={t("itemCards.studienkolleg.degree")}
@@ -300,7 +300,7 @@ const HomePage = () => {
                         >
                             <ItemCard
                                 type={t("itemCards.siemens.degree")}
-                                iconSrc="/assets/siemens.webp"
+                                iconSrc="https://wei-tech.site/personal-web/siemens.webp"
                                 altText="siemens"
                                 university={t("itemCards.siemens.university")}
                                 degree={t("itemCards.siemens.type")}
@@ -310,7 +310,7 @@ const HomePage = () => {
                             />
                             <ItemCard
                                 type={t("itemCards.lego.degree")}
-                                iconSrc="/assets/lego.webp"
+                                iconSrc="https://wei-tech.site/personal-web/lego.webp"
                                 altText="LEGO"
                                 university={t("itemCards.lego.university")}
                                 degree={t("itemCards.lego.type")}
@@ -320,7 +320,7 @@ const HomePage = () => {
                             />
                             <ItemCard
                                 type={t("itemCards.lexcom.degree")}
-                                iconSrc="/assets/lexcom.webp"
+                                iconSrc="https://wei-tech.site/personal-web/lexcom.webp"
                                 altText="lexcom"
                                 university={t("itemCards.lexcom.university")}
                                 degree={t("itemCards.lexcom.type")}
@@ -330,7 +330,7 @@ const HomePage = () => {
                             />
                             <ItemCard
                                 type=""
-                                iconSrc="/assets/bmw.webp"
+                                iconSrc="https://wei-tech.site/personal-web/bmw.webp"
                                 altText="BMW"
                                 university={t("itemCards.bmw.university")}
                                 degree={t("itemCards.bmw.type")}
@@ -374,84 +374,84 @@ const HomePage = () => {
                         >
                             <IconCard
                                 type={t("iconCards.java.type")}
-                                iconSrc="/assets/java.webp"
+                                iconSrc="https://wei-tech.site/personal-web/java.webp"
                                 altText="Java"
                                 text={t("iconCards.java.text")}
                                 description={t("iconCards.java.description")}
                             />
                             <IconCard
                                 type={t("iconCards.python.type")}
-                                iconSrc="/assets/python.webp"
+                                iconSrc="https://wei-tech.site/personal-web/python.webp"
                                 altText="Python"
                                 text={t("iconCards.python.text")}
                                 description={t("iconCards.python.description")}
                             />
                             <IconCard
                                 type={t("iconCards.javascript.type")}
-                                iconSrc="/assets/javascript.webp"
+                                iconSrc="https://wei-tech.site/personal-web/javascript.webp"
                                 altText="JavaScript"
                                 text={t("iconCards.javascript.text")}
                                 description={t("iconCards.javascript.description")}
                             />
                             {/*<IconCard*/}
                             {/*    type="Progamming Language"*/}
-                            {/*    iconSrc="/assets/swift.webp"*/}
+                            {/*    iconSrc="https://wei-tech.site/personal-web/swift.webp"*/}
                             {/*    altText="Swift"*/}
                             {/*    text="Swift"*/}
                             {/*    description=""*/}
                             {/*/>*/}
                             <IconCard
                                 type={t("iconCards.springboot.type")}
-                                iconSrc="/assets/springboot.webp"
+                                iconSrc="https://wei-tech.site/personal-web/springboot.webp"
                                 altText="SpringBoot"
                                 text={t("iconCards.springboot.text")}
                                 description={t("iconCards.springboot.description")}
                             />
                             <IconCard
                                 type={t("iconCards.react.type")}
-                                iconSrc="/assets/react.webp"
+                                iconSrc="https://wei-tech.site/personal-web/react.webp"
                                 altText="React.js"
                                 text={t("iconCards.react.text")}
                                 description={t("iconCards.react.description")}
                             />
                             {/*<IconCard*/}
                             {/*    type="Framework"*/}
-                            {/*    iconSrc="/assets/vue.webp"*/}
+                            {/*    iconSrc="https://wei-tech.site/personal-web/vue.webp"*/}
                             {/*    altText="Vue.js"*/}
                             {/*    text="Vue.js"*/}
                             {/*    description=""*/}
                             {/*/>*/}
                             <IconCard
                                 type={t("iconCards.git.type")}
-                                iconSrc="/assets/git.webp"
+                                iconSrc="https://wei-tech.site/personal-web/git.webp"
                                 altText="Git"
                                 text={t("iconCards.git.text")}
                                 description={t("iconCards.git.description")}
                             />
                             <IconCard
                                 type={t("iconCards.mongo.type")}
-                                iconSrc="/assets/mongo.webp"
+                                iconSrc="https://wei-tech.site/personal-web/mongo.webp"
                                 altText="Mongo DB"
                                 text={t("iconCards.mongo.text")}
                                 description={t("iconCards.mongo.description")}
                             />
                             <IconCard
                                 type={t("iconCards.mysql.type")}
-                                iconSrc="/assets/mysql.webp"
+                                iconSrc="https://wei-tech.site/personal-web/mysql.webp"
                                 altText="MySQL"
                                 text={t("iconCards.mysql.text")}
                                 description={t("iconCards.mysql.description")}
                             />
                             <IconCard
                                 type={t("iconCards.kafka.type")}
-                                iconSrc="/assets/kafka.webp"
+                                iconSrc="https://wei-tech.site/personal-web/kafka.webp"
                                 altText="Kafka"
                                 text={t("iconCards.kafka.text")}
                                 description={t("iconCards.kafka.description")}
                             />
                             <IconCard
                                 type={t("iconCards.aws.type")}
-                                iconSrc="/assets/aws.webp"
+                                iconSrc="https://wei-tech.site/personal-web/aws.webp"
                                 altText="AWS"
                                 text={t("iconCards.aws.text")}
                                 description={t("iconCards.aws.description")}
@@ -476,21 +476,21 @@ const HomePage = () => {
                         >
                             <IconCard
                                 type={t("iconCards.german.type")}
-                                iconSrc="/assets/german.webp"
+                                iconSrc="https://wei-tech.site/personal-web/german.webp"
                                 altText="German"
                                 text={t("iconCards.german.text")}
                                 description={t("iconCards.german.description")}
                             />
                             <IconCard
                                 type={t("iconCards.english.type")}
-                                iconSrc="/assets/english.webp"
+                                iconSrc="https://wei-tech.site/personal-web/english.webp"
                                 altText="English"
                                 text={t("iconCards.english.text")}
                                 description={t("iconCards.english.description")}
                             />
                             <IconCard
                                 type={t("iconCards.chinese.type")}
-                                iconSrc="/assets/chinese.webp"
+                                iconSrc="https://wei-tech.site/personal-web/chinese.webp"
                                 altText="Chinese"
                                 text={t("iconCards.chinese.text")}
                                 description={t("iconCards.chinese.description")}
@@ -515,35 +515,35 @@ const HomePage = () => {
                         >
                             <IconCard
                                 type={t("iconCards.reading.type")}
-                                iconSrc="/assets/books.webp"
+                                iconSrc="https://wei-tech.site/personal-web/books.webp"
                                 altText="books"
                                 text={t("iconCards.reading.text")}
                                 description={t("iconCards.reading.description")}
                             />
                             <IconCard
                                 type={t("iconCards.movies.type")}
-                                iconSrc="/assets/movie.webp"
+                                iconSrc="https://wei-tech.site/personal-web/movie.webp"
                                 altText="movie"
                                 text={t("iconCards.movies.text")}
                                 description={t("iconCards.movies.description")}
                             />
                             <IconCard
                                 type={t("iconCards.traveling.type")}
-                                iconSrc="/assets/travel.webp"
+                                iconSrc="https://wei-tech.site/personal-web/travel.webp"
                                 altText="travel"
                                 text={t("iconCards.traveling.text")}
                                 description={t("iconCards.traveling.description")}
                             />
                             <IconCard
                                 type={t("iconCards.hiking.type")}
-                                iconSrc="/assets/mountain.webp"
+                                iconSrc="https://wei-tech.site/personal-web/mountain.webp"
                                 altText="mountain"
                                 text={t("iconCards.hiking.text")}
                                 description={t("iconCards.hiking.description")}
                             />
                             <IconCard
                                 type={t("iconCards.gaming.type")}
-                                iconSrc="/assets/game.webp"
+                                iconSrc="https://wei-tech.site/personal-web/game.webp"
                                 altText="game"
                                 text={t("iconCards.gaming.text")}
                                 description={t("iconCards.gaming.description")}

@@ -130,34 +130,34 @@ const ProjectsPage = () => {
     const projectsData = [
         {
             id: 'siemens',
-            image: '/assets/siemens.webp',
+            image: 'https://wei-tech.site/personal-web/siemens.webp',
             name: t('projectsPage.siemens.name'),
             projects: [
                 {
                     title: t('projectsPage.siemens.projects.safeGuard.title'),
-                    imgSrc: '/assets/safeguard.webp',
+                    imgSrc: 'https://wei-tech.site/personal-web/safeguard.webp',
                     description: t('projectsPage.siemens.projects.safeGuard.description'),
                     // link: '/projects/siemens/safe-guard',
                     tag: t('projectsPage.siemens.projects.safeGuard.tag'),
                     tagColor: '#005eff',
                     techStacks: [
                         {
-                            icon: "/assets/react.webp",
+                            icon: "https://wei-tech.site/personal-web/react.webp",
                             category: t('projectsPage.siemens.projects.safeGuard.techStacks.techStack1.category'),
                             value: t('projectsPage.siemens.projects.safeGuard.techStacks.techStack1.value')
                         },
                         {
-                            icon: "/assets/javascript.webp",
+                            icon: "https://wei-tech.site/personal-web/javascript.webp",
                             category: t('projectsPage.siemens.projects.safeGuard.techStacks.techStack2.category'),
                             value: t('projectsPage.siemens.projects.safeGuard.techStacks.techStack2.value')
                         },
                         {
-                            icon: "/assets/go.webp",
+                            icon: "https://wei-tech.site/personal-web/go.webp",
                             category: t('projectsPage.siemens.projects.safeGuard.techStacks.techStack3.category'),
                             value: t('projectsPage.siemens.projects.safeGuard.techStacks.techStack3.value')
                         },
                         {
-                            icon: "/assets/mysql.webp",
+                            icon: "https://wei-tech.site/personal-web/mysql.webp",
                             category: t('projectsPage.siemens.projects.safeGuard.techStacks.techStack4.category'),
                             value: t('projectsPage.siemens.projects.safeGuard.techStacks.techStack4.value')
                         },
@@ -165,24 +165,24 @@ const ProjectsPage = () => {
                 },
                 {
                     title: t('projectsPage.siemens.projects.collaborationModule.title'),
-                    imgSrc: '/assets/collaboration_module.webp',
+                    imgSrc: 'https://wei-tech.site/personal-web/collaboration_module.webp',
                     description: t('projectsPage.siemens.projects.collaborationModule.description'),
                     // link: '/projects/siemens/collaboration-module',
                     tag: t('projectsPage.siemens.projects.collaborationModule.tag'),
                     tagColor: '#ff8c00',
                     techStacks: [
                         {
-                            icon: "/assets/node-js.webp",
+                            icon: "https://wei-tech.site/personal-web/node-js.webp",
                             category: t('projectsPage.siemens.projects.collaborationModule.techStacks.techStack1.category'),
                             value: t('projectsPage.siemens.projects.collaborationModule.techStacks.techStack1.value')
                         },
                         {
-                            icon: "/assets/javascript.webp",
+                            icon: "https://wei-tech.site/personal-web/javascript.webp",
                             category: t('projectsPage.siemens.projects.collaborationModule.techStacks.techStack2.category'),
                             value: t('projectsPage.siemens.projects.collaborationModule.techStacks.techStack2.value')
                         },
                         {
-                            icon: "/assets/docker.webp",
+                            icon: "https://wei-tech.site/personal-web/docker.webp",
                             category: t('projectsPage.siemens.projects.collaborationModule.techStacks.techStack3.category'),
                             value: t('projectsPage.siemens.projects.collaborationModule.techStacks.techStack3.value')
                         },
@@ -192,44 +192,44 @@ const ProjectsPage = () => {
         },
         {
             id: 'lego',
-            image: '/assets/lego.webp',
+            image: 'https://wei-tech.site/personal-web/lego.webp',
             name: t('projectsPage.lego.name'),
             projects: [
                 {
                     title: t('projectsPage.lego.projects.receipeEditor.title'),
-                    imgSrc: '/assets/lego-robot-arm.webp',
+                    imgSrc: 'https://wei-tech.site/personal-web/lego-robot-arm.webp',
                     description: t('projectsPage.lego.projects.receipeEditor.description'),
                     link: '/projects/lego/receipe-editor',
                     tag: t('projectsPage.lego.projects.receipeEditor.tag'),
                     tagColor: '#16982b',
                     techStacks: [
                         {
-                            icon: "/assets/react.webp",
+                            icon: "https://wei-tech.site/personal-web/react.webp",
                             category: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack1.category'),
                             value: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack1.value')
                         },
                         {
-                            icon: "/assets/javascript.webp",
+                            icon: "https://wei-tech.site/personal-web/javascript.webp",
                             category: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack2.category'),
                             value: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack2.value')
                         },
                         {
-                            icon: "/assets/net.webp",
+                            icon: "https://wei-tech.site/personal-web/net.webp",
                             category: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack3.category'),
                             value: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack3.value')
                         },
                         {
-                            icon: "/assets/c-sharp.webp",
+                            icon: "https://wei-tech.site/personal-web/c-sharp.webp",
                             category: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack4.category'),
                             value: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack4.value')
                         },
                         {
-                            icon: "/assets/mysql.webp",
+                            icon: "https://wei-tech.site/personal-web/mysql.webp",
                             category: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack5.category'),
                             value: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack5.value')
                         },
                         {
-                            icon: "/assets/github.webp",
+                            icon: "https://wei-tech.site/personal-web/github.webp",
                             category: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack6.category'),
                             value: t('projectsPage.lego.projects.receipeEditor.techStacks.techStack6.value')
                         }
@@ -237,39 +237,39 @@ const ProjectsPage = () => {
                 },
                 {
                     title: t('projectsPage.lego.projects.plcConnect.title'),
-                    imgSrc: '/assets/lego-factory.webp',
+                    imgSrc: 'https://wei-tech.site/personal-web/lego-factory.webp',
                     description: t('projectsPage.lego.projects.plcConnect.description'),
                     link: '/projects/lego/plc-connect',
                     tag: t('projectsPage.lego.projects.plcConnect.tag'),
                     tagColor: '#16982b',
                     techStacks: [
                         {
-                            icon: "/assets/blazor.webp",
+                            icon: "https://wei-tech.site/personal-web/blazor.webp",
                             category: t('projectsPage.lego.projects.plcConnect.techStacks.techStack1.category'),
                             value: t('projectsPage.lego.projects.plcConnect.techStacks.techStack1.value')
                         },
                         {
-                            icon: "/assets/net.webp",
+                            icon: "https://wei-tech.site/personal-web/net.webp",
                             category: t('projectsPage.lego.projects.plcConnect.techStacks.techStack2.category'),
                             value: t('projectsPage.lego.projects.plcConnect.techStacks.techStack2.value')
                         },
                         {
-                            icon: "/assets/c-sharp.webp",
+                            icon: "https://wei-tech.site/personal-web/c-sharp.webp",
                             category: t('projectsPage.lego.projects.plcConnect.techStacks.techStack3.category'),
                             value: t('projectsPage.lego.projects.plcConnect.techStacks.techStack3.value')
                         },
                         {
-                            icon: "/assets/api.webp",
+                            icon: "https://wei-tech.site/personal-web/api.webp",
                             category: t('projectsPage.lego.projects.plcConnect.techStacks.techStack4.category'),
                             value: t('projectsPage.lego.projects.plcConnect.techStacks.techStack4.value')
                         },
                         {
-                            icon: "/assets/mysql.webp",
+                            icon: "https://wei-tech.site/personal-web/mysql.webp",
                             category: t('projectsPage.lego.projects.plcConnect.techStacks.techStack5.category'),
                             value: t('projectsPage.lego.projects.plcConnect.techStacks.techStack5.value')
                         },
                         {
-                            icon: "/assets/github.webp",
+                            icon: "https://wei-tech.site/personal-web/github.webp",
                             category: t('projectsPage.lego.projects.plcConnect.techStacks.techStack6.category'),
                             value: t('projectsPage.lego.projects.plcConnect.techStacks.techStack6.value')
                         }
@@ -279,48 +279,48 @@ const ProjectsPage = () => {
         },
         {
             id: 'lexcom',
-            image: '/assets/lexcom.webp',
+            image: 'https://wei-tech.site/personal-web/lexcom.webp',
             name: t('projectsPage.lexcom.name'),
             projects: [
                 {
                     title: t('projectsPage.lexcom.projects.pl24Upload.title'),
-                    imgSrc: '/assets/lexcom-upload.webp',
+                    imgSrc: 'https://wei-tech.site/personal-web/lexcom-upload.webp',
                     description: t('projectsPage.lexcom.projects.pl24Upload.description'),
                     tag: t('projectsPage.lexcom.projects.pl24Upload.tag'),
                     tagColor: '#16982b',
                     techStacks: [
                         {
-                            icon: "/assets/react.webp",
+                            icon: "https://wei-tech.site/personal-web/react.webp",
                             category: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack1.category'),
                             value: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack1.value')
                         },
                         {
-                            icon: "/assets/typescript.webp",
+                            icon: "https://wei-tech.site/personal-web/typescript.webp",
                             category: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack2.category'),
                             value: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack2.value')
                         },
                         {
-                            icon: "/assets/springboot.webp",
+                            icon: "https://wei-tech.site/personal-web/springboot.webp",
                             category: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack3.category'),
                             value: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack3.value')
                         },
                         {
-                            icon: "/assets/kafka.webp",
+                            icon: "https://wei-tech.site/personal-web/kafka.webp",
                             category: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack4.category'),
                             value: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack4.value')
                         },
                         {
-                            icon: "/assets/mongo.webp",
+                            icon: "https://wei-tech.site/personal-web/mongo.webp",
                             category: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack5.category'),
                             value: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack5.value')
                         },
                         {
-                            icon: "/assets/gitlab.webp",
+                            icon: "https://wei-tech.site/personal-web/gitlab.webp",
                             category: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack6.category'),
                             value: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack6.value')
                         },
                         {
-                            icon: "/assets/oracle.webp",
+                            icon: "https://wei-tech.site/personal-web/oracle.webp",
                             category: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack7.category'),
                             value: t('projectsPage.lexcom.projects.pl24Upload.techStacks.techStack7.value')
                         }
@@ -328,28 +328,28 @@ const ProjectsPage = () => {
                 },
                 {
                     title: t('projectsPage.lexcom.projects.pl24Bidata.title'),
-                    imgSrc: '/assets/lexcom-bidata.webp',
+                    imgSrc: 'https://wei-tech.site/personal-web/lexcom-bidata.webp',
                     description: t('projectsPage.lexcom.projects.pl24Bidata.description'),
                     tag: t('projectsPage.lexcom.projects.pl24Bidata.tag'),
                     tagColor: '#16982b',
                     techStacks: [
                         {
-                            icon: "/assets/springboot.webp",
+                            icon: "https://wei-tech.site/personal-web/springboot.webp",
                             category: t('projectsPage.lexcom.projects.pl24Bidata.techStacks.techStack1.category'),
                             value: t('projectsPage.lexcom.projects.pl24Bidata.techStacks.techStack1.value')
                         },
                         {
-                            icon: "/assets/kafka.webp",
+                            icon: "https://wei-tech.site/personal-web/kafka.webp",
                             category: t('projectsPage.lexcom.projects.pl24Bidata.techStacks.techStack2.category'),
                             value: t('projectsPage.lexcom.projects.pl24Bidata.techStacks.techStack2.value')
                         },
                         {
-                            icon: "/assets/postgre.webp",
+                            icon: "https://wei-tech.site/personal-web/postgre.webp",
                             category: t('projectsPage.lexcom.projects.pl24Bidata.techStacks.techStack3.category'),
                             value: t('projectsPage.lexcom.projects.pl24Bidata.techStacks.techStack3.value')
                         },
                         {
-                            icon: "/assets/gitlab.webp",
+                            icon: "https://wei-tech.site/personal-web/gitlab.webp",
                             category: t('projectsPage.lexcom.projects.pl24Bidata.techStacks.techStack4.category'),
                             value: t('projectsPage.lexcom.projects.pl24Bidata.techStacks.techStack4.value')
                         }
@@ -357,38 +357,38 @@ const ProjectsPage = () => {
                 },
                 {
                     title: t('projectsPage.lexcom.projects.pl24DealerMonitor.title'),
-                    imgSrc: '/assets/lexcom-monitor.webp',
+                    imgSrc: 'https://wei-tech.site/personal-web/lexcom-monitor.webp',
                     description: t('projectsPage.lexcom.projects.pl24DealerMonitor.description'),
                     tag: t('projectsPage.lexcom.projects.pl24DealerMonitor.tag'),
                     tagColor: '#ff8c00',
                     techStacks: [
                         {
-                            icon: "/assets/react.webp",
+                            icon: "https://wei-tech.site/personal-web/react.webp",
                             category: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack1.category'),
                             value: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack1.value')
                         },
                         {
-                            icon: "/assets/typescript.webp",
+                            icon: "https://wei-tech.site/personal-web/typescript.webp",
                             category: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack2.category'),
                             value: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack2.value')
                         },
                         {
-                            icon: "/assets/springboot.webp",
+                            icon: "https://wei-tech.site/personal-web/springboot.webp",
                             category: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack3.category'),
                             value: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack3.value')
                         },
                         {
-                            icon: "/assets/kafka.webp",
+                            icon: "https://wei-tech.site/personal-web/kafka.webp",
                             category: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack4.category'),
                             value: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack4.value')
                         },
                         {
-                            icon: "/assets/mongo.webp",
+                            icon: "https://wei-tech.site/personal-web/mongo.webp",
                             category: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack5.category'),
                             value: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack5.value')
                         },
                         {
-                            icon: "/assets/gitlab.webp",
+                            icon: "https://wei-tech.site/personal-web/gitlab.webp",
                             category: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack6.category'),
                             value: t('projectsPage.lexcom.projects.pl24DealerMonitor.techStacks.techStack6.value')
                         }
@@ -398,28 +398,28 @@ const ProjectsPage = () => {
         },
         {
             id: 'bmw',
-            image: '/assets/bmw.webp',
+            image: 'https://wei-tech.site/personal-web/bmw.webp',
             name: t('projectsPage.bmw.name'),
             projects: [
                 {
                     title: t('projectsPage.bmw.projects.bmwNews.title'),
-                    imgSrc: '/assets/bmw_news.webp',
+                    imgSrc: 'https://wei-tech.site/personal-web/bmw_news.webp',
                     description: t('projectsPage.bmw.projects.bmwNews.description'),
                     tag: t('projectsPage.bmw.projects.bmwNews.tag'),
                     tagColor: '#005eff',
                     techStacks: [
                         {
-                            icon: "/assets/android.webp",
+                            icon: "https://wei-tech.site/personal-web/android.webp",
                             category: t('projectsPage.bmw.projects.bmwNews.techStacks.techStack1.category'),
                             value: t('projectsPage.bmw.projects.bmwNews.techStacks.techStack1.value')
                         },
                         {
-                            icon: "/assets/java.webp",
+                            icon: "https://wei-tech.site/personal-web/java.webp",
                             category: t('projectsPage.bmw.projects.bmwNews.techStacks.techStack2.category'),
                             value: t('projectsPage.bmw.projects.bmwNews.techStacks.techStack2.value')
                         },
                         {
-                            icon: "/assets/api.webp",
+                            icon: "https://wei-tech.site/personal-web/api.webp",
                             category: t('projectsPage.bmw.projects.bmwNews.techStacks.techStack3.category'),
                             value: t('projectsPage.bmw.projects.bmwNews.techStacks.techStack3.value')
                         }
@@ -429,59 +429,59 @@ const ProjectsPage = () => {
         },
         {
             id: 'tum',
-            image: '/assets/tum.webp',
+            image: 'https://wei-tech.site/personal-web/tum.webp',
             name: t('projectsPage.tum.name'),
             projects: [
                 {
                     title: t('projectsPage.tum.projects.volMe.title'),
-                    imgSrc: '/assets/volme.webp',
+                    imgSrc: 'https://wei-tech.site/personal-web/volme.webp',
                     description: t('projectsPage.tum.projects.volMe.description'),
                     link: 'https://volme.org',
                     tag: t('projectsPage.tum.projects.volMe.tag'),
                     tagColor: '#16982b',
                     techStacks: [
                         {
-                            icon: "/assets/react.webp",
+                            icon: "https://wei-tech.site/personal-web/react.webp",
                             category: t('projectsPage.tum.projects.volMe.techStacks.techStack1.category'),
                             value: t('projectsPage.tum.projects.volMe.techStacks.techStack1.value'),
                         },
                         {
-                            icon: "/assets/javascript.webp",
+                            icon: "https://wei-tech.site/personal-web/javascript.webp",
                             category: t('projectsPage.tum.projects.volMe.techStacks.techStack2.category'),
                             value: t('projectsPage.tum.projects.volMe.techStacks.techStack2.value'),
                         },
                         {
-                            icon: "/assets/redux.webp",
+                            icon: "https://wei-tech.site/personal-web/redux.webp",
                             category: t('projectsPage.tum.projects.volMe.techStacks.techStack3.category'),
                             value: t('projectsPage.tum.projects.volMe.techStacks.techStack3.value'),
                         },
                         {
-                            icon: "/assets/node-js.webp",
+                            icon: "https://wei-tech.site/personal-web/node-js.webp",
                             category: t('projectsPage.tum.projects.volMe.techStacks.techStack4.category'),
                             value: t('projectsPage.tum.projects.volMe.techStacks.techStack4.value'),
                         },
                         {
-                            icon: "/assets/express-js.webp",
+                            icon: "https://wei-tech.site/personal-web/express-js.webp",
                             category: t('projectsPage.tum.projects.volMe.techStacks.techStack5.category'),
                             value: t('projectsPage.tum.projects.volMe.techStacks.techStack5.value'),
                         },
                         {
-                            icon: "/assets/paypal.webp",
+                            icon: "https://wei-tech.site/personal-web/paypal.webp",
                             category: t('projectsPage.tum.projects.volMe.techStacks.techStack6.category'),
                             value: t('projectsPage.tum.projects.volMe.techStacks.techStack6.value'),
                         },
                         {
-                            icon: "/assets/aws-s3.webp",
+                            icon: "https://wei-tech.site/personal-web/aws-s3.webp",
                             category: t('projectsPage.tum.projects.volMe.techStacks.techStack7.category'),
                             value: t('projectsPage.tum.projects.volMe.techStacks.techStack7.value'),
                         },
                         {
-                            icon: "/assets/aws-ec2.webp",
+                            icon: "https://wei-tech.site/personal-web/aws-ec2.webp",
                             category: t('projectsPage.tum.projects.volMe.techStacks.techStack8.category'),
                             value: t('projectsPage.tum.projects.volMe.techStacks.techStack8.value'),
                         },
                         {
-                            icon: "/assets/ngnix.webp",
+                            icon: "https://wei-tech.site/personal-web/ngnix.webp",
                             category: t('projectsPage.tum.projects.volMe.techStacks.techStack9.category'),
                             value: t('projectsPage.tum.projects.volMe.techStacks.techStack9.value'),
                         }
@@ -489,19 +489,19 @@ const ProjectsPage = () => {
                 },
                 {
                     title: t('projectsPage.tum.projects.bpmnGeneration.title'),
-                    imgSrc: '/assets/thesis.webp',
+                    imgSrc: 'https://wei-tech.site/personal-web/thesis.webp',
                     description: t('projectsPage.tum.projects.bpmnGeneration.description'),
                     link: 'https://github.com/ShuaiweiYu/text2BPMN',
                     tag: t('projectsPage.tum.projects.bpmnGeneration.tag'),
                     tagColor: '#005eff',
                     techStacks: [
                         {
-                            icon: "/assets/python.webp",
+                            icon: "https://wei-tech.site/personal-web/python.webp",
                             category: t('projectsPage.tum.projects.bpmnGeneration.techStacks.techStack1.category'),
                             value: t('projectsPage.tum.projects.bpmnGeneration.techStacks.techStack1.value'),
                         },
                         {
-                            icon: "/assets/spacy.webp",
+                            icon: "https://wei-tech.site/personal-web/spacy.webp",
                             category: t('projectsPage.tum.projects.bpmnGeneration.techStacks.techStack2.category'),
                             value: t('projectsPage.tum.projects.bpmnGeneration.techStacks.techStack2.value'),
                         },
@@ -509,30 +509,30 @@ const ProjectsPage = () => {
                 },
                 {
                     title: t('projectsPage.tum.projects.predictiveProcessMonitoring.title'),
-                    imgSrc: '/assets/PPM.webp',
+                    imgSrc: 'https://wei-tech.site/personal-web/PPM.webp',
                     description: t('projectsPage.tum.projects.predictiveProcessMonitoring.description'),
                     tag: t('projectsPage.tum.projects.predictiveProcessMonitoring.tag'),
                     tagColor: '#005eff',
                 },
                 {
                     title: t('projectsPage.tum.projects.bamlAnalyticsCup.title'),
-                    imgSrc: '/assets/ana_cup.webp',
+                    imgSrc: 'https://wei-tech.site/personal-web/ana_cup.webp',
                     description: t('projectsPage.tum.projects.bamlAnalyticsCup.description'),
                     tag: t('projectsPage.tum.projects.bamlAnalyticsCup.tag'),
                     tagColor: '#005eff',
                     techStacks: [
                         {
-                            icon: "/assets/python.webp",
+                            icon: "https://wei-tech.site/personal-web/python.webp",
                             category: t('projectsPage.tum.projects.bamlAnalyticsCup.techStacks.techStack1.category'),
                             value: t('projectsPage.tum.projects.bamlAnalyticsCup.techStacks.techStack1.value'),
                         },
                         {
-                            icon: "/assets/sklearn.webp",
+                            icon: "https://wei-tech.site/personal-web/sklearn.webp",
                             category: t('projectsPage.tum.projects.bamlAnalyticsCup.techStacks.techStack2.category'),
                             value: t('projectsPage.tum.projects.bamlAnalyticsCup.techStacks.techStack2.value'),
                         },
                         {
-                            icon: "/assets/numpy.webp",
+                            icon: "https://wei-tech.site/personal-web/numpy.webp",
                             category: t('projectsPage.tum.projects.bamlAnalyticsCup.techStacks.techStack3.category'),
                             value: t('projectsPage.tum.projects.bamlAnalyticsCup.techStacks.techStack3.value'),
                         }
@@ -542,29 +542,29 @@ const ProjectsPage = () => {
         },
         {
             id: 'personal',
-            image: '/assets/user.webp',
+            image: 'https://wei-tech.site/personal-web/user.webp',
             name: t('projectsPage.personal.name'),
             projects: [
                 {
                     title: t('projectsPage.personal.projects.focusList.title'),
-                    imgSrc: '/assets/FLen.webp',
+                    imgSrc: 'https://wei-tech.site/personal-web/FLen.webp',
                     description: t('projectsPage.personal.projects.focusList.description'),
                     link: 'https://github.com/ShuaiweiYu/focuslist',
                     tag: t('projectsPage.personal.projects.focusList.tag'),
                     tagColor: '#16982b',
                     techStacks: [
                         {
-                            icon: "/assets/vue.webp",
+                            icon: "https://wei-tech.site/personal-web/vue.webp",
                             category: t('projectsPage.personal.projects.focusList.techStacks.techStack1.category'),
                             value: t('projectsPage.personal.projects.focusList.techStacks.techStack1.value'),
                         },
                         {
-                            icon: "/assets/javascript.webp",
+                            icon: "https://wei-tech.site/personal-web/javascript.webp",
                             category:  t('projectsPage.personal.projects.focusList.techStacks.techStack2.category'),
                             value: t('projectsPage.personal.projects.focusList.techStacks.techStack2.value'),
                         },
                         {
-                            icon: "/assets/github.webp",
+                            icon: "https://wei-tech.site/personal-web/github.webp",
                             category: t('projectsPage.personal.projects.focusList.techStacks.techStack3.category'),
                             value: t('projectsPage.personal.projects.focusList.techStacks.techStack3.value'),
                         }
@@ -572,18 +572,18 @@ const ProjectsPage = () => {
                 },
                 {
                     title: t('projectsPage.personal.projects.emojiDiary.title'),
-                    imgSrc: '/assets/emoji-dairy.webp',
+                    imgSrc: 'https://wei-tech.site/personal-web/emoji-dairy.webp',
                     description: t('projectsPage.personal.projects.emojiDiary.description'),
                     tag: t('projectsPage.personal.projects.emojiDiary.tag'),
                     tagColor: '#005eff',
                     techStacks: [
                         {
-                            icon: "/assets/apple.webp",
+                            icon: "https://wei-tech.site/personal-web/apple.webp",
                             category: t('projectsPage.personal.projects.emojiDiary.techStacks.techStack1.category'),
                             value: t('projectsPage.personal.projects.emojiDiary.techStacks.techStack1.value'),
                         },
                         {
-                            icon: "/assets/swift.webp",
+                            icon: "https://wei-tech.site/personal-web/swift.webp",
                             category: t('projectsPage.personal.projects.emojiDiary.techStacks.techStack2.category'),
                             value: t('projectsPage.personal.projects.emojiDiary.techStacks.techStack2.value'),
                         }
@@ -591,19 +591,19 @@ const ProjectsPage = () => {
                 },
                 {
                     title: t('projectsPage.personal.projects.macQR.title'),
-                    imgSrc: '/assets/mac-qr-scanner.webp',
+                    imgSrc: 'https://wei-tech.site/personal-web/mac-qr-scanner.webp',
                     description: t('projectsPage.personal.projects.macQR.description'),
                     link: 'https://github.com/ShuaiweiYu/MacQRscanner',
                     tag: t('projectsPage.personal.projects.macQR.tag'),
                     tagColor: '#005eff',
                     techStacks: [
                         {
-                            icon: "/assets/apple.webp",
+                            icon: "https://wei-tech.site/personal-web/apple.webp",
                             category: t('projectsPage.personal.projects.macQR.techStacks.techStack1.category'),
                             value: t('projectsPage.personal.projects.macQR.techStacks.techStack1.value'),
                         },
                         {
-                            icon: "/assets/swift.webp",
+                            icon: "https://wei-tech.site/personal-web/swift.webp",
                             category: t('projectsPage.personal.projects.macQR.techStacks.techStack2.category'),
                             value: t('projectsPage.personal.projects.macQR.techStacks.techStack2.value'),
                         }
