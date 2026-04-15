@@ -10,9 +10,10 @@
     "aboutMe1": "About Me—Shuaiwei Yu",
     "aboutMe2": "I come from a small county in Zhejiang—Xinchang, known for its green mountains and clear waters. If you have a chance, be sure to visit!",
     "aboutMe3": "I completed my basic education in China and chose Germany as my next stop. In Munich (my second hometown 🤣), I pursued undergraduate and master's degrees in computer science.",
-    "aboutMe4": "I am now ready to use what I have learned to create something cool!",
+    "aboutMe4": "I am currently working as an AIOT Consultant at Reply Inc., focusing on full-stack development and enterprise AI transformation while delivering high-quality consulting and practical solutions.",
     "myStudies": "My Studies",
-    "myInternships": "My Internships",
+    "myWork": "Work Experience",
+    "myInternships": "Internship Experience",
     "funFacts": "Fun Facts About Me",
     "programmingSkills": "Programming Skills",
     "languagesSpoken": "Languages I Speak",
@@ -74,6 +75,14 @@
       "description": "BMW Group is a global leader in premium automotive manufacturing. During my internship, I worked on the migration of BMW's in-car app store from Linux to Android. I was responsible for quality testing of new apps in the store and developed internal tools to test the functionality and stability of the new in-car systems.",
       "duration": "August 2022 - December 2022",
       "link": "https://www.bmwgroup.com/en.html"
+    },
+    "reply": {
+      "type": "AIOT Consultant / Full-Stack Developer",
+      "university": "Reply Inc.",
+      "degree": "AIOT and Full-Stack Development",
+      "description": "I work as an AIOT Consultant and Full-Stack Developer, building AIOT solutions and end-to-end software features from backend services to frontend applications.",
+      "duration": "January 2026 - Present",
+      "link": "https://www.reply.com/en"
     }
   },
   "iconCards": {

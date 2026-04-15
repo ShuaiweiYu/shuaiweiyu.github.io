@@ -10,9 +10,10 @@
     "aboutMe1": "关于我—俞帅威",
     "aboutMe2": "我来自浙江的一个小县城——新昌县，那里青山绿水，如果有机会的话请一定去看看！",
     "aboutMe3": "我在中国完成了我的基础教育，然后选择了德国作为我的下一站。在慕尼黑（我的第二故乡🤣），我在这里攻读了计算机的本科和硕士学位",
-    "aboutMe4": "我现在准备好了运用我所学到的知识，创造一点很酷的东西！",
+    "aboutMe4": "我目前在 Reply Inc. 担任 AIOT Consultant，专注于全栈开发与企业 AI 转型，致力于提供高质量咨询与落地方案。",
     "myStudies": "我的学业",
-    "myInternships": "我的实习",
+    "myWork": "工作经历",
+    "myInternships": "实习经历",
     "funFacts": "关于我的趣闻",
     "programmingSkills": "编程技能",
     "languagesSpoken": "我会说什么语言？",
@@ -74,6 +75,14 @@
       "description": "宝马集团是全球领先的高端汽车制造商，我任职于宝马期间正处于宝马车载应用商场从Linux架构向安卓架构迁移的时候。我主要负责迁移商店中的新应用的质量检测，测试等；同时我也负责开发了多个内部测试软件用于测试新车载系统的功能性和稳定性。",
       "duration": "2022年8月 - 2022年12月",
       "link": "https://www.bmwgroup.com/en.html"
+    },
+    "reply": {
+      "type": "AIOT顾问 / 全栈开发工程师",
+      "university": "Reply Inc.",
+      "degree": "AIOT与全栈软件开发",
+      "description": "我目前在 Reply Inc. 担任 AIOT 顾问与全栈开发工程师，负责 AIOT 解决方案设计与端到端软件功能开发。",
+      "duration": "2026年1月 - 至今",
+      "link": "https://www.reply.com/en"
     }
   },
   "iconCards": {

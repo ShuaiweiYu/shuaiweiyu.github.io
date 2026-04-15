@@ -138,6 +138,7 @@ const HomePage = () => {
     const [ref2, inView2] = useInView({triggerOnce: true, threshold: 0.1});
     const [ref3, inView3] = useInView({triggerOnce: true, threshold: 0.1});
     const [ref4, inView4] = useInView({triggerOnce: true, threshold: 0.1});
+    const [ref5, inView5] = useInView({triggerOnce: true, threshold: 0.1});
 
     return (
         <div style={styles.container}>
@@ -237,6 +238,38 @@ const HomePage = () => {
                 >
                     <Paper elevation={3} style={styles.paper}>
                         <Typography variant="h4" gutterBottom>
+                            {t("home.myWork")}
+                        </Typography>
+                        <Stack
+                            spacing={{xs: 1, sm: 2}}
+                            direction="row"
+                            useFlexGap
+                            sx={{flexWrap: 'wrap'}}
+                            alignItems="flex-start"
+                        >
+                            <ItemCard
+                                type={t("itemCards.reply.type")}
+                                iconSrc="https://wei-tech.site/personal-web/reply.webp"
+                                altText="Reply"
+                                university={t("itemCards.reply.university")}
+                                degree={t("itemCards.reply.degree")}
+                                description={t("itemCards.reply.description")}
+                                duration={t("itemCards.reply.duration")}
+                                link={t("itemCards.reply.link")}
+                            />
+                        </Stack>
+                    </Paper>
+                </motion.div>
+
+                {/* 第三段介绍 */}
+                <motion.div
+                    ref={ref3}
+                    initial={{opacity: 0, y: 50}}
+                    animate={inView3 ? {opacity: 1, y: 0} : {}}
+                    transition={{duration: 0.6, delay: 0.4}}
+                >
+                    <Paper elevation={3} style={styles.paper}>
+                        <Typography variant="h4" gutterBottom>
                             {t("home.myStudies")}
                         </Typography>
                         <Stack
@@ -280,12 +313,12 @@ const HomePage = () => {
                     </Paper>
                 </motion.div>
 
-                {/* 第三段介绍 */}
+                {/* 第四段介绍 */}
                 <motion.div
-                    ref={ref3}
+                    ref={ref4}
                     initial={{opacity: 0, y: 50}}
-                    animate={inView3 ? {opacity: 1, y: 0} : {}}
-                    transition={{duration: 0.6, delay: 0.4}}
+                    animate={inView4 ? {opacity: 1, y: 0} : {}}
+                    transition={{duration: 0.6, delay: 0.6}}
                 >
                     <Paper elevation={3} style={styles.paper}>
                         <Typography variant="h4" gutterBottom>
@@ -342,12 +375,12 @@ const HomePage = () => {
                     </Paper>
                 </motion.div>
 
-                {/* 第四段介绍 */}
+                {/* 第五段介绍 */}
                 <motion.div
-                    ref={ref4}
+                    ref={ref5}
                     initial={{opacity: 0, y: 50}}
-                    animate={inView4 ? {opacity: 1, y: 0} : {}}
-                    transition={{duration: 0.6, delay: 0.6}}
+                    animate={inView5 ? {opacity: 1, y: 0} : {}}
+                    transition={{duration: 0.6, delay: 0.8}}
                 >
                     <Paper elevation={3} style={styles.paper}>
                         <Typography

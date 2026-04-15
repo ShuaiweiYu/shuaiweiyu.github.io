@@ -10,9 +10,10 @@
     "aboutMe1": "Über mich—Shuaiwei Yu",
     "aboutMe2": "Ich komme aus einer kleinen Stadt in Zhejiang—Xinchang, bekannt für ihre grünen Berge und klaren Gewässer. Wenn Sie die Gelegenheit haben, besuchen Sie sie unbedingt!",
     "aboutMe3": "Ich habe meine Grundausbildung in China abgeschlossen und Deutschland als meinen nächsten Schritt gewählt. In München (meiner zweiten Heimat 🤣) habe ich meinen Bachelor- und Masterabschluss in Informatik gemacht.",
-    "aboutMe4": "Ich bin jetzt bereit, das Gelernte anzuwenden, um etwas Cooles zu schaffen!",
+    "aboutMe4": "Derzeit arbeite ich bei Reply Inc. als AIOT Consultant mit Fokus auf Full-Stack-Entwicklung und die KI-Transformation in Unternehmen und biete hochwertige Beratungsleistungen mit praxisnaher Umsetzung.",
     "myStudies": "Mein Studium",
-    "myInternships": "Meine Praktika",
+    "myWork": "Berufserfahrung",
+    "myInternships": "Praktische Erfahrung",
     "funFacts": "Interessante Fakten über mich",
     "programmingSkills": "Programmierfähigkeiten",
     "languagesSpoken": "Welche Sprachen spreche ich?",
@@ -74,6 +75,14 @@
       "description": "Die BMW Group ist ein weltweit führender Hersteller von Premium-Automobilen. Während meines Praktikums arbeitete ich an der Migration des BMW In-Car-App-Stores von Linux auf Android. Ich war verantwortlich für die Qualitätstests neuer Apps im Store und entwickelte interne Tools zur Prüfung der Funktionalität und Stabilität neuer In-Car-Systeme.",
       "duration": "August 2022 - Dezember 2022",
       "link": "https://www.bmwgroup.com/en.html"
+    },
+    "reply": {
+      "type": "AIOT Consultant / Full-Stack-Entwickler",
+      "university": "Reply Inc.",
+      "degree": "AIOT und Full-Stack-Entwicklung",
+      "description": "Ich arbeite als AIOT Consultant und Full-Stack-Entwickler und entwickle AIOT-Loesungen sowie End-to-End-Softwarefunktionen vom Backend bis zum Frontend.",
+      "duration": "Januar 2026 - Heute",
+      "link": "https://www.reply.com/en"
     }
   },
   "iconCards": {
